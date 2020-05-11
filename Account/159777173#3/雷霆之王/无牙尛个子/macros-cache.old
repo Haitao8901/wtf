@@ -1,0 +1,10 @@
+VER 3 0100000000000003 "aa" "INV_MISC_QUESTIONMARK"
+/focus [modifier:shift, target=mouseover] target;[nomodifier] player
+END
+VER 3 0100000000000002 "治疗" "1850550"
+/cast [nomodifier,target=pet][modifier:shift,target=player] 灵魂治愈
+END
+VER 3 0100000000000001 "误宠" "132180"
+#showtooltip 误导
+/cast [target=focus,exists,noharm,nodead] 误导;[target=pet,exists,nodead]误导
+END

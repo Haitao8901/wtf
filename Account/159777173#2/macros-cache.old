@@ -1,0 +1,149 @@
+VER 3 00000000000000E9 " " "INV_Misc_QuestionMark"
+#showtooltip 嫁祸诀窍
+/script local u,pi="focus","嫁祸诀窍";if IsSpellInRange(pi,u)==1 and GetSpellCooldown(pi)==0 then SendChatMessage("已经释放 "..GetSpellLink(pi).."!","WHISPER",nil,UnitName(u)) end
+/cast [target=focus,help,nodead]嫁祸诀窍 
+END
+VER 3 000000000000010C "000" "INV_MISC_QUESTIONMARK"
+ 
+/run PVPMatchResults.leaveButton:Click()
+/click PVPReadyDialogEnterBattleButton
+/run LFDRoleCheckPopupRoleButtonDPS:Click()
+/click LFDRoleCheckPopupAcceptButton
+/use 黄金保险箱
+END
+VER 3 00000000000000EA "1" "134400"
+/click WorldStateScoreFrameLeaveButton
+/click StaticPopup1Button2
+/click HelpFrameCharacterStuckStuck
+卡死  再按一下点离开竞技场
+END
+VER 3 00000000000000EB "11" "132091"
+/y 洛克达姆找%t开啤酒,%t接过啤酒瓶,轻而易举地用菊花把啤酒打开了...
+END
+VER 3 00000000000000EC "a1" "134400"
+/click PVPReadyDialogEnterBattleButton
+END
+VER 3 00000000000000ED "BF_Mount" "132226"
+/bfmount
+END
+VER 3 00000000000000EE "BF_Pet" "236701"
+/BFPET
+END
+VER 3 00000000000000EF "R点" "136133"
+/表情  随手R了个100
+/roll
+END
+VER 3 00000000000000F0 "XX" "651274"
+/目标 金毛跳跳兔
+END
+VER 3 00000000000000F1 "中间按钮" "136103"
+/click ExtraActionButton1
+END
+VER 3 00000000000000F2 "凿击" "132155"
+/use 凿击
+/说 1,2,3木头人.定住,定住,对了就这样.....
+END
+VER 3 00000000000000F3 "剑刃乱舞+冲动" "132212"
+/castsequence 剑刃乱舞,冲动
+END
+VER 3 00000000000000F4 "剔骨" "132292"
+/use 刺骨
+/Y 金光刀法之  真·菊花残
+END
+VER 3 00000000000000F5 "坐骑" "132226"
+/RandomMount
+END
+VER 3 00000000000000F6 "大鸟" "298593"
+/USE 迅捷紫色驭风者
+/y 出来吧,神兽草泥马....呃....派势派势,搞错了,这是大鸟
+END
+VER 3 00000000000000F7 "嫁祸" "236188"
+#show showtooltip
+/cast [target=focus,exists]嫁祸诀窍;[target=targettarget]嫁祸诀窍
+/stopmacro [target=focus,exists]
+/focus [target=targettarget]
+END
+VER 3 00000000000000F8 "嫁祸" "236207"
+/目标 焦点
+/cast 嫁祸诀窍 
+END
+VER 3 00000000000000F9 "工兵" "132222"
+/目标 暮光工兵
+END
+VER 3 00000000000000FA "摩托车" "132238"
+/USE 机械路霸
+/Y 摩托车什么的，最讨厌了
+END
+VER 3 00000000000000FB "熊" "236243"
+/cast  黑色战熊
+/Y 出来吧,神兽草泥马.....呃....派势派势,搞错了,这是熊
+END
+VER 3 00000000000000FC "电击9人" "236216"
+/use 侏儒军刀
+/表情 对 %t 进行心脏电击,试图将其救起
+/说 不要感谢我,墙哥我做好事从来不留名,就叫我红领巾吧
+END
+VER 3 00000000000000FD "疾跑" "132307"
+/use 疾跑
+/Y 弟兄们顶住!我先闪人了
+END
+VER 3 00000000000000FE "科多兽" "132243"
+/cast  黑色作战科多兽
+/Y 出来吧,神兽草泥马.....呃....派势派势,搞错了,这是科多兽
+END
+VER 3 00000000000000FF "肥嘟嘟" "519384"
+/target 屠夫努尔拉
+END
+VER 3 0000000000000100 "背刺" "132090"
+/use 背刺
+/Y 捅 你菊花,捅 你菊花...
+END
+VER 3 0000000000000101 "脚踢" "132219"
+/use 脚踢
+/y 我已踢中%t某某部位,目前受损度为99.99%,下个接上再一脚...
+END
+VER 3 0000000000000102 "致盲" "136175"
+/cast 致盲 
+/y 我已经致盲 %t，大家先不要攻击!,速度回好,准备一鼓作气轮了!!!
+END
+VER 3 0000000000000103 "菊花" "132096"
+/表情 用千分尺量了了一下%t的菊花,哇,这么大,整整比常人 大了0.2厘米,难道被爆了...                                                                 %t拔出黄瓜,紧了紧某某括约肌,说:哪里,你别污蔑我
+END
+VER 3 0000000000000104 "视角" "236151"
+/console CameradistanceMaxFactor 100
+END
+VER 3 0000000000000105 "转嫁" "135673"
+/tar player
+/targetlasttarget
+/targetenemy
+/targetlasttarget
+/targetlasttarget [harm]
+/cast [harm,@mouseover][harm,@focus][]死亡标记
+/targetlasttarget [harm]
+/cleartarget [harm]
+/targetlasttarget
+/cast 转嫁
+END
+VER 3 0000000000000106 "闪避" "136205"
+/use 闪避
+/Y 我已开启盾墙，奶好我！！！
+/Y 我已开启盾墙，奶好我！！！
+END
+VER 3 0000000000000107 "闪避+疾跑" "132208"
+/castsequence  疾跑,闪避
+END
+VER 3 0000000000000108 "青铜龙" "236232"
+/cast  青铜幼龙
+/Y 出来吧,神兽草泥马.....呃....派势派势,搞错了,这是龙
+END
+VER 3 0000000000000109 "飞机" "132241"
+/use 涡轮加速飞行器
+/Y 出来吧,神兽草泥马....呃....派势派势,搞错了,这是灰机
+END
+VER 3 000000000000010A "马" "132264"
+/use 紫色骷髅战马
+/Y 出来吧,神兽草泥马....哈哈,这次是草泥马了
+END
+VER 3 000000000000010B "鱼" "132112"
+/表情 烹制了鱼肉筵席
+END

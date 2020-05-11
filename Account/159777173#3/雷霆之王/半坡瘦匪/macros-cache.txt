@@ -1,0 +1,21 @@
+VER 3 0100000000000003 "姿态" "ABILITY_WARRIOR_OFFENSIVESTANCE"
+#showtooltip
+/use [stance:1]狂暴姿态;[nostance:1]战斗姿态
+END
+VER 3 0100000000000001 "插旗吼血" "ABILITY_TOUGHNESS"
+#showtooltip
+/cast 集结呐喊
+/cast 挫志战旗
+END
+VER 3 0100000000000004 "盾牌防御" "INV_SHIELD_07"
+/use 防御姿态
+/cast 盾牌屏障
+END
+VER 3 0100000000000005 "重拳" "INV_MISC_QUESTIONMARK"
+/target 重拳
+END
+VER 3 0100000000000002 "鲁莽颅骨" "ABILITY_CRITICALSTRIKE"
+#showtooltip
+/cast 鲁莽
+/cast 颅骨战旗
+END
