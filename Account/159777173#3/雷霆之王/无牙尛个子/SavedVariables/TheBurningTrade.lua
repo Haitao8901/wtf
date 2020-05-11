@@ -10,9 +10,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "肮脏的仆从抓取手套",
 				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:159346::::::::120:253::35:5:6536:6578:6515:1647:4786:::|h[肮脏的仆从抓取手套]|h|r",
 				["enchantment"] = "赞达拉工艺",
 				["isUsable"] = true,
-				["itemLink"] = "|cffa335ee|Hitem:159346::::::::120:253::35:5:6536:6578:6515:1647:4786:::|h[肮脏的仆从抓取手套]|h|r",
 				["texture"] = 1941311,
 			},
 		},
@@ -37,9 +37,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "卑劣操纵者的裹手",
 				["numItems"] = 1,
+				["isUsable"] = true,
 				["itemLink"] = "|cffa335ee|Hitem:173432::::::::120:253::54:9:6412:43:6513:6578:6579:6476:6470:1522:4786:::|h[卑劣操纵者的裹手]|h|r",
 				["enchantment"] = "赞达拉工艺",
-				["isUsable"] = true,
 				["texture"] = 3048007,
 			},
 		},
@@ -295,6 +295,48 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "祖达萨",
 	}, -- [9]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 10,
+		["playerItems"] = {
+		},
+		["reason"] = "other",
+		["targetItems"] = {
+		},
+		["player"] = "无牙尛个子",
+		["where"] = "祖达萨",
+		["who"] = "洛克达姆",
+		["when"] = "05-11 14:02:11",
+		["result"] = "cancelled",
+		["toofar"] = "no",
+	}, -- [10]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 11,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "狂乱的利齿青鱼",
+				["numItems"] = 20,
+				["itemLink"] = "|cffffffff|Hitem:152545::::::::120:253::::::|h[狂乱的利齿青鱼]|h|r",
+				["isUsable"] = true,
+				["texture"] = 2057311,
+			}, -- [1]
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "05-11 14:04:30",
+		["where"] = "祖达萨",
+		["result"] = "complete",
+	}, -- [11]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

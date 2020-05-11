@@ -28,6 +28,10 @@ BFCooldownDB = {
 		["r"] = 1,
 	},
 	["spellCache"] = {
+		["炉石"] = {
+			6948, -- [1]
+			"item", -- [2]
+		},
 	},
 	["isChangeFont"] = true,
 	["secs"] = {
@@ -42,9 +46,9 @@ BFCooldownDB = {
 		["text"] = true,
 		["alpha"] = 0.65,
 		["width"] = 67,
-		["style"] = 1,
-		["config"] = false,
 		["time"] = 1.2,
+		["font"] = "Fonts\\ARKai_T.ttf",
+		["style"] = 1,
 		["position"] = {
 			["y"] = 78,
 			["p"] = "CENTER",
@@ -53,7 +57,7 @@ BFCooldownDB = {
 		},
 		["g"] = 1,
 		["mode"] = true,
-		["font"] = "Fonts\\ARKai_T.ttf",
+		["config"] = false,
 		["size"] = 30,
 	},
 	["mins"] = {
