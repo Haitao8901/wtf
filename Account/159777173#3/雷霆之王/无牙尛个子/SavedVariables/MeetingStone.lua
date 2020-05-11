@@ -5,8 +5,12 @@ MEETINGSTONE_CHARACTER_DB = {
 	},
 	["profiles"] = {
 		["无牙尛个子 - 雷霆之王"] = {
-			["lastSearchCode"] = "2-0-0-0",
-			["version"] = "80300.01",
+			["searchHistoryList"] = {
+				"2-0-0-0", -- [1]
+				"3-0-0-0", -- [2]
+				"6-0-0-0", -- [3]
+				"9-0-19-0", -- [4]
+			},
 			["settings"] = {
 				["panel"] = false,
 				["storage"] = {
@@ -15,12 +19,8 @@ MEETINGSTONE_CHARACTER_DB = {
 					["scale"] = 1,
 				},
 			},
-			["searchHistoryList"] = {
-				"2-0-0-0", -- [1]
-				"3-0-0-0", -- [2]
-				"6-0-0-0", -- [3]
-				"9-0-19-0", -- [4]
-			},
+			["version"] = "80300.01",
+			["lastSearchCode"] = "2-0-0-0",
 			["recent"] = {
 				["9-0-19-0"] = {
 					{

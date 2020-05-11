@@ -19,10 +19,11 @@ EasyFramesDB = {
 					"CENTER", -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					-284.2083129882813, -- [4]
-					-128.0848999023438, -- [5]
+					-283.5987854003906, -- [4]
+					-129.3043212890625, -- [5]
 				},
 				["scaleFrame"] = 1.248258829116821,
+				["lockedMovableFrame"] = false,
 				["manaBarFontSize"] = 8,
 				["showName"] = false,
 				["healthBarFontSize"] = 12,
