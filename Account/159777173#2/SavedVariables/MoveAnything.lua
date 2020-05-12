@@ -15,7 +15,7 @@ MADB = {
 						"GuildBankFrame", -- [2]
 						"BOTTOMRIGHT", -- [3]
 						-2, -- [4]
-						6.000000476837158, -- [5]
+						6, -- [5]
 					},
 					["name"] = "GuildBankMoneyFrame",
 					["pos"] = {
@@ -119,7 +119,7 @@ MADB = {
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
 						0, -- [4]
-						194.9999847412109, -- [5]
+						195, -- [5]
 					},
 					["name"] = "CastingBarFrame",
 					["pos"] = {
@@ -135,7 +135,7 @@ MADB = {
 						"TOPRIGHT", -- [1]
 						"UIParent", -- [2]
 						"TOPRIGHT", -- [3]
-						54.99999618530273, -- [4]
+						55, -- [4]
 						-236, -- [5]
 					},
 					["name"] = "Boss1TargetFrame",
@@ -186,7 +186,7 @@ MADB = {
 						"TOPLEFT", -- [1]
 						"MinimapBackdrop", -- [2]
 						"TOPLEFT", -- [3]
-						22.00000190734863, -- [4]
+						22, -- [4]
 						-100, -- [5]
 					},
 					["name"] = "QueueStatusMinimapButton",
@@ -203,8 +203,8 @@ MADB = {
 						"CENTER", -- [1]
 						nil, -- [2]
 						"TOPLEFT", -- [3]
-						73, -- [4]
-						-42, -- [5]
+						72.99999237060547, -- [4]
+						-42.00000381469727, -- [5]
 					},
 					["name"] = "PlayerHitIndicator",
 					["pos"] = {
@@ -265,7 +265,7 @@ MADB = {
 						"UIParent", -- [2]
 						"TOPLEFT", -- [3]
 						16, -- [4]
-						0, -- [5]
+						-116, -- [5]
 					},
 					["name"] = "TradeFrame",
 					["pos"] = {
@@ -289,8 +289,8 @@ MADB = {
 						"BOTTOM", -- [1]
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
-						190.849853515625, -- [4]
-						161.1000061035156, -- [5]
+						368.6281127929688, -- [4]
+						161.1000518798828, -- [5]
 					},
 				},
 				["QueueStatusFrame"] = {
@@ -323,8 +323,8 @@ MADB = {
 						"BOTTOM", -- [1]
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
-						536.8193359375, -- [4]
-						4.237172603607178, -- [5]
+						263.1807250976563, -- [4]
+						161.0998382568359, -- [5]
 					},
 				},
 				["TargetFramePowerBarAltMover"] = {
@@ -400,8 +400,8 @@ MADB = {
 						"CENTER", -- [1]
 						"UIParent", -- [2]
 						"CENTER", -- [3]
-						181, -- [4]
-						156, -- [5]
+						25, -- [4]
+						64, -- [5]
 					},
 					["name"] = "LootFrame",
 					["UIPanelWindows"] = {
@@ -465,7 +465,7 @@ MADB = {
 						"FocusFrame", -- [2]
 						"BOTTOMLEFT", -- [3]
 						25, -- [4]
-						6.999999523162842, -- [5]
+						7.000000476837158, -- [5]
 					},
 					["name"] = "FocusFrameSpellBar",
 					["scale"] = 1.179999947547913,
@@ -483,7 +483,7 @@ MADB = {
 						"BOTTOMLEFT", -- [1]
 						"PlayerFrame", -- [2]
 						"BOTTOMLEFT", -- [3]
-						113.9999923706055, -- [4]
+						114, -- [4]
 						23, -- [5]
 					},
 					["name"] = "PlayerFrameAlternateManaBar",
@@ -501,14 +501,14 @@ MADB = {
 							"TOPLEFT", -- [1]
 							"PlayerFrame", -- [2]
 							"TOPLEFT", -- [3]
-							34, -- [4]
+							34.00000381469727, -- [4]
 							15, -- [5]
 						}, -- [1]
 						{
 							"BOTTOMLEFT", -- [1]
 							"PlayerFrame", -- [2]
 							"TOPLEFT", -- [3]
-							97, -- [4]
+							97.00000762939453, -- [4]
 							-20, -- [5]
 						}, -- [2]
 					},
@@ -527,7 +527,7 @@ MADB = {
 						"UIErrorsFrame", -- [2]
 						"BOTTOM", -- [3]
 						0, -- [4]
-						-70.00006866455078, -- [5]
+						-69.99993896484375, -- [5]
 					},
 					["name"] = "RaidBossEmoteFrame",
 					["pos"] = {
@@ -544,7 +544,7 @@ MADB = {
 						"TargetFrame", -- [2]
 						"BOTTOMLEFT", -- [3]
 						25, -- [4]
-						6.999999523162842, -- [5]
+						7.000000476837158, -- [5]
 					},
 					["name"] = "TargetFrameSpellBar",
 					["scale"] = 1.5,

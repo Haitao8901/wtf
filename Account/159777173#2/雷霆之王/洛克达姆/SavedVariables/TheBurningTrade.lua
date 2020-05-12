@@ -316,9 +316,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
+				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -343,9 +343,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
+				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -370,9 +370,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
+				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -397,9 +397,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
+				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -424,9 +424,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
+				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -451,9 +451,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
+				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -1261,9 +1261,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "魔石保险箱",
 				["numItems"] = 1,
-				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:121331::::::::120:260::::::|h[魔石保险箱]|h|r",
+				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -2088,9 +2088,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -2115,9 +2115,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -5084,6 +5084,70 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "祖达萨",
 	}, -- [166]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 167,
+		["playerItems"] = {
+			{
+				["name"] = "克巴布串",
+				["numItems"] = 5,
+				["itemLink"] = "|cffffffff|Hitem:174351::::::::120:260::::::|h[克巴布串]|h|r",
+				["texture"] = 461134,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "Sarawst",
+		["when"] = "05-13 00:02:26",
+		["where"] = "奥格瑞玛的幻象",
+		["result"] = "complete",
+	}, -- [167]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 168,
+		["playerItems"] = {
+			{
+				["name"] = "镶金玫瑰束腰",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:152007::::::::120:260::4:3:3613:1457:3528:::|h[镶金玫瑰束腰]|h|r",
+				["texture"] = 1547867,
+			}, -- [1]
+		},
+		["targetItems"] = {
+			{
+				["name"] = "邪能收割胸甲",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:152118::::::::120:260::4:4:3613:40:1457:3528:::|h[邪能收割胸甲]|h|r",
+				["isUsable"] = false,
+				["texture"] = 1316443,
+			}, -- [1]
+			{
+				["name"] = "生命使者皮靴",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:151981::::::::120:260::4:4:3613:1808:1457:3528:::|h[生命使者皮靴]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1629903,
+			}, -- [2]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "Sarawst",
+		["when"] = "05-13 01:15:34",
+		["where"] = "安托鲁斯，燃烧王座",
+		["result"] = "complete",
+	}, -- [168]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

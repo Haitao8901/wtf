@@ -72,8 +72,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 461,
 				["HonorLevel"] = 0,
 			},
-			["地渊孢林（史诗）"] = {
-				["ItemLevel"] = 325,
+			["围攻伯拉勒斯（史诗钥石）"] = {
+				["ItemLevel"] = 450,
 				["HonorLevel"] = 0,
 			},
 			["麦卡贡车间（史诗钥石）"] = {
@@ -84,8 +84,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 385,
 				["HonorLevel"] = 0,
 			},
-			["围攻伯拉勒斯（史诗钥石）"] = {
-				["ItemLevel"] = 450,
+			["麦卡贡垃圾场（史诗钥石）"] = {
+				["ItemLevel"] = 462,
 				["HonorLevel"] = 0,
 			},
 			["塞塔里斯神庙（史诗）"] = {
@@ -96,8 +96,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 458,
 				["HonorLevel"] = 0,
 			},
-			["麦卡贡垃圾场（史诗钥石）"] = {
-				["ItemLevel"] = 462,
+			["地渊孢林（史诗）"] = {
+				["ItemLevel"] = 325,
 				["HonorLevel"] = 0,
 			},
 			["暴富矿区（史诗钥石）"] = {
