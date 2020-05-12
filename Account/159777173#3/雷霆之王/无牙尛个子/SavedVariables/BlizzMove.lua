@@ -28,8 +28,8 @@ BlizzMoveDB = {
 			["xOfs"] = 16,
 		},
 		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -123.9999694824219,
-		["xOfs"] = 74.99995422363281,
+		["yOfs"] = -152.6012878417969,
+		["xOfs"] = 248.3659820556641,
 		["point"] = "TOPLEFT",
 	},
 	["MailFrame"] = {
@@ -81,6 +81,17 @@ BlizzMoveDB = {
 		["point"] = "LEFT",
 	},
 	["InspectFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 134.3093109130859,
+		["xOfs"] = -79.9238052368164,
+		["point"] = "CENTER",
 	},
 	["LFRParentFrame"] = {
 	},
@@ -140,6 +151,17 @@ BlizzMoveDB = {
 	["LootFrame"] = {
 	},
 	["FriendsFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -135.1721038818359,
+		["xOfs"] = 273.0805358886719,
+		["point"] = "TOPLEFT",
 	},
 	["AzeriteEssenceUI"] = {
 	},
@@ -151,6 +173,17 @@ BlizzMoveDB = {
 	["MerchantFrame"] = {
 	},
 	["EncounterJournal"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -95.9563217163086,
+		["xOfs"] = 146.7190399169922,
+		["point"] = "TOPLEFT",
 	},
 	["ItemSocketingFrame"] = {
 	},

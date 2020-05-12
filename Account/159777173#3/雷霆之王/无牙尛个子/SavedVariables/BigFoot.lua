@@ -1,10 +1,19 @@
 
 BF_Frames_Config = {
+	["NewPowerBarStructFrame"] = {
+		["Pos"] = {
+			"CENTER", -- [1]
+			"UIParent", -- [2]
+			"CENTER", -- [3]
+			-286.4130249023438, -- [4]
+			75.3569564819336, -- [5]
+		},
+	},
 	["TrinketMenu_MainFrame"] = {
-		["offX"] = 99.52434539794922,
+		["offX"] = 112.9216613769531,
 		["point"] = "BOTTOM",
 		["region"] = "UIParent",
-		["offY"] = 107.3724899291992,
+		["offY"] = 102.9871520996094,
 		["refPoint"] = "BOTTOM",
 	},
 }

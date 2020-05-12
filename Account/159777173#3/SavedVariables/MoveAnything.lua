@@ -1,7 +1,6 @@
 
 MADB = {
 	["noMMMW"] = false,
-	["autoShowNext"] = true,
 	["characters"] = {
 	},
 	["alwaysShowNudger"] = false,
@@ -10,6 +9,23 @@ MADB = {
 		["default"] = {
 			["name"] = "default",
 			["frames"] = {
+				["CastingBarFrame"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						195, -- [5]
+					},
+					["name"] = "CastingBarFrame",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						1.74298095703125, -- [4]
+						223.7578887939453, -- [5]
+					},
+				},
 			},
 		},
 	},

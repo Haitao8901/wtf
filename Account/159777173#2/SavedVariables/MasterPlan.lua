@@ -1,27 +1,12 @@
 
 MasterPlanAG = {
 	["雷霆之王"] = {
-		["无牙尛个子"] = {
-			["summary"] = {
-				["ti1"] = 118529,
-				["inProgress"] = {
-					[479] = 1566938467,
-					[313] = 1566938465,
-					[184] = 1566925874,
-					[107] = 1566942069,
-					[365] = 1566938472,
-					[177] = 1566926776,
-					[483] = 1566938483,
-				},
-				["tt1"] = true,
-			},
+		["渣渣非"] = {
+			["class"] = "ROGUE",
 			["faction"] = "Horde",
-			["class"] = "HUNTER",
-			["curRes"] = 9215,
-			["lastCacheTime"] = 1583760753,
 		},
 		["洛克达姆"] = {
-			["lastCacheTime"] = 1586670977,
+			["curOil"] = 2185,
 			["summary"] = {
 				["lastOilTime"] = 1588046724,
 				["inProgress"] = {
@@ -46,19 +31,34 @@ MasterPlanAG = {
 				["tt3"] = true,
 				["tt2"] = true,
 			},
-			["curOil"] = 2185,
+			["faction"] = "Horde",
 			["cacheSize"] = 1000,
 			["class"] = "ROGUE",
 			["curRes"] = 9675,
-			["faction"] = "Horde",
+			["lastCacheTime"] = 1586670977,
 		},
-		["渣渣非"] = {
+		["无牙尛个子"] = {
+			["summary"] = {
+				["ti1"] = 118529,
+				["inProgress"] = {
+					[479] = 1566938467,
+					[313] = 1566938465,
+					[184] = 1566925874,
+					[107] = 1566942069,
+					[365] = 1566938472,
+					[177] = 1566926776,
+					[483] = 1566938483,
+				},
+				["tt1"] = true,
+			},
 			["faction"] = "Horde",
-			["class"] = "ROGUE",
+			["class"] = "HUNTER",
+			["curRes"] = 9215,
+			["lastCacheTime"] = 1583760753,
 		},
 		["嚣张的名字"] = {
-			["class"] = "HUNTER",
 			["faction"] = "Horde",
+			["class"] = "HUNTER",
 		},
 	},
 	["IgnoreRewards"] = {
