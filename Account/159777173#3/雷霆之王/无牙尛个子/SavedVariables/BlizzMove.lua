@@ -116,7 +116,7 @@ BlizzMoveDB = {
 	},
 	["AzeriteEmpoweredItemUI"] = {
 	},
-	["ItemSocketingFrame"] = {
+	["GameMenuFrame"] = {
 	},
 	["DressUpFrame"] = {
 		["default"] = {
@@ -146,16 +146,9 @@ BlizzMoveDB = {
 	},
 	["LFDParentFrame"] = {
 	},
-	["MerchantFrame"] = {
+	["CommunitiesFrame"] = {
 	},
 	["LootFrame"] = {
-	},
-	["AchievementFrame"] = {
-		["save"] = true,
-	},
-	["AzeriteEssenceUI"] = {
-	},
-	["PVEFrame"] = {
 	},
 	["FriendsFrame"] = {
 		["default"] = {
@@ -170,7 +163,14 @@ BlizzMoveDB = {
 		["xOfs"] = 273.0805358886719,
 		["point"] = "TOPLEFT",
 	},
-	["CommunitiesFrame"] = {
+	["AzeriteEssenceUI"] = {
+	},
+	["PVEFrame"] = {
+	},
+	["AchievementFrame"] = {
+		["save"] = true,
+	},
+	["MerchantFrame"] = {
 	},
 	["EncounterJournal"] = {
 		["default"] = {
@@ -185,7 +185,7 @@ BlizzMoveDB = {
 		["xOfs"] = 69.15918731689453,
 		["point"] = "LEFT",
 	},
-	["GameMenuFrame"] = {
+	["ItemSocketingFrame"] = {
 	},
 	["HelpFrame"] = {
 	},

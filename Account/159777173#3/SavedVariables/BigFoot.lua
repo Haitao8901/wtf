@@ -2,17 +2,17 @@
 BigFoot_Config = {
 	["BFVersion"] = 20120927,
 	["MapToolkit"] = {
-		["MapWordFlight"] = 1,
 		["MapSexyMinimap"] = 0,
+		["MapWordFlight"] = 1,
 	},
 	["BUnitFrame"] = {
 		["EnableEasyFocusFrame"] = 0,
 		["checkedVersion"] = "808",
-		["EnableTargetTarget"] = 0,
-		["EnableBUnitFrame"] = 1,
-		["EnableTargetTargetTarget"] = 0,
-		["EnableCastingIcon"] = 1,
 		["EnableCastingShining"] = 1,
+		["EnableCastingIcon"] = 1,
+		["EnableTargetTargetTarget"] = 0,
+		["EnableBUnitFrame"] = 1,
+		["EnableTargetTarget"] = 0,
 	},
 	["Item Info"] = {
 		["EnableAdditionalInfo"] = 1,
@@ -55,22 +55,22 @@ BigFoot_Config = {
 	["ActionButton"] = {
 		["ShowCenter"] = 0,
 		["EnableCooldownCount2"] = 1,
-		["ToggleBar"] = 0,
-		["ShineType"] = "标准",
 		["checkedVersion"] = "808",
+		["ShineType"] = "标准",
+		["ToggleBar"] = 0,
 	},
 	["SellerHelper"] = {
 		["AutoSellPoor"] = 1,
 		["ARAccept"] = 1,
 		["checkedVersion"] = "807",
 		["SellAccept"] = 1,
-		["EnableAutoRecharge"] = 1,
 		["ShowTradeAnnounce"] = 1,
+		["EnableAutoRecharge"] = 1,
 		["EnableSellerHelper"] = 1,
 	},
 	["BF_System"] = {
-		["checkedVersion"] = "808",
 		["EnableLoadLater"] = 0,
+		["checkedVersion"] = "808",
 	},
 	["BagManagement"] = {
 		["EnabelOpenAllBagsOnBank"] = 1,
@@ -80,10 +80,10 @@ BigFoot_Config = {
 	["BagIntegration"] = {
 		["Enable_Combuctor"] = 1,
 		["Enable_BackPack_Integration"] = 1,
-		["ReverseMode"] = 0,
+		["checkedVersion"] = "807",
 		["Enable_Bank_Integration"] = 1,
 		["Enable_PUI"] = 1,
-		["checkedVersion"] = "807",
+		["ReverseMode"] = 0,
 	},
 	["PartyToolkit"] = {
 		["EnableClique"] = 0,
@@ -106,10 +106,10 @@ BigFoot_Config = {
 		["BFCH_MYBUFF_SIZE"] = 23,
 		["checkedVersion"] = "807",
 		["ShowTargetCooldown2"] = 1,
-		["BFCH_OTHERBUFF_SIZE"] = 17,
+		["BuffMasterShowTimeLeft"] = 1,
 		["AdjustBuffSize"] = 1,
 		["BuffMasterShowDetailTimeLeft"] = 1,
-		["BuffMasterShowTimeLeft"] = 1,
+		["BFCH_OTHERBUFF_SIZE"] = 17,
 	},
 	["ActionBar"] = {
 		["EnableDistanceAlert"] = 1,
@@ -147,17 +147,17 @@ BigFoot_Config = {
 		["checkedVersion"] = "808",
 	},
 	["BFMount"] = {
-		["EnableHPetBattleAny"] = 1,
 		["EnableMasterPlan"] = 1,
+		["EnableHPetBattleAny"] = 1,
 	},
 	["PortraitEnhancement"] = {
 		["EnablePartyCastBar"] = 1,
 		["EnablePartyTarget"] = 1,
 		["checkedVersion"] = "807",
-		["EnableEasyFrames"] = 1,
+		["EnablePartyPor"] = 1,
 		["EnablePorEnhance"] = 0,
 		["EnableTargetClassInfo"] = 1,
-		["EnablePartyPor"] = 1,
+		["EnableEasyFrames"] = 1,
 	},
 	["TradeHelper"] = {
 		["EnableBigFootBlackBank"] = 1,
@@ -181,50 +181,39 @@ BigFoot_Config = {
 		["BigFootTooltipActor"] = "隐藏",
 		["BigFootTooltipPositionY"] = -25,
 		["BigFootTooltipItemLevel"] = "显示",
-		["BigFootTooltipPosition"] = "无",
-		["EnableBFTooltip"] = 1,
 		["checkedVersion"] = "807",
+		["EnableBFTooltip"] = 1,
+		["EnableNewTypeBFTooltip"] = 0,
 		["BigFootTooltipGuildRank"] = "隐藏",
 		["BigFootTooltipToT"] = "显示",
 		["BigFootTooltipTalent"] = "显示",
 		["BigFootTooltipPositionX"] = -20,
-		["EnableNewTypeBFTooltip"] = 0,
+		["BigFootTooltipPosition"] = "无",
 	},
 	["CombatIndicator"] = {
 		["EnableCombatLeave"] = 1,
 		["EnableCombatIndicator"] = 1,
 		["checkedVersion"] = "808",
 		["EnableShowSpell"] = 1,
-		["EnableSpell"] = 1,
 		["EnableDCT"] = 0,
+		["EnableSpell"] = 1,
 	},
 	["AutoEquip"] = {
-		["EnableAdvancedMode"] = 0,
 		["EnableAutoEquip"] = 0,
+		["EnableAdvancedMode"] = 0,
 		["EnableAutoHide"] = 0,
 	},
 	["ChatEnhancement"] = {
 		["EnableWhisperPop"] = 1,
 		["checkedVersion"] = "808",
-		["EnableItemLinkLevel"] = 1,
+		["EnableBFC"] = 1,
 		["EnableAchievementCompare"] = 1,
 		["EnablePlayerLink"] = 1,
-		["EnableBFC"] = 1,
+		["EnableItemLinkLevel"] = 1,
 	},
 }
 BigFoot_Error = {
 	["zhCN8.3.0.807"] = {
-		["4237573490288194050137681299821745061442"] = {
-			["combat"] = false,
-			["zone"] = "祖达萨",
-			["class"] = "猎人",
-			["desc"] = "Attempt to index field 'Title' (a nil value)",
-			["race"] = "赞达拉巨魔",
-			["file"] = "Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua",
-			["level"] = 120,
-			["line"] = "83",
-			["trace"] = "[string \"@Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua\"]:83: in function <Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua:77>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"safecall Dispatcher[1]\"]:9: in function <[string \"safecall Dispatcher[1]\"]:5>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\LibClass-2.0\\Class-2.0.lua\"]:156: in function `Fire'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\NetEaseGUI-2.0\\Embed\\Blocker.lua\"]:43: in function `UpdateBlockers'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua\"]:23: in function <Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua:21>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\LibModule-1.0\\LibModule-1.0.lua\"]:131: in function `ShowModule'\n[string \"@Interface\\AddOns\\MeetingStone\\Main.lua\"]:88: in function `Toggle'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\DataBroker.lua\"]:48: in function <Interface\\AddOns\\MeetingStone\\Module\\DataBroker.lua:43>\n",
-		},
 		["3561844243129858726425404024882924926559"] = {
 			["combat"] = false,
 			["zone"] = "双月殿",
@@ -235,6 +224,17 @@ BigFoot_Error = {
 			["level"] = 120,
 			["line"] = "236",
 			["trace"] = "[string \"@Interface\\FrameXML\\HelpTip.lua\"]:236: in function <Interface\\FrameXML\\HelpTip.lua:234>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3299: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\QuestLogOwnerMixin.lua\"]:103: in function `SetDisplayState'\n[string \"@Interface\\FrameXML\\QuestLogOwnerMixin.lua\"]:41: in function `HandleUserActionToggleSelf'\n[string \"@Interface\\AddOns\\Blizzard_WorldMap\\Blizzard_WorldMap.lua\"]:432: in function <...rface\\AddOns\\Blizzard_WorldMap\\Blizzard_WorldMap.lua:431>\n[string \"=[C]\"]: in function `ToggleWorldMap'\n[string \"@Interface\\AddOns\\WorldFlightMap\\WorldFlightMap.lua\"]:167: in function `OnEvent'\n[string \"@Interface\\AddOns\\Blizzard_MapCanvas\\MapCanvas_DataProviderBase.lua\"]:99: in function `SignalEvent'\n[string \"@Interface\\AddOns\\Blizzard_MapCanvas\\Blizzard_MapCanvas.lua\"]:78: in function `OnEvent'\n[string \"@Interface\\AddOns\\Blizzard_WorldMap\\Blizzard_WorldMap.lua\"]:110: in function <...rface\\AddOns\\Blizzard_WorldMap\\Blizzard_WorldMap.lua:109>\n",
+		},
+		["4237573490288194050137681299821745061442"] = {
+			["combat"] = false,
+			["zone"] = "祖达萨",
+			["class"] = "猎人",
+			["desc"] = "Attempt to index field 'Title' (a nil value)",
+			["race"] = "赞达拉巨魔",
+			["file"] = "Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua",
+			["level"] = 120,
+			["line"] = "83",
+			["trace"] = "[string \"@Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua\"]:83: in function <Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua:77>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"safecall Dispatcher[1]\"]:9: in function <[string \"safecall Dispatcher[1]\"]:5>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\LibClass-2.0\\Class-2.0.lua\"]:156: in function `Fire'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\NetEaseGUI-2.0\\Embed\\Blocker.lua\"]:43: in function `UpdateBlockers'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua\"]:23: in function <Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua:21>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\LibModule-1.0\\LibModule-1.0.lua\"]:131: in function `ShowModule'\n[string \"@Interface\\AddOns\\MeetingStone\\Main.lua\"]:88: in function `Toggle'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\DataBroker.lua\"]:48: in function <Interface\\AddOns\\MeetingStone\\Module\\DataBroker.lua:43>\n",
 		},
 		["165014404281845448527292863563545569871"] = {
 			["combat"] = false,
@@ -273,6 +273,19 @@ BigFoot_Error = {
 		},
 	},
 	["debug_Mod"] = false,
+	["zhCN8.3.0.808"] = {
+		["3843933464207431122131024622181904189374"] = {
+			["combat"] = true,
+			["zone"] = "尼奥罗萨",
+			["class"] = "猎人",
+			["desc"] = "SetPortraitToTexture(): Texture is not 64x64 pixels: FileData ID 611425.\n",
+			["race"] = "赞达拉巨魔",
+			["file"] = "Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua",
+			["level"] = 120,
+			["line"] = "1488",
+			["trace"] = "[string \"=[C]\"]: in function `SetPortraitToTexture'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:1488: in function `UNIT_AURA'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:411: in function <Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua:411>\n",
+		},
+	},
 	["zhCN8.3.0.802"] = {
 		["3362174060392526504510479001973711176174"] = {
 			["combat"] = false,
@@ -295,19 +308,6 @@ BigFoot_Error = {
 			["level"] = 100,
 			["line"] = "83",
 			["trace"] = "[string \"@Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua\"]:83: in function <Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua:77>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"safecall Dispatcher[1]\"]:9: in function <[string \"safecall Dispatcher[1]\"]:5>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\LibClass-2.0\\Class-2.0.lua\"]:156: in function `Fire'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\NetEaseGUI-2.0\\Embed\\Blocker.lua\"]:43: in function `UpdateBlockers'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua\"]:23: in function <Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua:21>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\LibModule-1.0\\LibModule-1.0.lua\"]:131: in function `ShowModule'\n[string \"@Interface\\AddOns\\MeetingStone\\Main.lua\"]:88: in function `Toggle'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\DataBroker.lua\"]:48: in function <Interface\\AddOns\\MeetingStone\\Module\\DataBroker.lua:43>\n",
-		},
-	},
-	["zhCN8.3.0.808"] = {
-		["3843933464207431122131024622181904189374"] = {
-			["combat"] = true,
-			["zone"] = "尼奥罗萨",
-			["class"] = "猎人",
-			["desc"] = "SetPortraitToTexture(): Texture is not 64x64 pixels: FileData ID 611425.\n",
-			["race"] = "赞达拉巨魔",
-			["file"] = "Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua",
-			["level"] = 120,
-			["line"] = "1488",
-			["trace"] = "[string \"=[C]\"]: in function `SetPortraitToTexture'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:1488: in function `UNIT_AURA'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:411: in function <Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua:411>\n",
 		},
 	},
 }
@@ -343,5 +343,6 @@ BF_LogonInfo = {
 	1589089841, -- [16]
 	1589133641, -- [17]
 	1589261958, -- [18]
+	1589359060, -- [19]
 }
 ModelChangeVariable = nil

@@ -1,12 +1,14 @@
 
 MethodDungeonToolsDB = {
 	["profileKeys"] = {
-		["渣渣非 - 雷霆之王"] = "渣渣非 - 雷霆之王",
-		["洛克达姆 - 雷霆之王"] = "洛克达姆 - 雷霆之王",
 		["无牙尛个子 - 雷霆之王"] = "无牙尛个子 - 雷霆之王",
+		["洛克达姆 - 雷霆之王"] = "洛克达姆 - 雷霆之王",
+		["渣渣非 - 雷霆之王"] = "渣渣非 - 雷霆之王",
 	},
 	["global"] = {
 		["anchorTo"] = "CENTER",
+		["currentDungeonIdx"] = 16,
+		["anchorFrom"] = "CENTER",
 		["nonFullscreenScale"] = 1,
 		["MDI"] = {
 			["enabled"] = false,
@@ -33,23 +35,12 @@ MethodDungeonToolsDB = {
 					["week"] = 4,
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["beguiling"] = 1,
 						["freehold"] = 1,
+						["beguiling"] = 1,
 					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[10] = {
-							},
-							[4] = {
-							},
-						},
-						["currentDungeonIdx"] = 15,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
 						["pulls"] = {
 							{
 								["color"] = "ff3eff",
@@ -59,30 +50,32 @@ MethodDungeonToolsDB = {
 								},
 							}, -- [1]
 						},
-					},
-					["objects"] = {
+						["currentDungeonIdx"] = 15,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["riftOffsets"] = {
+							[10] = {
+							},
+							[4] = {
+							},
+						},
 					},
 					["difficulty"] = 10,
+					["objects"] = {
+					},
 				}, -- [1]
 			}, -- [15]
 			{
 				{
 					["mdiEnabled"] = true,
 					["difficulty"] = 10,
-					["freeholdCrewSelected"] = true,
 					["week"] = 10,
+					["freeholdCrewSelected"] = true,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[10] = {
-							},
-						},
-						["currentDungeonIdx"] = 16,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
 						["pulls"] = {
 							{
 								{
@@ -98,11 +91,69 @@ MethodDungeonToolsDB = {
 								[10] = {
 								},
 								["color"] = "ff3eff",
-								[39] = {
+								[43] = {
 								},
 								[9] = {
 								},
-								[43] = {
+								[39] = {
+								},
+							}, -- [1]
+						},
+						["currentDungeonIdx"] = 16,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["riftOffsets"] = {
+							[10] = {
+							},
+						},
+					},
+					["objects"] = {
+					},
+					["freeholdCrew"] = 1,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
+				}, -- [1]
+			}, -- [16]
+			{
+				{
+					["mdiEnabled"] = false,
+					["week"] = 5,
+					["objects"] = {
+					},
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							[5] = {
+							},
+						},
+						["currentDungeonIdx"] = 17,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["pulls"] = {
+							{
+								[6] = {
+								},
+								[31] = {
+									2, -- [1]
+									1, -- [2]
+									4, -- [3]
+									5, -- [4]
+									3, -- [5]
+								},
+								[32] = {
+									5, -- [1]
+								},
+								["color"] = "ff3eff",
+								[34] = {
+									8, -- [1]
 								},
 							}, -- [1]
 						},
@@ -112,12 +163,9 @@ MethodDungeonToolsDB = {
 						["beguiling"] = 1,
 						["freehold"] = 1,
 					},
-					["freeholdCrew"] = 1,
-					["objects"] = {
-					},
+					["difficulty"] = 10,
 				}, -- [1]
-			}, -- [16]
-			nil, -- [17]
+			}, -- [17]
 			nil, -- [18]
 			{
 				{
@@ -128,15 +176,6 @@ MethodDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-						},
-						["currentDungeonIdx"] = 19,
-						["teeming"] = true,
-						["selection"] = {
-							1, -- [1]
-						},
 						["pulls"] = {
 							{
 								["color"] = "ff3eff",
@@ -148,34 +187,7 @@ MethodDungeonToolsDB = {
 								},
 							}, -- [1]
 						},
-					},
-					["objects"] = {
-					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
-					},
-				}, -- [1]
-			}, -- [19]
-			{
-				{
-					["mdiEnabled"] = false,
-					["week"] = 1,
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-						["beguiling"] = 1,
-					},
-					["value"] = {
-						["currentPull"] = 1,
-						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
-						},
-						["currentDungeonIdx"] = 20,
+						["currentDungeonIdx"] = 19,
 						["teeming"] = true,
 						["selection"] = {
 							1, -- [1]
@@ -185,32 +197,56 @@ MethodDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
 					["objects"] = {
 					},
+				}, -- [1]
+			}, -- [19]
+			{
+				{
+					["mdiEnabled"] = false,
+					["week"] = 1,
 					["difficulty"] = 10,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+						},
+						["currentDungeonIdx"] = 20,
+						["teeming"] = true,
+						["selection"] = {
+							1, -- [1]
+						},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
+						},
+					},
+					["objects"] = {
+					},
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
 				}, -- [1]
 			}, -- [20]
 			[26] = {
 				{
 					["mdiEnabled"] = false,
 					["week"] = 11,
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
+					["objects"] = {
 					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 4,
-						["riftOffsets"] = {
-							[11] = {
-							},
-						},
-						["currentDungeonIdx"] = 26,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
 						["pulls"] = {
 							{
 								[18] = {
@@ -224,9 +260,21 @@ MethodDungeonToolsDB = {
 								["color"] = "ff3eff",
 							}, -- [1]
 						},
+						["currentDungeonIdx"] = 26,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["riftOffsets"] = {
+							[11] = {
+							},
+						},
 					},
 					["difficulty"] = 10,
-					["objects"] = {
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
 					},
 				}, -- [1]
 			},
@@ -297,7 +345,6 @@ MethodDungeonToolsDB = {
 		},
 		["version"] = 304,
 		["xoffset"] = 61.26971435546875,
-		["anchorFrom"] = "CENTER",
 		["yoffset"] = -1.364291071891785,
 	},
 }
