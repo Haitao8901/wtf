@@ -56,17 +56,17 @@ BigFoot_Config = {
 		["ShowCenter"] = 0,
 		["EnableCooldownCount2"] = 1,
 		["checkedVersion"] = "808",
-		["ShineType"] = "标准",
 		["ToggleBar"] = 0,
+		["ShineType"] = "标准",
 	},
 	["SellerHelper"] = {
 		["AutoSellPoor"] = 1,
 		["ARAccept"] = 1,
 		["checkedVersion"] = "807",
 		["SellAccept"] = 1,
-		["ShowTradeAnnounce"] = 1,
 		["EnableAutoRecharge"] = 1,
 		["EnableSellerHelper"] = 1,
+		["ShowTradeAnnounce"] = 1,
 	},
 	["BF_System"] = {
 		["EnableLoadLater"] = 0,
@@ -134,8 +134,8 @@ BigFoot_Config = {
 	["InfoBox"] = {
 		["EnableBlizzMove"] = 1,
 		["checkedVersion"] = "807",
-		["EnableInfoBoxV2"] = 0,
 		["Masque_BuffDisable"] = 1,
+		["EnableInfoBoxV2"] = 0,
 	},
 	["TrinketMenu"] = {
 		["EnableTrinketMenu"] = 1,
@@ -181,9 +181,9 @@ BigFoot_Config = {
 		["BigFootTooltipActor"] = "隐藏",
 		["BigFootTooltipPositionY"] = -25,
 		["BigFootTooltipItemLevel"] = "显示",
-		["checkedVersion"] = "807",
-		["EnableBFTooltip"] = 1,
 		["EnableNewTypeBFTooltip"] = 0,
+		["EnableBFTooltip"] = 1,
+		["checkedVersion"] = "807",
 		["BigFootTooltipGuildRank"] = "隐藏",
 		["BigFootTooltipToT"] = "显示",
 		["BigFootTooltipTalent"] = "显示",
@@ -285,6 +285,17 @@ BigFoot_Error = {
 			["line"] = "1488",
 			["trace"] = "[string \"=[C]\"]: in function `SetPortraitToTexture'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:1488: in function `UNIT_AURA'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:411: in function <Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua:411>\n",
 		},
+		["280010980178331375611067382573925586793"] = {
+			["combat"] = false,
+			["zone"] = "锦绣谷",
+			["class"] = "猎人",
+			["desc"] = "Attempt to index field 'raidFrames' (a nil value)",
+			["race"] = "赞达拉巨魔",
+			["trace"] = "[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:703: in function <Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua:702>\n[string \"=[C]\"]: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface\\FrameXML\\CompactUnitFrame.lua\"]:189: in function `CompactUnitFrame_SetUnit'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:406: in function `OnRemoved'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:146: in function `OnNamePlateRemoved'\n[string \"@Interface\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua\"]:54: in function <...e\\AddOns\\Blizzard_NamePlates\\Blizzard_NamePlates.lua:42>\n",
+			["file"] = "Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua",
+			["line"] = "703",
+			["level"] = 120,
+		},
 	},
 	["zhCN8.3.0.802"] = {
 		["3362174060392526504510479001973711176174"] = {
@@ -344,5 +355,6 @@ BF_LogonInfo = {
 	1589133641, -- [17]
 	1589261958, -- [18]
 	1589359060, -- [19]
+	1589428230, -- [20]
 }
 ModelChangeVariable = nil

@@ -337,6 +337,58 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "祖达萨",
 	}, -- [11]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 12,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			[7] = {
+				["name"] = "古代苦力指环",
+				["numItems"] = 1,
+				["enchantment"] = "爆击之符",
+				["isUsable"] = true,
+				["itemLink"] = "|cffa335ee|Hitem:159461:6111:168642::::::120:253::35:7:6536:6578:6579:6539:1647:4786:6514:::|h[古代苦力指环]|h|r",
+				["texture"] = 2000820,
+			},
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "05-14 21:02:39",
+		["result"] = "complete",
+		["where"] = "祖达萨",
+	}, -- [12]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 13,
+		["playerItems"] = {
+			{
+				["name"] = "附魔武器 - 迅击风暴",
+				["numItems"] = 6,
+				["itemLink"] = "|cff1eff00|Hitem:153480::::::::120:253::::::|h[附魔武器 - 迅击风暴]|h|r",
+				["texture"] = 463531,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "Sarawst",
+		["when"] = "05-14 23:43:05",
+		["where"] = "祖达萨",
+		["result"] = "complete",
+	}, -- [13]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

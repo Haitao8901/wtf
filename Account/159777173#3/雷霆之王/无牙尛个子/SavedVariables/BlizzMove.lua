@@ -9,8 +9,8 @@ BlizzMoveDB = {
 			["xOfs"] = 622.9999389648438,
 		},
 		["relativePoint"] = "TOP",
-		["yOfs"] = -136.0436248779297,
-		["xOfs"] = 352.6952514648438,
+		["yOfs"] = -173.5162963867188,
+		["xOfs"] = 92.49909210205078,
 		["point"] = "TOP",
 	},
 	["RaidParentFrame"] = {
@@ -88,10 +88,10 @@ BlizzMoveDB = {
 			["yOfs"] = -116.0000076293945,
 			["xOfs"] = 16,
 		},
-		["relativePoint"] = "CENTER",
-		["yOfs"] = 134.3093109130859,
-		["xOfs"] = -79.9238052368164,
-		["point"] = "CENTER",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -72.42698669433594,
+		["xOfs"] = -156.6121215820313,
+		["point"] = "TOP",
 	},
 	["LFRParentFrame"] = {
 	},
@@ -166,6 +166,17 @@ BlizzMoveDB = {
 	["AzeriteEssenceUI"] = {
 	},
 	["PVEFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOP",
+		["yOfs"] = -92.47056579589844,
+		["xOfs"] = -326.465087890625,
+		["point"] = "TOP",
 	},
 	["AchievementFrame"] = {
 		["save"] = true,

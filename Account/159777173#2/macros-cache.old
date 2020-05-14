@@ -57,15 +57,15 @@ VER 3 00000000000000F6 "大鸟" "298593"
 /USE 迅捷紫色驭风者
 /y 出来吧,神兽草泥马....呃....派势派势,搞错了,这是大鸟
 END
+VER 3 00000000000000F8 "嫁祸" "236207"
+/目标 焦点
+/cast 嫁祸诀窍 
+END
 VER 3 00000000000000F7 "嫁祸" "236188"
 #show showtooltip
 /cast [target=focus,exists]嫁祸诀窍;[target=targettarget]嫁祸诀窍
 /stopmacro [target=focus,exists]
 /focus [target=targettarget]
-END
-VER 3 00000000000000F8 "嫁祸" "236207"
-/目标 焦点
-/cast 嫁祸诀窍 
 END
 VER 3 00000000000000F9 "工兵" "132222"
 /目标 暮光工兵

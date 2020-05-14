@@ -27,10 +27,10 @@ BlizzMoveDB = {
 			["yOfs"] = -116.0000076293945,
 			["xOfs"] = 16,
 		},
-		["relativePoint"] = "TOP",
-		["yOfs"] = -127.328987121582,
-		["xOfs"] = -329.167724609375,
-		["point"] = "TOP",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -129.0718078613281,
+		["xOfs"] = 372.427001953125,
+		["point"] = "TOPLEFT",
 	},
 	["MailFrame"] = {
 	},
@@ -62,8 +62,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "TOPLEFT",
 		["yOfs"] = -86.99999237060547,
 		["xOfs"] = 206.0000152587891,
-		["point"] = "TOPLEFT",
 		["save"] = true,
+		["point"] = "TOPLEFT",
 	},
 	["ArchaeologyFrame"] = {
 	},
@@ -104,10 +104,10 @@ BlizzMoveDB = {
 			["yOfs"] = 0,
 			["xOfs"] = 0,
 		},
-		["relativePoint"] = "LEFT",
-		["yOfs"] = -125.7351837158203,
-		["xOfs"] = 92.37472534179688,
-		["point"] = "LEFT",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = -9.831162452697754,
+		["xOfs"] = -279.2484130859375,
+		["point"] = "CENTER",
 	},
 	["version"] = "201109013",
 	["QuestFrame"] = {
@@ -118,10 +118,10 @@ BlizzMoveDB = {
 			["yOfs"] = -116.0000076293945,
 			["xOfs"] = 16,
 		},
-		["relativePoint"] = "TOP",
-		["yOfs"] = -104.6710205078125,
-		["xOfs"] = -386.6774291992188,
-		["point"] = "TOP",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -108.156852722168,
+		["xOfs"] = 348.8975830078125,
+		["point"] = "TOPLEFT",
 	},
 	["TradeFrame"] = {
 		["default"] = {
@@ -211,9 +211,9 @@ BlizzMoveDB = {
 		["xOfs"] = 357,
 		["point"] = "TOPLEFT",
 	},
-	["KeyBindingFrame"] = {
-	},
 	["AzeriteEmpoweredItemUI"] = {
+	},
+	["LFDParentFrame"] = {
 	},
 	["ScrappingMachineFrame"] = {
 		["default"] = {
@@ -254,32 +254,9 @@ BlizzMoveDB = {
 		["xOfs"] = -4.899726390838623,
 		["point"] = "CENTER",
 	},
-	["AuctionHouseFrame"] = {
-		["default"] = {
-			["relativeTo"] = "UIParent",
-			["point"] = "TOPLEFT",
-			["relativePoint"] = "TOPLEFT",
-			["yOfs"] = -116.0000076293945,
-			["xOfs"] = 36,
-		},
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -48.99999618530273,
-		["xOfs"] = 41.99998092651367,
-		["save"] = true,
-		["point"] = "TOPLEFT",
+	["ItemSocketingFrame"] = {
 	},
-	["MerchantFrame"] = {
-		["default"] = {
-			["relativeTo"] = "UIParent",
-			["point"] = "TOPLEFT",
-			["relativePoint"] = "TOPLEFT",
-			["yOfs"] = -116.0000076293945,
-			["xOfs"] = 16,
-		},
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -106.9999923706055,
-		["xOfs"] = 0,
-		["point"] = "TOPLEFT",
+	["LFRParentFrame"] = {
 	},
 	["LootFrame"] = {
 		["default"] = {
@@ -321,9 +298,32 @@ BlizzMoveDB = {
 		["xOfs"] = -368.2951965332031,
 		["point"] = "TOP",
 	},
-	["LFRParentFrame"] = {
+	["MerchantFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -106.9999923706055,
+		["xOfs"] = 0,
+		["point"] = "TOPLEFT",
 	},
-	["ItemSocketingFrame"] = {
+	["AuctionHouseFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 36,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -48.99999618530273,
+		["xOfs"] = 41.99998092651367,
+		["point"] = "TOPLEFT",
+		["save"] = true,
 	},
 	["EncounterJournal"] = {
 		["default"] = {
@@ -336,10 +336,10 @@ BlizzMoveDB = {
 		["relativePoint"] = "LEFT",
 		["yOfs"] = 171.5119476318359,
 		["xOfs"] = 302.7103271484375,
-		["point"] = "LEFT",
 		["save"] = true,
+		["point"] = "LEFT",
 	},
-	["LFDParentFrame"] = {
+	["KeyBindingFrame"] = {
 	},
 	["HelpFrame"] = {
 	},

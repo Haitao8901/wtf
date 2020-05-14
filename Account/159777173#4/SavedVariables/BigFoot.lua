@@ -1,43 +1,17 @@
 
 BigFoot_Config = {
 	["BFVersion"] = 20120927,
-	["InfoBox"] = {
-		["EnableBlizzMove"] = 1,
-		["Masque_BuffDisable"] = 1,
-		["EnableInfoBoxV2"] = 0,
-	},
 	["MapToolkit"] = {
-		["MapSexyMinimap"] = 0,
 		["MapWordFlight"] = 1,
-	},
-	["ArenaMod"] = {
-		["EnableProximo"] = 0,
-		["EnableGladiatorlosSA"] = 0,
-	},
-	["TrinketMenu"] = {
-		["EnableTrinketMenu"] = 0,
-	},
-	["BuffMaster"] = {
-		["BuffMasterShowTimeLeft"] = 1,
-		["EnablePartyShortBuffer"] = 1,
-		["BuffMasterShowDetailTimeLeft"] = 1,
-		["ShowTargetCooldown2"] = 1,
-		["EnablePartyBuffer"] = 1,
-		["AdjustBuffSize"] = 1,
-		["BFCH_OTHERBUFF_SIZE"] = 17,
-		["BFCH_MYBUFF_SIZE"] = 23,
+		["MapSexyMinimap"] = 0,
 	},
 	["BUnitFrame"] = {
 		["EnableEasyFocusFrame"] = 0,
+		["EnableTargetTarget"] = 0,
+		["EnableBUnitFrame"] = 1,
+		["EnableTargetTargetTarget"] = 0,
 		["EnableCastingIcon"] = 1,
 		["EnableCastingShining"] = 1,
-		["EnableTargetTargetTarget"] = 0,
-		["EnableBUnitFrame"] = 1,
-		["EnableTargetTarget"] = 0,
-	},
-	["TradeHelper"] = {
-		["EnableTradeHelper"] = 1,
-		["EnableBigFootBlackBank"] = 1,
 	},
 	["Item Info"] = {
 		["EnableAdditionalInfo"] = 1,
@@ -47,63 +21,23 @@ BigFoot_Config = {
 		["EnableSellValue"] = 1,
 		["EnableAlreadyKnown"] = 1,
 	},
-	["ActionBar"] = {
-		["HideTab"] = 0,
-		["EnableDistanceAlert"] = 1,
-		["HideGrid"] = 0,
-		["Enable_BigFootBar"] = 0,
-	},
-	["InfoStat"] = {
-		["DisplayStatistics"] = 1,
-		["DisplayDurability"] = 1,
-		["EnableQuickCompare"] = 1,
-	},
-	["MobHealth"] = {
-		["ShowManaPoint"] = 1,
-		["ShowHealthFormat"] = 1,
-		["MobHealthEnable"] = 1,
-		["ShowHealthPPT"] = 1,
-	},
-	["PortraitEnhancement"] = {
-		["EnablePartyCastBar"] = 1,
-		["EnablePartyTarget"] = 1,
-		["EnablePartyPor"] = 1,
-		["EnableTargetClassInfo"] = 1,
-		["EnablePorEnhance"] = 1,
-		["EnableEasyFrames"] = 1,
-	},
 	["RaidToolkit"] = {
 		["EnableDBM"] = 1,
 		["EnableRaidAlerter"] = 0,
-		["EnableThreat"] = 0,
 		["EnableDecursive"] = 0,
+		["EnableThreat"] = 0,
 		["EnableMeetingStone"] = 1,
 		["EnableRecount2"] = 0,
 		["EnableSkada"] = 0,
 		["skadaFormatNumber"] = 1,
 	},
-	["MarkAssistant"] = {
-		["EnablewMarker"] = 0,
+	["TrinketMenu"] = {
+		["EnableTrinketMenu"] = 0,
 	},
-	["QuestEnhancement"] = {
-		["EnableTurnIn"] = 0,
-		["EnableWholly"] = 0,
-		["EnableQuestBroad"] = 1,
-		["EnableWorldQuestTracker"] = 1,
-	},
-	["PartyToolkit"] = {
-		["EnableClique"] = 0,
-		["EnableTeamNoticeParty"] = 1,
-		["EnableTeamNoticeRaid"] = 1,
-	},
-	["BigFootGadget"] = {
-		["ChangeFont"] = 0,
-		["BFCB"] = 1,
-		["EnableMySlot"] = 1,
-		["EnableFasyFocus"] = 1,
-		["OldTab"] = 1,
-		["EnableMailMod"] = 1,
-		["EnableBigFootGPS"] = 1,
+	["InfoStat"] = {
+		["DisplayStatistics"] = 1,
+		["DisplayDurability"] = 1,
+		["EnableQuickCompare"] = 1,
 	},
 	["RepairHelper"] = {
 		["RepairHelper_UseGuildMoney"] = 1,
@@ -116,23 +50,22 @@ BigFoot_Config = {
 		["ShineType"] = "标准",
 		["ToggleBar"] = 0,
 	},
-	["MiDKP"] = {
-		["MiDKPEnable"] = 0,
-	},
 	["SellerHelper"] = {
 		["AutoSellPoor"] = 1,
 		["ARAccept"] = 1,
 		["SellAccept"] = 1,
 		["EnableAutoRecharge"] = 1,
-		["ShowTradeAnnounce"] = 1,
 		["EnableSellerHelper"] = 1,
+		["ShowTradeAnnounce"] = 1,
 	},
 	["BF_System"] = {
 		["EnableLoadLater"] = 0,
 	},
-	["BagManagement"] = {
-		["EnabelOpenAllBagsOnBank"] = 1,
-		["EnabelOpenAllBagsOnTrading"] = 1,
+	["MobHealth"] = {
+		["ShowManaPoint"] = 1,
+		["ShowHealthFormat"] = 1,
+		["MobHealthEnable"] = 1,
+		["ShowHealthPPT"] = 1,
 	},
 	["BagIntegration"] = {
 		["Enable_Combuctor"] = 1,
@@ -141,9 +74,80 @@ BigFoot_Config = {
 		["Enable_PUI"] = 1,
 		["ReverseMode"] = 0,
 	},
+	["PartyToolkit"] = {
+		["EnableClique"] = 0,
+		["EnableTeamNoticeParty"] = 1,
+		["EnableTeamNoticeRaid"] = 1,
+	},
+	["MiDKP"] = {
+		["MiDKPEnable"] = 0,
+	},
+	["ArenaMod"] = {
+		["EnableProximo"] = 0,
+		["EnableGladiatorlosSA"] = 0,
+	},
+	["BIGFOOT_VERSION_NEW"] = "zhCN8.3.0.808",
+	["BuffMaster"] = {
+		["BFCH_MYBUFF_SIZE"] = 23,
+		["EnablePartyShortBuffer"] = 1,
+		["BFCH_OTHERBUFF_SIZE"] = 17,
+		["ShowTargetCooldown2"] = 1,
+		["EnablePartyBuffer"] = 1,
+		["AdjustBuffSize"] = 1,
+		["BuffMasterShowDetailTimeLeft"] = 1,
+		["BuffMasterShowTimeLeft"] = 1,
+	},
+	["ActionBar"] = {
+		["HideTab"] = 0,
+		["Enable_BigFootBar"] = 0,
+		["EnableDistanceAlert"] = 1,
+		["HideGrid"] = 0,
+	},
+	["MarkAssistant"] = {
+		["EnablewMarker"] = 0,
+	},
+	["BigFootGadget"] = {
+		["ChangeFont"] = 0,
+		["BFCB"] = 1,
+		["EnableMySlot"] = 1,
+		["EnableFasyFocus"] = 1,
+		["OldTab"] = 1,
+		["EnableMailMod"] = 1,
+		["EnableBigFootGPS"] = 1,
+	},
+	["BigFootClassMod"] = {
+		["EnableAttackTimer"] = 1,
+	},
+	["InfoBox"] = {
+		["EnableBlizzMove"] = 1,
+		["Masque_BuffDisable"] = 1,
+		["EnableInfoBoxV2"] = 0,
+	},
+	["TradeHelper"] = {
+		["EnableTradeHelper"] = 1,
+		["EnableBigFootBlackBank"] = 1,
+	},
 	["BFMount"] = {
-		["EnableMasterPlan"] = 1,
 		["EnableHPetBattleAny"] = 1,
+		["EnableMasterPlan"] = 1,
+	},
+	["PortraitEnhancement"] = {
+		["EnablePartyCastBar"] = 1,
+		["EnablePartyTarget"] = 1,
+		["EnablePartyPor"] = 1,
+		["EnablePorEnhance"] = 1,
+		["EnableEasyFrames"] = 1,
+		["EnableTargetClassInfo"] = 1,
+	},
+	["BagManagement"] = {
+		["EnabelOpenAllBagsOnBank"] = 1,
+		["EnabelOpenAllBagsOnTrading"] = 1,
+	},
+	["QuestEnhancement"] = {
+		["EnableTurnIn"] = 0,
+		["EnableWholly"] = 0,
+		["EnableQuestBroad"] = 1,
+		["EnableWorldQuestTracker"] = 1,
 	},
 	["SpellMonitor"] = {
 		["EnableBigDebuffs"] = 1,
@@ -156,30 +160,30 @@ BigFoot_Config = {
 		["BigFootTooltipItemLevel"] = "显示",
 		["EnableBFTooltip"] = 1,
 		["EnableNewTypeBFTooltip"] = 0,
-		["BigFootTooltipGuildRank"] = "隐藏",
+		["BigFootTooltipPosition"] = "无",
 		["BigFootTooltipToT"] = "显示",
 		["BigFootTooltipTalent"] = "显示",
 		["BigFootTooltipPositionX"] = -20,
-		["BigFootTooltipPosition"] = "无",
+		["BigFootTooltipGuildRank"] = "隐藏",
 	},
 	["CombatIndicator"] = {
 		["EnableCombatLeave"] = 1,
 		["EnableCombatIndicator"] = 1,
 		["EnableShowSpell"] = 1,
-		["EnableDCT"] = 0,
 		["EnableSpell"] = 1,
+		["EnableDCT"] = 0,
 	},
 	["AutoEquip"] = {
-		["EnableAutoEquip"] = 0,
 		["EnableAdvancedMode"] = 0,
+		["EnableAutoEquip"] = 0,
 		["EnableAutoHide"] = 0,
 	},
 	["ChatEnhancement"] = {
 		["EnableWhisperPop"] = 1,
-		["EnableBFC"] = 1,
+		["EnableItemLinkLevel"] = 1,
 		["EnableAchievementCompare"] = 1,
 		["EnablePlayerLink"] = 1,
-		["EnableItemLinkLevel"] = 1,
+		["EnableBFC"] = 1,
 	},
 }
 BigFoot_Error = {
@@ -187,9 +191,12 @@ BigFoot_Error = {
 }
 MBBDB = {
 	["profileKeys"] = {
+		["巨击黑牛 - 雷霆之王"] = "巨击黑牛 - 雷霆之王",
 		["鞋不遮脚 - 雷霆之王"] = "鞋不遮脚 - 雷霆之王",
 	},
 	["profiles"] = {
+		["巨击黑牛 - 雷霆之王"] = {
+		},
 		["鞋不遮脚 - 雷霆之王"] = {
 		},
 	},
@@ -197,5 +204,6 @@ MBBDB = {
 BF_Gloable = nil
 BF_LogonInfo = {
 	1588702050, -- [1]
+	1589448531, -- [2]
 }
 ModelChangeVariable = nil
