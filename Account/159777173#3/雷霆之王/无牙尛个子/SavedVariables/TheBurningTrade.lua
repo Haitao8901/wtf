@@ -10,9 +10,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "肮脏的仆从抓取手套",
 				["numItems"] = 1,
-				["enchantment"] = "赞达拉工艺",
 				["isUsable"] = true,
 				["itemLink"] = "|cffa335ee|Hitem:159346::::::::120:253::35:5:6536:6578:6515:1647:4786:::|h[肮脏的仆从抓取手套]|h|r",
+				["enchantment"] = "赞达拉工艺",
 				["texture"] = 1941311,
 			},
 		},
@@ -37,9 +37,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "卑劣操纵者的裹手",
 				["numItems"] = 1,
-				["itemLink"] = "|cffa335ee|Hitem:173432::::::::120:253::54:9:6412:43:6513:6578:6579:6476:6470:1522:4786:::|h[卑劣操纵者的裹手]|h|r",
 				["enchantment"] = "赞达拉工艺",
 				["isUsable"] = true,
+				["itemLink"] = "|cffa335ee|Hitem:173432::::::::120:253::54:9:6412:43:6513:6578:6579:6476:6470:1522:4786:::|h[卑劣操纵者的裹手]|h|r",
 				["texture"] = 3048007,
 			},
 		},
@@ -347,9 +347,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "古代苦力指环",
 				["numItems"] = 1,
-				["enchantment"] = "爆击之符",
 				["isUsable"] = true,
 				["itemLink"] = "|cffa335ee|Hitem:159461:6111:168642::::::120:253::35:7:6536:6578:6579:6539:1647:4786:6514:::|h[古代苦力指环]|h|r",
+				["enchantment"] = "爆击之符",
 				["texture"] = 2000820,
 			},
 		},
@@ -370,8 +370,8 @@ TradeLog_TradesHistory = {
 		["id"] = 13,
 		["playerItems"] = {
 			{
-				["name"] = "附魔武器 - 迅击风暴",
 				["numItems"] = 6,
+				["name"] = "附魔武器 - 迅击风暴",
 				["itemLink"] = "|cff1eff00|Hitem:153480::::::::120:253::::::|h[附魔武器 - 迅击风暴]|h|r",
 				["texture"] = 463531,
 			}, -- [1]
@@ -386,9 +386,79 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "Sarawst",
 		["when"] = "05-14 23:43:05",
-		["where"] = "祖达萨",
 		["result"] = "complete",
+		["where"] = "祖达萨",
 	}, -- [13]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 14,
+		["playerItems"] = {
+		},
+		["reason"] = "other",
+		["targetItems"] = {
+		},
+		["player"] = "无牙尛个子",
+		["where"] = "祖达萨",
+		["who"] = "洛克达姆",
+		["when"] = "05-15 14:04:03",
+		["result"] = "cancelled",
+		["toofar"] = "no",
+	}, -- [14]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 15,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			[7] = {
+				["name"] = "腐化角斗士的戒指",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:172664::::::::120:253::25:4:6389:6371:1572:4786:::|h[腐化角斗士的戒指]|h|r",
+				["enchantment"] = "全能之符",
+				["isUsable"] = true,
+				["texture"] = 2000806,
+			},
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "05-15 14:04:48",
+		["result"] = "complete",
+		["where"] = "祖达萨",
+	}, -- [15]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 16,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			[7] = {
+				["name"] = "古代苦力指环",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:159461:6108:168642::::::120:253::35:7:6536:6578:6579:6539:1647:4786:6514:::|h[古代苦力指环]|h|r",
+				["enchantment"] = "全能之符",
+				["isUsable"] = true,
+				["texture"] = 2000820,
+			},
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "05-15 14:06:58",
+		["result"] = "complete",
+		["where"] = "祖达萨",
+	}, -- [16]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil
