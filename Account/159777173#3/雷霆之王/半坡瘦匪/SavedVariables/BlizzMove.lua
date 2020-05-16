@@ -1,6 +1,17 @@
 
 BlizzMoveDB = {
 	["TradeSkillFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOP",
+		["yOfs"] = -122.100212097168,
+		["xOfs"] = -356.1241149902344,
+		["point"] = "TOP",
 	},
 	["RaidParentFrame"] = {
 	},

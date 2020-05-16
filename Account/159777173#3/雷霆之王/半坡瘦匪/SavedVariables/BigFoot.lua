@@ -1,5 +1,12 @@
 
 BF_Frames_Config = {
+	["TrinketMenu_MainFrame"] = {
+		["offX"] = 158.4185485839844,
+		["point"] = "BOTTOM",
+		["region"] = "UIParent",
+		["offY"] = 112.7055511474609,
+		["refPoint"] = "BOTTOM",
+	},
 }
 BigFoot_Character = {
 	["Region"] = "cn0",
