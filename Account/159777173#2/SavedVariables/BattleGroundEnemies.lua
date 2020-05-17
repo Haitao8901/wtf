@@ -7,7 +7,10 @@ BattleGroundEnemiesDB = {
 	["profiles"] = {
 		["Default"] = {
 			["Enemies"] = {
-				["Enabled"] = false,
+				["15"] = {
+					["Position_Y"] = 429.2948732170116,
+					["Position_X"] = 1131.517474708613,
+				},
 			},
 			["Allies"] = {
 				["40"] = {

@@ -104,10 +104,10 @@ BlizzMoveDB = {
 			["yOfs"] = 0,
 			["xOfs"] = 0,
 		},
-		["relativePoint"] = "LEFT",
-		["yOfs"] = -81.29090881347656,
-		["xOfs"] = 203.9215698242188,
-		["point"] = "LEFT",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 55.52835083007813,
+		["xOfs"] = -412.581787109375,
+		["point"] = "CENTER",
 	},
 	["version"] = "201109013",
 	["QuestFrame"] = {
@@ -213,7 +213,7 @@ BlizzMoveDB = {
 	},
 	["KeyBindingFrame"] = {
 	},
-	["LFDParentFrame"] = {
+	["AzeriteEmpoweredItemUI"] = {
 	},
 	["ScrappingMachineFrame"] = {
 		["default"] = {
@@ -339,7 +339,7 @@ BlizzMoveDB = {
 		["point"] = "LEFT",
 		["save"] = true,
 	},
-	["AzeriteEmpoweredItemUI"] = {
+	["LFDParentFrame"] = {
 	},
 	["HelpFrame"] = {
 	},

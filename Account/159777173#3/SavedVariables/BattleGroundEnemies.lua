@@ -7,6 +7,7 @@ BattleGroundEnemiesDB = {
 	["profiles"] = {
 		["Default"] = {
 			["Enemies"] = {
+				["RangeIndicator_Alpha"] = 0.6000000000000001,
 				["15"] = {
 					["Position_Y"] = 425.6277639239779,
 					["Position_X"] = 1123.464349888614,
