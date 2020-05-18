@@ -8,10 +8,10 @@ BlizzMoveDB = {
 			["yOfs"] = -116.0000076293945,
 			["xOfs"] = 16,
 		},
-		["relativePoint"] = "TOP",
-		["yOfs"] = -122.100212097168,
-		["xOfs"] = -356.1241149902344,
-		["point"] = "TOP",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 85.23756408691406,
+		["xOfs"] = -387.1263122558594,
+		["point"] = "CENTER",
 	},
 	["RaidParentFrame"] = {
 	},
@@ -93,14 +93,14 @@ BlizzMoveDB = {
 	},
 	["PVEFrame"] = {
 	},
-	["MerchantFrame"] = {
+	["AuctionHouseFrame"] = {
+		["save"] = true,
 	},
 	["VideoOptionsFrame"] = {
 	},
 	["EncounterJournal"] = {
 	},
-	["AuctionHouseFrame"] = {
-		["save"] = true,
+	["MerchantFrame"] = {
 	},
 	["HelpFrame"] = {
 	},

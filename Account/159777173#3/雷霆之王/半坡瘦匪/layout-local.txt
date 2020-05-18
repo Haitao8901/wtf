@@ -15,9 +15,9 @@ W: 165
 H: 262
 Frame: scanner_button
 FrameLevel: 200
-Anchor: BOTTOM
-X: 0
-Y: 128
+Anchor: RIGHT
+X: -389
+Y: -147
 W: 200
 H: 50
 Frame: CastingBarFrame

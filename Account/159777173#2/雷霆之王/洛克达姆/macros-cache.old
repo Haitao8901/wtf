@@ -28,7 +28,7 @@ VER 3 010000000000003E "电击" "460699"
 END
 VER 3 0100000000000039 "目标" "134400"
 /cleartarget
-/target 艾杜瓦尔
+/target 泥泞蛞蝓
 END
 VER 3 010000000000003F "给A" "648632"
 /click RaidFrameConvertToRaidButton

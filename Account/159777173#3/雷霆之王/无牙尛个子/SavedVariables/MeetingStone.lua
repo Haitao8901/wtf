@@ -5,7 +5,7 @@ MEETINGSTONE_CHARACTER_DB = {
 	},
 	["profiles"] = {
 		["无牙尛个子 - 雷霆之王"] = {
-			["lastSearchCode"] = "9-0-19-0",
+			["lastSearchCode"] = "6-0-0-0",
 			["version"] = "80300.01",
 			["settings"] = {
 				["panel"] = false,
@@ -16,9 +16,9 @@ MEETINGSTONE_CHARACTER_DB = {
 				},
 			},
 			["searchHistoryList"] = {
-				"9-0-19-0", -- [1]
-				"6-0-0-0", -- [2]
-				"2-0-0-0", -- [3]
+				"6-0-0-0", -- [1]
+				"2-0-0-0", -- [2]
+				"9-0-19-0", -- [3]
 				"3-0-0-0", -- [4]
 			},
 			["recent"] = {

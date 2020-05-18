@@ -465,8 +465,8 @@ TradeLog_TradesHistory = {
 		["id"] = 17,
 		["playerItems"] = {
 			{
-				["name"] = "幻象：虚空之锋",
 				["numItems"] = 1,
+				["name"] = "幻象：虚空之锋",
 				["itemLink"] = "|cff0070dd|Hitem:174932::::::::120:253::9::::|h[幻象：虚空之锋]|h|r",
 				["texture"] = 237174,
 			}, -- [1]
@@ -481,8 +481,8 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "Sarawst",
 		["when"] = "05-17 23:04:19",
-		["where"] = "希利苏斯：创伤之痕",
 		["result"] = "complete",
+		["where"] = "希利苏斯：创伤之痕",
 	}, -- [17]
 }
 TRADE_LOG_BUTTON_POS = 190

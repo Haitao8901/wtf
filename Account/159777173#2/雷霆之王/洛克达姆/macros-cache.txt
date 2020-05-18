@@ -26,9 +26,13 @@ VER 3 010000000000003E "电击" "460699"
 /y 对 %t 进行心脏电击,试图将其救起
 /y 不要感谢我,哥做好事从来不留名,就叫我红领巾吧
 END
-VER 3 0100000000000039 "目标" "134400"
+VER 3 0100000000000049 "目标" "134400"
 /cleartarget
 /target 艾杜瓦尔
+END
+VER 3 0100000000000039 "目标" "134400"
+/cleartarget
+/target 泥泞蛞蝓
 END
 VER 3 010000000000003F "给A" "648632"
 /click RaidFrameConvertToRaidButton
