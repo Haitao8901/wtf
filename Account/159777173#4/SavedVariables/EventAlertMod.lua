@@ -35,7 +35,7 @@ EA_Config = {
 	["TimerFontSize"] = 26,
 	["OPTION_ICON"] = false,
 	["ShowFrame"] = true,
-	["SNameFontSize"] = 12,
+	["LockFrame"] = false,
 	["AlertSound"] = 568154,
 	["HUNTER_GlowPetFocus"] = 50,
 	["AllowAltAlerts"] = true,
@@ -47,7 +47,7 @@ EA_Config = {
 	["EA_SPELL_ITEM"] = {
 	},
 	["Target_MyDebuff"] = true,
-	["LockFrame"] = false,
+	["SNameFontSize"] = 12,
 	["SCD_RemoveWhenCooldown"] = true,
 	["SCD_GlowWhenUsable"] = true,
 }
@@ -86,10 +86,10 @@ EA_Items = {
 		[36032] = {
 			["enable"] = true,
 		},
-		[87023] = {
+		[48108] = {
 			["enable"] = true,
 		},
-		[48108] = {
+		[87023] = {
 			["enable"] = true,
 		},
 	},
@@ -208,6 +208,17 @@ EA_Items = {
 			["name"] = "神聖禮頌",
 		},
 	},
+	["MONK"] = {
+		[120954] = {
+			["enable"] = true,
+		},
+		[119611] = {
+			["enable"] = true,
+		},
+		[115175] = {
+			["enable"] = true,
+		},
+	},
 	["WARRIOR"] = {
 		[207982] = {
 			["enable"] = true,
@@ -248,7 +259,7 @@ EA_Items = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[23920] = {
+		[184364] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -265,7 +276,7 @@ EA_Items = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[184364] = {
+		[23920] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -275,6 +286,8 @@ EA_AltItems = {
 	["MAGE"] = {
 	},
 	["WARRIOR"] = {
+	},
+	["MONK"] = {
 	},
 }
 EA_TarItems = {
@@ -297,7 +310,7 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[132169] = {
+		[118038] = {
 			["enable"] = true,
 			["self"] = false,
 		},
@@ -305,23 +318,23 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[208086] = {
+		[772] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[12323] = {
+		[871] = {
 			["enable"] = true,
-			["self"] = true,
+			["self"] = false,
 		},
 		[215537] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[118038] = {
+		[132169] = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[772] = {
+		[208086] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -329,11 +342,11 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[113344] = {
-			["enable"] = true,
-			["self"] = true,
-		},
 		[5246] = {
+			["enable"] = true,
+			["self"] = false,
+		},
+		[46924] = {
 			["enable"] = true,
 			["self"] = false,
 		},
@@ -349,13 +362,27 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[46924] = {
+		[113344] = {
 			["enable"] = true,
-			["self"] = false,
+			["self"] = true,
 		},
-		[871] = {
+		[12323] = {
 			["enable"] = true,
-			["self"] = false,
+			["self"] = true,
+		},
+	},
+	["MONK"] = {
+		[115078] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[115175] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[119611] = {
+			["enable"] = true,
+			["self"] = true,
 		},
 	},
 }
@@ -478,6 +505,62 @@ EA_ScdItems = {
 			["enable"] = true,
 		},
 	},
+	["MONK"] = {
+		[115203] = {
+			["enable"] = true,
+		},
+		[115151] = {
+			["enable"] = true,
+		},
+		[116705] = {
+			["enable"] = true,
+		},
+		[122783] = {
+			["enable"] = true,
+		},
+		[115008] = {
+			["enable"] = true,
+		},
+		[119381] = {
+			["enable"] = true,
+		},
+		[115078] = {
+			["enable"] = true,
+		},
+		[115080] = {
+			["enable"] = true,
+		},
+		[113656] = {
+			["enable"] = true,
+		},
+		[109132] = {
+			["enable"] = true,
+		},
+		[122278] = {
+			["enable"] = true,
+		},
+		[101545] = {
+			["enable"] = true,
+		},
+		[115399] = {
+			["enable"] = true,
+		},
+		[116847] = {
+			["enable"] = true,
+		},
+		[115098] = {
+			["enable"] = true,
+		},
+		[123904] = {
+			["enable"] = true,
+		},
+		[115288] = {
+			["enable"] = true,
+		},
+		[122470] = {
+			["enable"] = true,
+		},
+	},
 }
 EA_GrpItems = {
 	["MAGE"] = {
@@ -522,6 +605,8 @@ EA_GrpItems = {
 		}, -- [1]
 	},
 	["WARRIOR"] = {
+	},
+	["MONK"] = {
 	},
 }
 EA_Pos = {

@@ -2,8 +2,12 @@
 MasterPlanAG = {
 	["雷霆之王"] = {
 		["鞋不遮脚"] = {
-			["faction"] = "Horde",
 			["class"] = "MAGE",
+			["faction"] = "Horde",
+		},
+		["瞎撸法尔"] = {
+			["faction"] = "Horde",
+			["class"] = "MONK",
 		},
 		["巨击黑牛"] = {
 			["class"] = "WARRIOR",

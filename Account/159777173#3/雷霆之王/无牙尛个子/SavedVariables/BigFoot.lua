@@ -20,7 +20,7 @@ BF_Frames_Config = {
 BigFoot_Character = {
 	["Region"] = "cn0",
 	["Gender"] = 1,
-	["Race"] = "赞达拉巨魔",
+	["Race"] = "玛格汉兽人",
 	["Name"] = "无牙尛个子",
 	["Faction"] = 1,
 	["Class"] = "猎人",
@@ -29,6 +29,6 @@ BigFoot_Character = {
 	["Realm"] = "雷霆之王",
 }
 BigFoot_SysTemSetTab = {
-	["UtilsPatchVersion"] = "2020-03-26",
 	["BigFoot_LoadBefore"] = 1,
+	["UtilsPatchVersion"] = "2020-03-26",
 }

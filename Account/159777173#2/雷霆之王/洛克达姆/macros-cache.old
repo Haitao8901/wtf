@@ -10,10 +10,35 @@ END
 VER 3 0100000000000036 "嫁祸" "236283"
 /cast [target=focus,exists,noharm] 嫁祸诀窍;[noharm] 嫁祸诀窍
 END
+VER 3 010000000000004A "小西2222" "645217"
+/目标 火槍隊丶小西
+/协助
+#showtooltip
+/stopcasting
+/stopcasting
+/施放 夺命黑鸦
+END
+VER 3 010000000000004B "布尔维克" "135900"
+/tar 大角
+单BUFF时除了暴击攻速以外都Reroll，双buff除了回能减cd都不reroll
+END
+VER 3 010000000000004C "延迟红" "132094"
+/console SET reducedLagTolerance 1
+END
 VER 3 0100000000000043 "影袭" "136189"
 #showtooltip
 /startattack
 /cast 影袭
+END
+VER 3 010000000000004D "恶魔变形" "INV_Misc_QuestionMark"
+#showtooltip 恶魔变形
+/cast [@cursor] 恶魔变形
+END
+VER 3 010000000000004E "战不防" "INV_Misc_QuestionMark"
+#showtooltip
+/swapactionbar 1 2
+/castsequence [actionbar:1]盾牌猛击;
+/castsequence [actionbar:2]雷霆一击;
 END
 VER 3 010000000000003B "披风" "852267"
 /use 15
@@ -29,6 +54,10 @@ END
 VER 3 0100000000000039 "目标" "134400"
 /cleartarget
 /target 泥泞蛞蝓
+END
+VER 3 0100000000000049 "目标" "134400"
+/cleartarget
+/target 艾杜瓦尔
 END
 VER 3 010000000000003F "给A" "648632"
 /click RaidFrameConvertToRaidButton

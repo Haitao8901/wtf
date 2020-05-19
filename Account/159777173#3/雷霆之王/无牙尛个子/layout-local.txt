@@ -1,11 +1,4 @@
 Version: 1
-Frame: TargetFrame
-FrameLevel: 1
-Anchor: TOP
-X: 416
-Y: -194
-W: 232
-H: 100
 Frame: PlayerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -62,6 +55,13 @@ X: 2
 Y: 224
 W: 220
 H: 13
+Frame: TargetFrame
+FrameLevel: 1
+Anchor: TOP
+X: 416
+Y: -194
+W: 232
+H: 100
 Frame: CharacterFrame
 FrameLevel: 1
 Anchor: TOPLEFT

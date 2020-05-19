@@ -1,5 +1,7 @@
 
 BlizzMoveDB = {
+	["TradeSkillFrame"] = {
+	},
 	["RaidParentFrame"] = {
 	},
 	["ClassTrainerFrame"] = {
@@ -12,23 +14,23 @@ BlizzMoveDB = {
 	},
 	["MailFrame"] = {
 	},
-	["VideoOptionsFrame"] = {
+	["HelpFrame"] = {
 	},
-	["LootFrame"] = {
+	["AuctionHouseFrame"] = {
+		["save"] = true,
 	},
 	["FriendsFrame"] = {
 	},
 	["AchievementFrame"] = {
 		["save"] = true,
 	},
-	["PVEFrame"] = {
+	["LFDParentFrame"] = {
 	},
-	["AuctionHouseFrame"] = {
-		["save"] = true,
+	["VideoOptionsFrame"] = {
 	},
 	["MerchantFrame"] = {
 	},
-	["LFDParentFrame"] = {
+	["GossipFrame"] = {
 	},
 	["DressUpFrame"] = {
 	},
@@ -45,19 +47,19 @@ BlizzMoveDB = {
 		["xOfs"] = -148.0958099365234,
 		["point"] = "CENTER",
 	},
-	["InterfaceOptionsFrame"] = {
-	},
+	["version"] = "201109013",
 	["PlayerTalentFrame"] = {
 	},
-	["GuildBankFrame"] = {
-		["save"] = true,
+	["LootFrame"] = {
 	},
 	["SpellBookFrame"] = {
 	},
 	["BankFrame"] = {
 	},
-	["version"] = "201109013",
-	["GossipFrame"] = {
+	["PVEFrame"] = {
+	},
+	["GuildBankFrame"] = {
+		["save"] = true,
 	},
 	["QuestFrame"] = {
 	},
@@ -66,6 +68,6 @@ BlizzMoveDB = {
 	["CalendarFrame"] = {
 		["save"] = true,
 	},
-	["HelpFrame"] = {
+	["InterfaceOptionsFrame"] = {
 	},
 }

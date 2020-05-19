@@ -54,9 +54,9 @@ BigFoot_Config = {
 		["AutoSellPoor"] = 1,
 		["ARAccept"] = 1,
 		["SellAccept"] = 1,
+		["ShowTradeAnnounce"] = 1,
 		["EnableAutoRecharge"] = 1,
 		["EnableSellerHelper"] = 1,
-		["ShowTradeAnnounce"] = 1,
 	},
 	["BF_System"] = {
 		["EnableLoadLater"] = 0,
@@ -191,10 +191,13 @@ BigFoot_Error = {
 }
 MBBDB = {
 	["profileKeys"] = {
+		["瞎撸法尔 - 雷霆之王"] = "瞎撸法尔 - 雷霆之王",
 		["巨击黑牛 - 雷霆之王"] = "巨击黑牛 - 雷霆之王",
 		["鞋不遮脚 - 雷霆之王"] = "鞋不遮脚 - 雷霆之王",
 	},
 	["profiles"] = {
+		["瞎撸法尔 - 雷霆之王"] = {
+		},
 		["巨击黑牛 - 雷霆之王"] = {
 		},
 		["鞋不遮脚 - 雷霆之王"] = {
@@ -205,5 +208,6 @@ BF_Gloable = nil
 BF_LogonInfo = {
 	1588702050, -- [1]
 	1589448531, -- [2]
+	1589863494, -- [3]
 }
 ModelChangeVariable = nil
