@@ -430,8 +430,8 @@ MADB = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						0, -- [4]
-						0, -- [5]
+						176, -- [4]
+						111.9999847412109, -- [5]
 					},
 					["name"] = "SpellBookFrame",
 					["pos"] = {

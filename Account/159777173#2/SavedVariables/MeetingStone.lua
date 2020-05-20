@@ -56,12 +56,12 @@ MEETINGSTONE_UI_DB = {
 		},
 		["version"] = "80300.01",
 		["ActivityProfiles"] = {
-			["维克雷斯庄园（史诗钥石）"] = {
-				["ItemLevel"] = 461,
-				["HonorLevel"] = 0,
-			},
 			["地渊孢林（史诗钥石）"] = {
 				["ItemLevel"] = 440,
+				["HonorLevel"] = 0,
+			},
+			["维克雷斯庄园（史诗钥石）"] = {
+				["ItemLevel"] = 472,
 				["HonorLevel"] = 0,
 			},
 			["随机海岛（PvP）"] = {
@@ -76,8 +76,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 325,
 				["HonorLevel"] = 0,
 			},
-			["诸王之眠（史诗钥石）"] = {
-				["ItemLevel"] = 460,
+			["自定义PvP"] = {
+				["ItemLevel"] = 0,
 				["HonorLevel"] = 0,
 			},
 			["麦卡贡车间（史诗钥石）"] = {
@@ -108,8 +108,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 385,
 				["HonorLevel"] = 0,
 			},
-			["自定义PvP"] = {
-				["ItemLevel"] = 0,
+			["诸王之眠（史诗钥石）"] = {
+				["ItemLevel"] = 460,
 				["HonorLevel"] = 0,
 			},
 			["塞塔里斯神庙（史诗钥石）"] = {

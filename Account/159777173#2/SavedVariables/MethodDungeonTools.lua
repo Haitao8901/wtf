@@ -176,28 +176,28 @@ MethodDungeonToolsDB = {
 					["week"] = 6,
 					["objects"] = {
 					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
-					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["selection"] = {
-							1, -- [1]
-						},
-						["currentDungeonIdx"] = 18,
-						["teeming"] = false,
 						["riftOffsets"] = {
 							[6] = {
 							},
+						},
+						["currentDungeonIdx"] = 18,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
 						},
 						["pulls"] = {
 							{
 								["color"] = "ff3eff",
 							}, -- [1]
 						},
+					},
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
 					},
 					["difficulty"] = 15,
 				}, -- [1]
@@ -276,9 +276,9 @@ MethodDungeonToolsDB = {
 			{
 				{
 					["mdiEnabled"] = false,
+					["week"] = 6,
 					["objects"] = {
 					},
-					["week"] = 6,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,

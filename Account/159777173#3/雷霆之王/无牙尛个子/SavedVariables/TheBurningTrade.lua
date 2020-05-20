@@ -10,9 +10,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "肮脏的仆从抓取手套",
 				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:159346::::::::120:253::35:5:6536:6578:6515:1647:4786:::|h[肮脏的仆从抓取手套]|h|r",
 				["enchantment"] = "赞达拉工艺",
 				["isUsable"] = true,
-				["itemLink"] = "|cffa335ee|Hitem:159346::::::::120:253::35:5:6536:6578:6515:1647:4786:::|h[肮脏的仆从抓取手套]|h|r",
 				["texture"] = 1941311,
 			},
 		},
@@ -37,9 +37,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "卑劣操纵者的裹手",
 				["numItems"] = 1,
+				["isUsable"] = true,
 				["itemLink"] = "|cffa335ee|Hitem:173432::::::::120:253::54:9:6412:43:6513:6578:6579:6476:6470:1522:4786:::|h[卑劣操纵者的裹手]|h|r",
 				["enchantment"] = "赞达拉工艺",
-				["isUsable"] = true,
 				["texture"] = 3048007,
 			},
 		},
@@ -347,9 +347,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "古代苦力指环",
 				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:159461:6111:168642::::::120:253::35:7:6536:6578:6579:6539:1647:4786:6514:::|h[古代苦力指环]|h|r",
 				["enchantment"] = "爆击之符",
 				["isUsable"] = true,
-				["itemLink"] = "|cffa335ee|Hitem:159461:6111:168642::::::120:253::35:7:6536:6578:6579:6539:1647:4786:6514:::|h[古代苦力指环]|h|r",
 				["texture"] = 2000820,
 			},
 		},
@@ -415,9 +415,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "腐化角斗士的戒指",
 				["numItems"] = 1,
+				["enchantment"] = "全能之符",
 				["isUsable"] = true,
 				["itemLink"] = "|cffa335ee|Hitem:172664::::::::120:253::25:4:6389:6371:1572:4786:::|h[腐化角斗士的戒指]|h|r",
-				["enchantment"] = "全能之符",
 				["texture"] = 2000806,
 			},
 		},
@@ -442,9 +442,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "古代苦力指环",
 				["numItems"] = 1,
+				["enchantment"] = "全能之符",
 				["isUsable"] = true,
 				["itemLink"] = "|cffa335ee|Hitem:159461:6108:168642::::::120:253::35:7:6536:6578:6579:6539:1647:4786:6514:::|h[古代苦力指环]|h|r",
-				["enchantment"] = "全能之符",
 				["texture"] = 2000820,
 			},
 		},
@@ -484,6 +484,60 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "希利苏斯：创伤之痕",
 	}, -- [17]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 18,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			[7] = {
+				["name"] = "维克雷斯勋爵之戒",
+				["numItems"] = 1,
+				["enchantment"] = "爆击之符",
+				["isUsable"] = true,
+				["itemLink"] = "|cffa335ee|Hitem:158362::::::::120:253::16:5:6536:6516:6513:1637:4786:::|h[维克雷斯勋爵之戒]|h|r",
+				["texture"] = 2000801,
+			},
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "Sarawst",
+		["when"] = "05-20 14:04:36",
+		["result"] = "complete",
+		["where"] = "祖达萨",
+	}, -- [18]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 19,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			[7] = {
+				["name"] = "维克雷斯勋爵之戒",
+				["numItems"] = 1,
+				["enchantment"] = "全能之符",
+				["isUsable"] = true,
+				["itemLink"] = "|cffa335ee|Hitem:158362::::::::120:253::16:6:6536:42:6516:6513:1637:4786:::|h[维克雷斯勋爵之戒]|h|r",
+				["texture"] = 2000801,
+			},
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "05-20 14:05:04",
+		["result"] = "complete",
+		["where"] = "祖达萨",
+	}, -- [19]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil
