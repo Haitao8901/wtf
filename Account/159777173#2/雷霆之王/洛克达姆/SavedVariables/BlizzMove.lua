@@ -215,7 +215,7 @@ BlizzMoveDB = {
 	["KeyBindingFrame"] = {
 		["scale"] = 1.000000023841858,
 	},
-	["LFDParentFrame"] = {
+	["AzeriteEmpoweredItemUI"] = {
 	},
 	["ScrappingMachineFrame"] = {
 		["default"] = {
@@ -342,7 +342,7 @@ BlizzMoveDB = {
 		["point"] = "LEFT",
 		["save"] = true,
 	},
-	["AzeriteEmpoweredItemUI"] = {
+	["LFDParentFrame"] = {
 	},
 	["HelpFrame"] = {
 	},

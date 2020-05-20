@@ -24,9 +24,9 @@ BlizzMoveDB = {
 	["AchievementFrame"] = {
 		["save"] = true,
 	},
-	["LFDParentFrame"] = {
-	},
 	["VideoOptionsFrame"] = {
+	},
+	["LFDParentFrame"] = {
 	},
 	["MerchantFrame"] = {
 	},
@@ -50,7 +50,8 @@ BlizzMoveDB = {
 	["version"] = "201109013",
 	["PlayerTalentFrame"] = {
 	},
-	["LootFrame"] = {
+	["GuildBankFrame"] = {
+		["save"] = true,
 	},
 	["SpellBookFrame"] = {
 	},
@@ -58,8 +59,7 @@ BlizzMoveDB = {
 	},
 	["PVEFrame"] = {
 	},
-	["GuildBankFrame"] = {
-		["save"] = true,
+	["LootFrame"] = {
 	},
 	["QuestFrame"] = {
 	},

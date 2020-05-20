@@ -108,6 +108,7 @@ BlizzMoveDB = {
 		["relativePoint"] = "CENTER",
 		["yOfs"] = -0.8715533018112183,
 		["xOfs"] = 202.1785430908203,
+		["scale"] = 1.000000023841858,
 		["point"] = "CENTER",
 	},
 	["GossipFrame"] = {
@@ -191,10 +192,10 @@ BlizzMoveDB = {
 			["yOfs"] = -116.0000076293945,
 			["xOfs"] = 16,
 		},
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 68.67974853515625,
-		["xOfs"] = 69.15918731689453,
-		["point"] = "LEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -169.1590270996094,
+		["xOfs"] = 172.8627014160156,
+		["point"] = "TOPLEFT",
 	},
 	["ItemSocketingFrame"] = {
 	},

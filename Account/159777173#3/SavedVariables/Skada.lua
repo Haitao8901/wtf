@@ -21,6 +21,7 @@ SkadaDB = {
 			},
 			["windows"] = {
 				{
+					["set"] = "total",
 					["y"] = 71.24153137207031,
 					["point"] = "BOTTOMRIGHT",
 					["mode"] = "伤害",
@@ -32,14 +33,14 @@ SkadaDB = {
 				}, -- [1]
 			},
 			["versions"] = {
-				["1.6.7"] = true,
-				["1.6.4"] = true,
 				["1.6.3"] = true,
+				["1.6.4"] = true,
+				["1.6.7"] = true,
 			},
 			["setstokeep"] = 45,
 			["reset"] = {
-				["instance"] = 2,
 				["leave"] = 3,
+				["instance"] = 2,
 			},
 		},
 	},

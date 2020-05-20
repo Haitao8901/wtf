@@ -14,7 +14,7 @@ HPetSaves = {
 	["LockAbilitys"] = false,
 	["PetGreedInfo"] = true,
 	["AllyAbility"] = false,
-	["Tooltip"] = true,
+	["AutoSaveAbility"] = true,
 	["BreedIDStyle"] = true,
 	["AbPoint"] = {
 	},
@@ -23,7 +23,7 @@ HPetSaves = {
 	},
 	["HighGlow"] = true,
 	["MiniTip"] = false,
-	["AutoSaveAbility"] = true,
+	["Tooltip"] = true,
 	["ShowHideID"] = true,
 	["EnemyAbility"] = true,
 	["PetBreedInfo"] = false,

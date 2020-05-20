@@ -28,17 +28,9 @@ BFCooldownDB = {
 		["b"] = 0.1,
 	},
 	["spellCache"] = {
-		["灼烧"] = {
-			36, -- [1]
+		["传送：奥格瑞玛"] = {
+			53, -- [1]
 			"spell", -- [2]
-		},
-		["火焰冲击"] = {
-			34, -- [1]
-			"spell", -- [2]
-		},
-		["炉石"] = {
-			6948, -- [1]
-			"item", -- [2]
 		},
 	},
 	["isChangeFont"] = true,
@@ -54,9 +46,9 @@ BFCooldownDB = {
 		["text"] = true,
 		["alpha"] = 0.65,
 		["width"] = 67,
-		["font"] = "Fonts\\ARKai_T.ttf",
 		["config"] = false,
-		["style"] = 1,
+		["font"] = "Fonts\\ARKai_T.ttf",
+		["time"] = 1.2,
 		["position"] = {
 			["y"] = 78,
 			["p"] = "CENTER",
@@ -65,7 +57,7 @@ BFCooldownDB = {
 		},
 		["g"] = 1,
 		["mode"] = true,
-		["time"] = 1.2,
+		["style"] = 1,
 		["size"] = 30,
 	},
 	["mins"] = {
