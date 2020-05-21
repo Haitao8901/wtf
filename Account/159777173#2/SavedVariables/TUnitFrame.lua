@@ -3,8 +3,8 @@ TUF_Config = {
 	["inited"] = true,
 }
 BUnitFrame_Config = {
-	["sysFocus_tt"] = {
-		["enabled"] = false,
+	["tt"] = {
+		["enabled"] = true,
 		["theme"] = "classical",
 	},
 	["casting_flash"] = true,
@@ -22,8 +22,8 @@ BUnitFrame_Config = {
 		["enabled"] = true,
 		["theme"] = "classical",
 	},
-	["tt"] = {
-		["enabled"] = true,
+	["sysFocus_tt"] = {
+		["enabled"] = false,
 		["theme"] = "classical",
 	},
 }

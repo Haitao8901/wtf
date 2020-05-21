@@ -95,53 +95,43 @@ MethodDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[5] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 						["currentDungeonIdx"] = 15,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
-						},
-					},
-					["difficulty"] = 10,
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
-					},
-				}, -- [1]
-			}, -- [15]
-			{
-				{
-					["difficulty"] = 10,
-					["freeholdCrewSelected"] = true,
-					["objects"] = {
-					},
-					["value"] = {
-						["currentPull"] = 1,
-						["currentSublevel"] = 1,
 						["riftOffsets"] = {
 							[5] = {
 							},
 						},
-						["currentDungeonIdx"] = 16,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
+					},
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
+					["difficulty"] = 10,
+				}, -- [1]
+			}, -- [15]
+			{
+				{
+					["objects"] = {
+					},
+					["week"] = 5,
+					["difficulty"] = 10,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 1,
 						["pulls"] = {
 							{
 								[20] = {
 								},
-								[43] = {
-									1, -- [1]
+								[22] = {
 								},
 								[21] = {
 								},
@@ -153,17 +143,27 @@ MethodDungeonToolsDB = {
 								[40] = {
 									1, -- [1]
 								},
-								[22] = {
+								[43] = {
+									1, -- [1]
 								},
 							}, -- [1]
 						},
+						["currentDungeonIdx"] = 16,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["riftOffsets"] = {
+							[5] = {
+							},
+						},
 					},
-					["week"] = 5,
+					["freeholdCrewSelected"] = true,
 					["freeholdCrew"] = 2,
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["beguiling"] = 1,
 						["freehold"] = 1,
+						["beguiling"] = 1,
 					},
 				}, -- [1]
 			}, -- [16]
