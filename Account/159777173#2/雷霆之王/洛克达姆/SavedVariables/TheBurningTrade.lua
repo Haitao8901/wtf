@@ -316,9 +316,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
-				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -343,9 +343,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
-				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -370,9 +370,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
-				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -397,9 +397,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
-				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -424,9 +424,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
-				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -451,9 +451,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
-				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -1261,9 +1261,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "魔石保险箱",
 				["numItems"] = 1,
+				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:121331::::::::120:260::::::|h[魔石保险箱]|h|r",
-				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -2088,9 +2088,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
-				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -2115,9 +2115,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
-				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -5848,20 +5848,20 @@ TradeLog_TradesHistory = {
 		["id"] = 196,
 		["playerItems"] = {
 			{
-				["name"] = "阴森炖肉",
 				["numItems"] = 6,
+				["name"] = "阴森炖肉",
 				["itemLink"] = "|cffffffff|Hitem:174349::::::::120:260::::::|h[阴森炖肉]|h|r",
 				["texture"] = 237331,
 			}, -- [1]
 			{
-				["name"] = "克巴布串",
 				["numItems"] = 12,
+				["name"] = "克巴布串",
 				["itemLink"] = "|cffffffff|Hitem:174351::::::::120:260::::::|h[克巴布串]|h|r",
 				["texture"] = 461134,
 			}, -- [2]
 			{
-				["name"] = "麦贡门的“机无霸”",
 				["numItems"] = 15,
+				["name"] = "麦贡门的“机无霸”",
 				["itemLink"] = "|cffffffff|Hitem:168310::::::::120:260::::::|h[麦贡门的“机无霸”]|h|r",
 				["texture"] = 1046262,
 			}, -- [3]
@@ -5876,8 +5876,8 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "Sarawst",
 		["when"] = "05-22 00:04:35",
-		["where"] = "奥格瑞玛的幻象",
 		["result"] = "complete",
+		["where"] = "奥格瑞玛的幻象",
 	}, -- [196]
 	{
 		["targetMoney"] = 0,
@@ -5885,8 +5885,8 @@ TradeLog_TradesHistory = {
 		["id"] = 197,
 		["playerItems"] = {
 			{
-				["name"] = "强效湍流合剂",
 				["numItems"] = 2,
+				["name"] = "强效湍流合剂",
 				["itemLink"] = "|cffffffff|Hitem:168651::::::::120:260::::::|h[强效湍流合剂]|h|r",
 				["texture"] = 967550,
 			}, -- [1]
@@ -5901,8 +5901,8 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "Sarawst",
 		["when"] = "05-22 00:06:15",
-		["where"] = "奥格瑞玛的幻象",
 		["result"] = "complete",
+		["where"] = "奥格瑞玛的幻象",
 	}, -- [197]
 }
 TRADE_LOG_BUTTON_POS = 190

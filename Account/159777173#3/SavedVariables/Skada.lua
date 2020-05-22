@@ -15,12 +15,13 @@ SkadaDB = {
 			},
 			["modeclicks"] = {
 				["敌对伤害"] = 2,
-				["伤害"] = 7,
-				["敌对受到伤害"] = 1,
+				["伤害"] = 8,
+				["敌对受到伤害"] = 2,
 				["受到伤害"] = 3,
 			},
 			["windows"] = {
 				{
+					["set"] = "total",
 					["y"] = 71.24150848388672,
 					["point"] = "BOTTOMRIGHT",
 					["mode"] = "伤害",
@@ -36,7 +37,7 @@ SkadaDB = {
 				["1.6.4"] = true,
 				["1.6.3"] = true,
 			},
-			["setstokeep"] = 45,
+			["setstokeep"] = 20,
 			["reset"] = {
 				["instance"] = 2,
 				["leave"] = 3,
