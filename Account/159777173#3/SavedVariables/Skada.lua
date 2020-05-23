@@ -21,7 +21,6 @@ SkadaDB = {
 			},
 			["windows"] = {
 				{
-					["set"] = "total",
 					["y"] = 71.24150848388672,
 					["point"] = "BOTTOMRIGHT",
 					["mode"] = "伤害",

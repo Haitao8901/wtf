@@ -28,10 +28,6 @@ BFCooldownDB = {
 		["b"] = 0.1,
 	},
 	["spellCache"] = {
-		["传送：奥格瑞玛"] = {
-			53, -- [1]
-			"spell", -- [2]
-		},
 	},
 	["isChangeFont"] = true,
 	["secs"] = {
@@ -46,9 +42,9 @@ BFCooldownDB = {
 		["text"] = true,
 		["alpha"] = 0.65,
 		["width"] = 67,
-		["config"] = false,
 		["font"] = "Fonts\\ARKai_T.ttf",
-		["time"] = 1.2,
+		["config"] = false,
+		["style"] = 1,
 		["position"] = {
 			["y"] = 78,
 			["p"] = "CENTER",
@@ -57,7 +53,7 @@ BFCooldownDB = {
 		},
 		["g"] = 1,
 		["mode"] = true,
-		["style"] = 1,
+		["time"] = 1.2,
 		["size"] = 30,
 	},
 	["mins"] = {

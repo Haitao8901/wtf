@@ -14,6 +14,8 @@ BlizzMoveDB = {
 	},
 	["MailFrame"] = {
 	},
+	["CommunitiesFrame"] = {
+	},
 	["HelpFrame"] = {
 	},
 	["AuctionHouseFrame"] = {
@@ -50,8 +52,7 @@ BlizzMoveDB = {
 	["version"] = "201109013",
 	["PlayerTalentFrame"] = {
 	},
-	["GuildBankFrame"] = {
-		["save"] = true,
+	["LootFrame"] = {
 	},
 	["SpellBookFrame"] = {
 	},
@@ -59,7 +60,8 @@ BlizzMoveDB = {
 	},
 	["PVEFrame"] = {
 	},
-	["LootFrame"] = {
+	["GuildBankFrame"] = {
+		["save"] = true,
 	},
 	["QuestFrame"] = {
 	},

@@ -3,72 +3,27 @@ VER 3 0100000000000048 "仇敌" "2032580"
 /cast 仇敌之血
 /use 腐化角斗士的徽章
 END
-VER 3 010000000000003A "凿击" "132155"
-#showtooltips 脚踢
-/cast  [target=focus,exists,harm] 凿击;凿击
-END
 VER 3 0100000000000036 "嫁祸" "236283"
 /cast [target=focus,exists,noharm] 嫁祸诀窍;[noharm] 嫁祸诀窍
-END
-VER 3 010000000000004A "小西2222" "645217"
-/目标 火槍隊丶小西
-/协助
-#showtooltip
-/stopcasting
-/stopcasting
-/施放 夺命黑鸦
-END
-VER 3 010000000000004B "布尔维克" "135900"
-/tar 大角
-单BUFF时除了暴击攻速以外都Reroll，双buff除了回能减cd都不reroll
-END
-VER 3 010000000000004C "延迟红" "132094"
-/console SET reducedLagTolerance 1
 END
 VER 3 0100000000000043 "影袭" "136189"
 #showtooltip
 /startattack
 /cast 影袭
 END
-VER 3 010000000000004D "恶魔变形" "INV_Misc_QuestionMark"
-#showtooltip 恶魔变形
-/cast [@cursor] 恶魔变形
+VER 3 010000000000003A "打断" "132298"
+/cast [target=focus,modifier:shift,exists,harm]脚踢;[target=focus,modifier:ctrl,exists,harm]凿击;[target=focus,modifier:alt,exists,harm]致盲;
 END
-VER 3 010000000000004E "战不防" "INV_Misc_QuestionMark"
-#showtooltip
-/swapactionbar 1 2
-/castsequence [actionbar:1]盾牌猛击;
-/castsequence [actionbar:2]雷霆一击;
+VER 3 0100000000000056 "断焦" "132298"
+/click [modifier:shift][modifier:alt][modifier:ctrl]BigFootBarFrame2ActionButton2;BigFootBarFrame2ActionButton3;
 END
-VER 3 010000000000003B "披风" "852267"
-/use 15
-END
-VER 3 0100000000000045 "焦点" "135431"
-/focus [nomodifier,target=mouseover,harm,nodead];[modifier:shift,target=mouseover,noharm]
-END
-VER 3 010000000000003E "电击" "460699"
-/use 终极版侏儒军刀
-/y 对 %t 进行心脏电击,试图将其救起
-/y 不要感谢我,哥做好事从来不留名,就叫我红领巾吧
+VER 3 0100000000000053 "目标" "134400"
+/cleartarget
+/target 艾杜瓦尔
 END
 VER 3 0100000000000039 "目标" "134400"
 /cleartarget
 /target 泥泞蛞蝓
-END
-VER 3 0100000000000049 "目标" "134400"
-/cleartarget
-/target 艾杜瓦尔
-END
-VER 3 010000000000003F "给A" "648632"
-/click RaidFrameConvertToRaidButton
-END
-VER 3 0100000000000044 "脚踢" "132219"
-#showtooltips 脚踢
-/cast  [target=focus,exists,harm] 脚踢;脚踢
-END
-VER 3 0100000000000046 "致盲" "136175"
-#showtooltips 脚踢
-/cast  [target=focus,exists,harm] 致盲;致盲
 END
 VER 3 0100000000000047 "龙" "132365"
 /target 皎白云端翔龙

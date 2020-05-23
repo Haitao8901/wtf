@@ -28,26 +28,6 @@ BFCooldownDB = {
 		["b"] = 0.1,
 	},
 	["spellCache"] = {
-		["英勇投掷"] = {
-			30, -- [1]
-			"spell", -- [2]
-		},
-		["召唤毒皮暴掠龙幼崽"] = {
-			46362, -- [1]
-			"item", -- [2]
-		},
-		["冲锋"] = {
-			28, -- [1]
-			"spell", -- [2]
-		},
-		["英勇飞跃"] = {
-			27, -- [1]
-			"spell", -- [2]
-		},
-		["怒击"] = {
-			35, -- [1]
-			"spell", -- [2]
-		},
 	},
 	["isChangeFont"] = true,
 	["secs"] = {
@@ -62,9 +42,9 @@ BFCooldownDB = {
 		["text"] = true,
 		["alpha"] = 0.65,
 		["width"] = 67,
-		["font"] = "Fonts\\ARKai_T.ttf",
 		["config"] = false,
-		["style"] = 1,
+		["font"] = "Fonts\\ARKai_T.ttf",
+		["time"] = 1.2,
 		["position"] = {
 			["y"] = 78,
 			["p"] = "CENTER",
@@ -73,7 +53,7 @@ BFCooldownDB = {
 		},
 		["g"] = 1,
 		["mode"] = true,
-		["time"] = 1.2,
+		["style"] = 1,
 		["size"] = 30,
 	},
 	["mins"] = {

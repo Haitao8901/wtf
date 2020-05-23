@@ -538,6 +538,86 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "祖达萨",
 	}, -- [19]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 20,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "镍铜矿石",
+				["numItems"] = 100,
+				["isUsable"] = true,
+				["itemLink"] = "|cffffffff|Hitem:152512::::::::120:253::::::|h[镍铜矿石]|h|r",
+				["texture"] = 2037638,
+			}, -- [1]
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "05-23 15:13:16",
+		["result"] = "complete",
+		["where"] = "祖达萨",
+	}, -- [20]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 21,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			[7] = {
+				["name"] = "电镀皮革之握",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:169054::168642::::::120:253::35:7:6536:6578:6579:6544:1532:4786:6514:::|h[电镀皮革之握]|h|r",
+				["enchantment"] = "赞达拉工艺",
+				["isUsable"] = true,
+				["texture"] = 1941311,
+			},
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "05-23 15:15:01",
+		["result"] = "complete",
+		["where"] = "达萨罗",
+	}, -- [21]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 22,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			[7] = {
+				["name"] = "浊蓝玺戒",
+				["numItems"] = 1,
+				["isUsable"] = true,
+				["itemLink"] = "|cffa335ee|Hitem:158318::::::::120:253::35:8:6536:6578:6579:6482:6470:6515:1647:4786:::|h[浊蓝玺戒]|h|r",
+				["enchantment"] = "全能之符",
+				["texture"] = 1716830,
+			},
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "05-23 20:56:51",
+		["result"] = "complete",
+		["where"] = "达萨罗",
+	}, -- [22]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

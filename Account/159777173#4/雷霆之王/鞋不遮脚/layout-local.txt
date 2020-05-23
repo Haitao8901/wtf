@@ -1,11 +1,4 @@
 Version: 1
-Frame: CombuctorFrame1
-FrameLevel: 1
-Anchor: RIGHT
-X: -125
-Y: 7
-W: 412
-H: 470
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: RIGHT
@@ -48,3 +41,10 @@ X: 0
 Y: -20
 W: 165
 H: 262
+Frame: CombuctorFrame1
+FrameLevel: 1
+Anchor: RIGHT
+X: -125
+Y: 7
+W: 412
+H: 470
