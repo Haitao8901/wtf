@@ -17,13 +17,13 @@ END
 VER 3 0100000000000056 "断焦" "132298"
 /click [modifier:shift][modifier:alt][modifier:ctrl]BigFootBarFrame2ActionButton2;BigFootBarFrame2ActionButton3;
 END
-VER 3 0100000000000039 "目标" "134400"
-/cleartarget
-/target 泥泞蛞蝓
-END
 VER 3 0100000000000053 "目标" "134400"
 /cleartarget
 /target 艾杜瓦尔
+END
+VER 3 0100000000000039 "目标" "134400"
+/cleartarget
+/target 泥泞蛞蝓
 END
 VER 3 0100000000000047 "龙" "132365"
 /target 皎白云端翔龙
