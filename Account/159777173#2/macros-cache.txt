@@ -1,9 +1,0 @@
-VER 3 0000000000000163 "坐骑" "413588"
-/click [button:2][modifier:shift]BigFootBarFrame2ActionButton1;[button:1]MountJournalSummonRandomFavoriteButton;
-END
-VER 3 0000000000000164 "焦点" "135431"
-/focus [target=mouseover,harm,nodead]
-END
-VER 3 0000000000000162 "牦牛" "413588"
-/cast [modifier:shift,button:1] 沙石幼龙;[button:1]雄壮远足牦牛
-END

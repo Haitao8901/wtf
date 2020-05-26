@@ -19,14 +19,14 @@ BigFootBot_Version = {
 }
 BigFootBot_Info = nil
 PlayersDB = {
-	["土豆焖鹌鹑:海克泰尔"] = {
-		["race"] = 5,
-		["name"] = "土豆焖鹌鹑",
-		["guild"] = "晨 风",
+	["鞋不遮脚:雷霆之王"] = {
+		["race"] = 22,
+		["name"] = "鞋不遮脚",
+		["guild"] = "凤台鸾阁",
 		["level"] = 120,
-		["gender"] = 3,
-		["class"] = 10,
-		["server"] = "海克泰尔",
+		["gender"] = 2,
+		["class"] = 9,
+		["server"] = "雷霆之王",
 	},
 }
 UtilDB = {

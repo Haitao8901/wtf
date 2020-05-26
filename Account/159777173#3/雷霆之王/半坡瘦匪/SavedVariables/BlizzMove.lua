@@ -93,14 +93,14 @@ BlizzMoveDB = {
 	},
 	["PVEFrame"] = {
 	},
-	["MerchantFrame"] = {
+	["AuctionHouseFrame"] = {
+		["save"] = true,
 	},
 	["VideoOptionsFrame"] = {
 	},
 	["EncounterJournal"] = {
 	},
-	["AuctionHouseFrame"] = {
-		["save"] = true,
+	["MerchantFrame"] = {
 	},
 	["HelpFrame"] = {
 	},

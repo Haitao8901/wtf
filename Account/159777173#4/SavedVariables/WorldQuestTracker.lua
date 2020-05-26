@@ -36,9 +36,9 @@ WQTrackerDB = {
 			},
 			["rarescan"] = {
 				["recently_killed"] = {
-					["Player-726-0536E38D"] = {
-					},
 					["Player-726-053B0B10"] = {
+					},
+					["Player-726-0536E38D"] = {
 					},
 				},
 			},

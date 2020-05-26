@@ -316,9 +316,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -343,9 +343,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -370,9 +370,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -397,9 +397,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -424,9 +424,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -451,9 +451,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -1261,9 +1261,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "魔石保险箱",
 				["numItems"] = 1,
-				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:121331::::::::120:260::::::|h[魔石保险箱]|h|r",
 				["enchantment"] = "开锁",
+				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -2088,9 +2088,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -2115,9 +2115,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -6351,6 +6351,207 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "奥格瑞玛的幻象",
 	}, -- [208]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 209,
+		["playerItems"] = {
+			{
+				["name"] = "灵核巨杖",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:124381::::::::120:260::6:2:1799:1478:::|h[灵核巨杖]|h|r",
+				["texture"] = 1101630,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-27 01:11:58",
+		["where"] = "地狱火堡垒",
+		["result"] = "complete",
+	}, -- [209]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 210,
+		["playerItems"] = {
+			{
+				["name"] = "魔法秘会手套",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:124154::::::::120:260::6:2:1799:1478:::|h[魔法秘会手套]|h|r",
+				["texture"] = 1085680,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-27 01:18:21",
+		["where"] = "地狱火堡垒",
+		["result"] = "complete",
+	}, -- [210]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 211,
+		["playerItems"] = {
+			{
+				["name"] = "钢铁召唤者的护腿",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:124164::::::::120:260::6:2:1799:1478:::|h[钢铁召唤者的护腿]|h|r",
+				["texture"] = 1085682,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-27 01:23:02",
+		["where"] = "地狱火堡垒",
+		["result"] = "complete",
+	}, -- [211]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 212,
+		["playerItems"] = {
+		},
+		["reason"] = "other",
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["who"] = "维勒布洛",
+		["when"] = "05-27 01:25:27",
+		["where"] = "地狱火堡垒",
+		["result"] = "cancelled",
+		["toofar"] = "no",
+	}, -- [212]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 213,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "被咬过的堕夜精灵马裤",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140862::::::::120:260::6:4:3445:1482:5850:3336:::|h[被咬过的堕夜精灵马裤]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1335527,
+			}, -- [1]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-27 01:35:02",
+		["where"] = "暗夜要塞",
+		["result"] = "complete",
+	}, -- [213]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 214,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "邪恶战术腰带",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140859::::::::120:260::6:3:3518:1484:3528:::|h[邪恶战术腰带]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1309128,
+			}, -- [1]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-27 01:46:45",
+		["where"] = "暗夜要塞",
+		["result"] = "complete",
+	}, -- [214]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 215,
+		["playerItems"] = {
+			{
+				["name"] = "编织触须护腕",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140886::::::::120:260::6:3:3518:1484:3528:::|h[编织触须护腕]|h|r",
+				["texture"] = 1311200,
+			}, -- [1]
+		},
+		["targetItems"] = {
+			{
+				["name"] = "栽培长裤",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140908::::::::120:260::6:3:3518:1484:3528:::|h[栽培长裤]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1337286,
+			}, -- [1]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-27 01:53:33",
+		["where"] = "暗夜要塞",
+		["result"] = "complete",
+	}, -- [215]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 216,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "破天护肩",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140864::::::::120:260::6:4:3518:1484:5850:3336:::|h[破天护肩]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1408498,
+			}, -- [1]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-27 01:56:22",
+		["where"] = "暗夜要塞",
+		["result"] = "complete",
+	}, -- [216]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil
