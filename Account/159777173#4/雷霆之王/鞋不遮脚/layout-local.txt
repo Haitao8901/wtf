@@ -27,13 +27,6 @@ X: -260
 Y: 270
 W: 302
 H: 119
-Frame: CombuctorFrame1
-FrameLevel: 1
-Anchor: RIGHT
-X: -125
-Y: 7
-W: 108
-H: 166
 Frame: CombuctorFrame2
 FrameLevel: 1
 Anchor: LEFT
@@ -48,3 +41,10 @@ X: 0
 Y: -20
 W: 165
 H: 262
+Frame: CombuctorFrame1
+FrameLevel: 1
+Anchor: RIGHT
+X: -125
+Y: 7
+W: 412
+H: 470

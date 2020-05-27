@@ -10,6 +10,8 @@ BlizzMoveDB = {
 	},
 	["GameMenuFrame"] = {
 	},
+	["EncounterJournal"] = {
+	},
 	["CharacterFrame"] = {
 	},
 	["MailFrame"] = {
@@ -28,10 +30,9 @@ BlizzMoveDB = {
 	},
 	["VideoOptionsFrame"] = {
 	},
-	["GuildBankFrame"] = {
-		["save"] = true,
+	["BankFrame"] = {
 	},
-	["LFDParentFrame"] = {
+	["MerchantFrame"] = {
 	},
 	["PVEFrame"] = {
 	},
@@ -50,18 +51,19 @@ BlizzMoveDB = {
 		["xOfs"] = -148.0958099365234,
 		["point"] = "CENTER",
 	},
-	["BankFrame"] = {
+	["LootFrame"] = {
 	},
 	["PlayerTalentFrame"] = {
 	},
-	["LootFrame"] = {
+	["GuildBankFrame"] = {
+		["save"] = true,
 	},
 	["SpellBookFrame"] = {
 	},
 	["GossipFrame"] = {
 	},
 	["version"] = "201109013",
-	["MerchantFrame"] = {
+	["LFDParentFrame"] = {
 	},
 	["QuestFrame"] = {
 	},

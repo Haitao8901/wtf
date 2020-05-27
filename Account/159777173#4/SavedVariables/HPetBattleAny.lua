@@ -11,10 +11,10 @@ HPetSaves = {
 	["EnemyAbility"] = true,
 	["AbScale"] = 0.8,
 	["ShowHideID"] = true,
-	["AutoSaveAbility"] = true,
+	["Tooltip"] = true,
 	["PetGreedInfo"] = true,
 	["HighGlow"] = true,
-	["Tooltip"] = true,
+	["AutoSaveAbility"] = true,
 	["BreedIDStyle"] = true,
 	["AbPoint"] = {
 	},

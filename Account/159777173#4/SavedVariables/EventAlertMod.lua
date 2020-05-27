@@ -33,9 +33,9 @@ EA_Config = {
 	["ShowAuraValueWhenOver"] = 1000,
 	["AllowESC"] = false,
 	["TimerFontSize"] = 26,
-	["SNameFontSize"] = 12,
-	["ShowFrame"] = true,
 	["LockFrame"] = false,
+	["ShowFrame"] = true,
+	["SNameFontSize"] = 12,
 	["Target_MyDebuff"] = true,
 	["HUNTER_GlowPetFocus"] = 50,
 	["AllowAltAlerts"] = true,
@@ -83,10 +83,10 @@ EA_Items = {
 		[12051] = {
 			["enable"] = true,
 		},
-		[87023] = {
+		[48108] = {
 			["enable"] = true,
 		},
-		[48108] = {
+		[87023] = {
 			["enable"] = true,
 		},
 		[36032] = {
@@ -251,7 +251,7 @@ EA_Items = {
 			["overgrow"] = 6,
 			["self"] = true,
 		},
-		[23920] = {
+		[184364] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -259,7 +259,7 @@ EA_Items = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[184364] = {
+		[23920] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -310,31 +310,31 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[12323] = {
+		[871] = {
 			["enable"] = true,
-			["self"] = true,
+			["self"] = false,
 		},
 		[1715] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[208086] = {
+		[113344] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[871] = {
+		[12323] = {
 			["enable"] = true,
-			["self"] = false,
+			["self"] = true,
 		},
 		[215537] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[118038] = {
+		[132169] = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[113344] = {
+		[772] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -362,11 +362,11 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[772] = {
+		[208086] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[132169] = {
+		[118038] = {
 			["enable"] = true,
 			["self"] = false,
 		},

@@ -55,8 +55,8 @@ BigFoot_Config = {
 	["ActionButton"] = {
 		["ShowCenter"] = 0,
 		["EnableCooldownCount2"] = 1,
-		["ShineType"] = "标准",
 		["ToggleBar"] = 0,
+		["ShineType"] = "标准",
 		["checkedVersion"] = "808",
 	},
 	["SellerHelper"] = {
@@ -64,9 +64,9 @@ BigFoot_Config = {
 		["ARAccept"] = 1,
 		["checkedVersion"] = "807",
 		["SellAccept"] = 1,
+		["ShowTradeAnnounce"] = 1,
 		["EnableAutoRecharge"] = 1,
 		["EnableSellerHelper"] = 1,
-		["ShowTradeAnnounce"] = 1,
 	},
 	["BF_System"] = {
 		["checkedVersion"] = "808",
@@ -183,12 +183,12 @@ BigFoot_Config = {
 		["BigFootTooltipItemLevel"] = "显示",
 		["BigFootTooltipPosition"] = "无",
 		["EnableBFTooltip"] = 1,
-		["EnableNewTypeBFTooltip"] = 0,
+		["checkedVersion"] = "808",
 		["BigFootTooltipGuildRank"] = "隐藏",
 		["BigFootTooltipToT"] = "显示",
 		["BigFootTooltipTalent"] = "显示",
 		["BigFootTooltipPositionX"] = -20,
-		["checkedVersion"] = "808",
+		["EnableNewTypeBFTooltip"] = 0,
 	},
 	["CombatIndicator"] = {
 		["EnableCombatLeave"] = 1,
@@ -379,5 +379,6 @@ BF_LogonInfo = {
 	1590256354, -- [30]
 	1590483185, -- [31]
 	1590509582, -- [32]
+	1590595915, -- [33]
 }
 ModelChangeVariable = nil

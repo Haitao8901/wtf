@@ -13,6 +13,25 @@ OmniCDDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["Party"] = {
+				["position"] = {
+					["arena"] = {
+						["noTheme"] = true,
+						["attach"] = "TOPLEFT",
+						["preset"] = "TOPLEFT",
+						["anchor"] = "TOPRIGHT",
+					},
+				},
+				["spells"] = {
+					["spell2139"] = true,
+					["spell31661"] = true,
+				},
+				["visibility"] = {
+					["scenario"] = true,
+					["raid"] = true,
+					["none"] = true,
+				},
+			},
 		},
 	},
 }

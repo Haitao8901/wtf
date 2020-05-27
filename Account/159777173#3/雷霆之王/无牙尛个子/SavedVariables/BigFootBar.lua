@@ -6,8 +6,8 @@ BigFootBar_Info = {
 			["arrangement"] = "horizontal",
 			["region"] = {
 				["top"] = 163,
-				["right"] = 1324,
-				["left"] = 1284,
+				["right"] = 1358,
+				["left"] = 1318,
 				["bottom"] = 123,
 			},
 		},
