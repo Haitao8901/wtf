@@ -15,8 +15,8 @@ SkadaDB = {
 			},
 			["modeclicks"] = {
 				["敌对伤害"] = 2,
-				["伤害"] = 8,
-				["敌对受到伤害"] = 2,
+				["伤害"] = 9,
+				["敌对受到伤害"] = 3,
 				["受到伤害"] = 3,
 			},
 			["windows"] = {
@@ -39,14 +39,14 @@ SkadaDB = {
 				["channel"] = "party",
 			},
 			["versions"] = {
-				["1.6.7"] = true,
-				["1.6.4"] = true,
 				["1.6.3"] = true,
+				["1.6.4"] = true,
+				["1.6.7"] = true,
 			},
 			["setstokeep"] = 20,
 			["reset"] = {
-				["instance"] = 2,
 				["leave"] = 3,
+				["instance"] = 2,
 			},
 		},
 	},
