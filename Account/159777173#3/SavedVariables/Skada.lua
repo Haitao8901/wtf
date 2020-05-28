@@ -22,7 +22,7 @@ SkadaDB = {
 			["windows"] = {
 				{
 					["set"] = "total",
-					["y"] = 71.24150848388672,
+					["y"] = 71.24153137207031,
 					["point"] = "BOTTOMRIGHT",
 					["mode"] = "伤害",
 					["barwidth"] = 307.9739990234375,
@@ -32,15 +32,21 @@ SkadaDB = {
 					["x"] = -76.94873046875,
 				}, -- [1]
 			},
+			["report"] = {
+				["number"] = 5,
+				["set"] = "total",
+				["mode"] = "伤害",
+				["channel"] = "party",
+			},
 			["versions"] = {
-				["1.6.3"] = true,
-				["1.6.4"] = true,
 				["1.6.7"] = true,
+				["1.6.4"] = true,
+				["1.6.3"] = true,
 			},
 			["setstokeep"] = 20,
 			["reset"] = {
-				["leave"] = 3,
 				["instance"] = 2,
+				["leave"] = 3,
 			},
 		},
 	},

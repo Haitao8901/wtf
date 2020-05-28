@@ -23,8 +23,13 @@ OmniCDDB = {
 					},
 				},
 				["spells"] = {
-					["spell2139"] = true,
+					["spell34477"] = true,
+					["spell203340"] = false,
 					["spell31661"] = true,
+					["spell2139"] = true,
+					["spell110960"] = true,
+					["spell147362"] = true,
+					["spell19577"] = true,
 				},
 				["visibility"] = {
 					["scenario"] = true,

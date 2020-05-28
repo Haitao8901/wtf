@@ -10,10 +10,10 @@ BF_Frames_Config = {
 		},
 	},
 	["TrinketMenu_MainFrame"] = {
-		["offX"] = 77.19186401367188,
+		["offX"] = 94.62110900878906,
 		["point"] = "BOTTOM",
 		["region"] = "UIParent",
-		["offY"] = 104.7300338745117,
+		["offY"] = 105.6014785766602,
 		["refPoint"] = "BOTTOM",
 	},
 }
@@ -29,6 +29,6 @@ BigFoot_Character = {
 	["Realm"] = "雷霆之王",
 }
 BigFoot_SysTemSetTab = {
-	["BigFoot_LoadBefore"] = 1,
 	["UtilsPatchVersion"] = "2020-03-26",
+	["BigFoot_LoadBefore"] = 1,
 }
