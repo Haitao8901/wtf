@@ -15,7 +15,7 @@ MADB = {
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
 						0, -- [4]
-						160, -- [5]
+						194.9999847412109, -- [5]
 					},
 					["name"] = "CastingBarFrame",
 					["pos"] = {
