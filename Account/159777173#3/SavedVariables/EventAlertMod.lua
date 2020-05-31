@@ -35,7 +35,7 @@ EA_Config = {
 	["TimerFontSize"] = 26,
 	["OPTION_ICON"] = false,
 	["ShowFrame"] = true,
-	["SNameFontSize"] = 12,
+	["LockFrame"] = false,
 	["AlertSound"] = 568154,
 	["HUNTER_GlowPetFocus"] = 50,
 	["AllowAltAlerts"] = true,
@@ -47,7 +47,7 @@ EA_Config = {
 	["EA_SPELL_ITEM"] = {
 	},
 	["Target_MyDebuff"] = true,
-	["LockFrame"] = false,
+	["SNameFontSize"] = 12,
 	["SCD_RemoveWhenCooldown"] = true,
 	["SCD_GlowWhenUsable"] = true,
 }
@@ -84,16 +84,16 @@ EA_Items = {
 			["enable"] = false,
 		},
 		[193530] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[186257] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[70728] = {
 			["enable"] = false,
 		},
 		[186265] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[61684] = {
 			["enable"] = false,
@@ -105,121 +105,121 @@ EA_Items = {
 			["enable"] = false,
 		},
 		[217200] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 	},
 	["OTHER"] = {
 		[47788] = {
-			["enable"] = true,
+			["enable"] = false,
 			["name"] = "守護聖靈",
 			["self"] = false,
 		},
 		[64901] = {
-			["enable"] = true,
+			["enable"] = false,
 			["name"] = "希望象徵",
 		},
 		[228600] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = false,
 		},
 		[29166] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[5211] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = false,
 		},
 		[102342] = {
-			["enable"] = true,
+			["enable"] = false,
 			["name"] = "鐵樹皮術",
 		},
 		[1022] = {
-			["enable"] = true,
+			["enable"] = false,
 			["name"] = "保護祝福",
 			["self"] = false,
 		},
 		[127797] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = false,
 		},
 		[53563] = {
-			["enable"] = true,
+			["enable"] = false,
 			["name"] = "聖光信標",
 		},
 		[33786] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = false,
 		},
 		[28271] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = false,
 		},
 		[2825] = {
-			["enable"] = true,
+			["enable"] = false,
 			["name"] = "嗜血",
 		},
 		[10060] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[6940] = {
-			["enable"] = true,
+			["enable"] = false,
 			["name"] = "犧牲祝福",
 			["self"] = false,
 		},
 		[81782] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[163505] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = false,
 		},
 		[33206] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[48707] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = false,
 		},
 		[32182] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[82691] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = false,
 		},
 		[98007] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[45438] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = false,
 		},
 		[146555] = {
-			["enable"] = true,
+			["enable"] = false,
 			["name"] = "憤怒之鼓",
 			["self"] = false,
 		},
 		[80353] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[90355] = {
-			["enable"] = true,
+			["enable"] = false,
 		},
 		[186265] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = false,
 		},
 		[159234] = {
-			["enable"] = true,
+			["enable"] = false,
 			["self"] = true,
 		},
 		[1850] = {
-			["enable"] = true,
+			["enable"] = false,
 			["name"] = "突進",
 			["self"] = false,
 		},
 		[64844] = {
-			["enable"] = true,
+			["enable"] = false,
 			["name"] = "神聖禮頌",
 		},
 	},
@@ -255,7 +255,7 @@ EA_Items = {
 			["overgrow"] = 6,
 			["self"] = true,
 		},
-		[184364] = {
+		[23920] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -263,7 +263,7 @@ EA_Items = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[23920] = {
+		[184364] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -320,9 +320,9 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[871] = {
+		[12323] = {
 			["enable"] = true,
-			["self"] = false,
+			["self"] = true,
 		},
 		[1715] = {
 			["enable"] = true,
@@ -332,15 +332,15 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[12323] = {
+		[871] = {
 			["enable"] = true,
-			["self"] = true,
+			["self"] = false,
 		},
 		[215537] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[132169] = {
+		[118038] = {
 			["enable"] = true,
 			["self"] = false,
 		},
@@ -376,7 +376,7 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[118038] = {
+		[132169] = {
 			["enable"] = true,
 			["self"] = false,
 		},

@@ -6663,9 +6663,9 @@ TradeLog_TradesHistory = {
 		["targetItems"] = {
 		},
 		["player"] = "洛克达姆",
+		["where"] = "麦卡贡行动",
 		["who"] = "Sarawst",
 		["when"] = "05-29 23:30:33",
-		["where"] = "麦卡贡行动",
 		["result"] = "cancelled",
 	}, -- [221]
 	{
@@ -6684,8 +6684,8 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "Sarawst",
 		["when"] = "05-30 00:07:49",
-		["where"] = "安托鲁斯，燃烧王座",
 		["result"] = "complete",
+		["where"] = "安托鲁斯，燃烧王座",
 	}, -- [222]
 	{
 		["targetMoney"] = 0,
@@ -6693,8 +6693,8 @@ TradeLog_TradesHistory = {
 		["id"] = 223,
 		["playerItems"] = {
 			{
-				["name"] = "符文之缚外衣",
 				["numItems"] = 1,
+				["name"] = "符文之缚外衣",
 				["itemLink"] = "|cffa335ee|Hitem:152140::::::::120:260::4:4:3613:1457:5850:3336:::|h[符文之缚外衣]|h|r",
 				["texture"] = 1560907,
 			}, -- [1]
@@ -6710,8 +6710,8 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "维勒布洛",
 		["when"] = "05-30 00:08:08",
-		["where"] = "安托鲁斯，燃烧王座",
 		["result"] = "complete",
+		["where"] = "安托鲁斯，燃烧王座",
 	}, -- [223]
 	{
 		["targetMoney"] = 0,
@@ -6736,8 +6736,8 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "Sarawst",
 		["when"] = "05-30 00:23:02",
-		["where"] = "雷电王座",
 		["result"] = "complete",
+		["where"] = "雷电王座",
 	}, -- [224]
 	{
 		["targetMoney"] = 0,
@@ -6749,9 +6749,9 @@ TradeLog_TradesHistory = {
 		["targetItems"] = {
 		},
 		["player"] = "洛克达姆",
+		["where"] = "雷电王座",
 		["who"] = "维勒布洛",
 		["when"] = "05-30 00:23:04",
-		["where"] = "雷电王座",
 		["result"] = "cancelled",
 	}, -- [225]
 	{
@@ -6777,8 +6777,8 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "Sarawst",
 		["when"] = "05-30 00:34:54",
-		["where"] = "雷电王座",
 		["result"] = "complete",
+		["where"] = "雷电王座",
 	}, -- [226]
 	{
 		["targetMoney"] = 0,
@@ -6803,8 +6803,8 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "Sarawst",
 		["when"] = "05-30 00:40:09",
-		["where"] = "雷电王座",
 		["result"] = "complete",
+		["where"] = "雷电王座",
 	}, -- [227]
 	{
 		["targetMoney"] = 0,
@@ -6829,8 +6829,8 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "维勒布洛",
 		["when"] = "05-30 00:42:45",
-		["where"] = "雷电王座",
 		["result"] = "complete",
+		["where"] = "雷电王座",
 	}, -- [228]
 	{
 		["targetMoney"] = 0,
@@ -6838,8 +6838,8 @@ TradeLog_TradesHistory = {
 		["id"] = 229,
 		["playerItems"] = {
 			{
-				["name"] = "灾难之刃",
 				["numItems"] = 1,
+				["name"] = "灾难之刃",
 				["itemLink"] = "|cffa335ee|Hitem:124389::::::::120:260::6:2:1799:1478:::|h[灾难之刃]|h|r",
 				["texture"] = 1094536,
 			}, -- [1]
@@ -6854,9 +6854,236 @@ TradeLog_TradesHistory = {
 		},
 		["who"] = "Sarawst",
 		["when"] = "05-30 01:10:02",
-		["where"] = "地狱火堡垒",
 		["result"] = "complete",
+		["where"] = "地狱火堡垒",
 	}, -- [229]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 230,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "碎塔者胸甲",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:147027::::::::120:260::6:3:3563:1498:3528:::|h[碎塔者胸甲]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1538695,
+			}, -- [1]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-31 00:44:39",
+		["result"] = "complete",
+		["where"] = "萨格拉斯之墓",
+	}, -- [230]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 231,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "月火扼杀者",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:147031::::::::120:260::6:3:3563:1498:3528:::|h[月火扼杀者]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1544253,
+			}, -- [1]
+			{
+				["name"] = "月怒头盔",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:147033::::::::120:260::6:3:3563:1498:3528:::|h[月怒头盔]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1611386,
+			}, -- [2]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-31 00:54:57",
+		["result"] = "complete",
+		["where"] = "萨格拉斯之墓",
+	}, -- [231]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 232,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "无尽联合护腰",
+				["itemLink"] = "|cffa335ee|Hitem:147056::::::::120:260::6:5:3563:1808:40:1498:3528:::|h[无尽联合护腰]|h|r",
+				["texture"] = 1551571,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "Sarawst",
+		["when"] = "05-31 00:55:10",
+		["result"] = "complete",
+		["where"] = "萨格拉斯之墓",
+	}, -- [232]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 233,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "恶毒萦绕手甲",
+				["itemLink"] = "|cffa335ee|Hitem:147047::::::::120:260::6:3:3563:1498:3528:::|h[恶毒萦绕手甲]|h|r",
+				["texture"] = 1529809,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "Sarawst",
+		["when"] = "05-31 00:59:30",
+		["result"] = "complete",
+		["where"] = "萨格拉斯之墓",
+	}, -- [233]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 234,
+		["playerItems"] = {
+		},
+		["reason"] = "selfrunaway",
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["where"] = "萨格拉斯之墓",
+		["who"] = "维勒布洛",
+		["when"] = "05-31 01:02:04",
+		["result"] = "cancelled",
+	}, -- [234]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 235,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "镶筋护腕",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:147041::::::::120:260::6:3:3563:1498:3528:::|h[镶筋护腕]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1611383,
+			}, -- [1]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-31 01:02:12",
+		["result"] = "complete",
+		["where"] = "萨格拉斯之墓",
+	}, -- [235]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 236,
+		["playerItems"] = {
+		},
+		["reason"] = "selfrunaway",
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["where"] = "萨格拉斯之墓",
+		["who"] = "Sarawst",
+		["when"] = "05-31 01:02:47",
+		["result"] = "cancelled",
+	}, -- [236]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 237,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "魔力风暴手套",
+				["itemLink"] = "|cffa335ee|Hitem:147146::::::::120:260::6:3:3563:1498:3528:::|h[魔力风暴手套]|h|r",
+				["texture"] = 1581053,
+			}, -- [1]
+		},
+		["reason"] = "self",
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["where"] = "萨格拉斯之墓",
+		["who"] = "维勒布洛",
+		["when"] = "05-31 01:02:57",
+		["result"] = "cancelled",
+	}, -- [237]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 238,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "坚定虔诚外套",
+				["numItems"] = 1,
+				["itemLink"] = "|cffa335ee|Hitem:140865::::::::120:260::6:3:3445:1482:3528:::|h[坚定虔诚外套]|h|r",
+				["isUsable"] = true,
+				["texture"] = 1408494,
+			}, -- [1]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "维勒布洛",
+		["when"] = "05-31 01:28:43",
+		["result"] = "complete",
+		["where"] = "暗夜要塞",
+	}, -- [238]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 239,
+		["playerItems"] = {
+		},
+		["reason"] = "self",
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["where"] = "暗夜要塞",
+		["who"] = "维勒布洛",
+		["when"] = "05-31 01:37:55",
+		["result"] = "cancelled",
+	}, -- [239]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

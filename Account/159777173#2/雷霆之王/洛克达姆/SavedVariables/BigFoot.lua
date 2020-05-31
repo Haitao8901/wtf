@@ -9,11 +9,11 @@ BF_Frames_Config = {
 	},
 	["CoolLine"] = {
 		["Pos"] = {
-			"LEFT", -- [1]
+			"BOTTOMRIGHT", -- [1]
 			"UIParent", -- [2]
-			"LEFT", -- [3]
-			144.6232757568359, -- [4]
-			-115.3805770874023, -- [5]
+			"BOTTOMRIGHT", -- [3]
+			-438.6844177246094, -- [4]
+			28.36649703979492, -- [5]
 		},
 	},
 	["BFocusTargetFrame"] = {

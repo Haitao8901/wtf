@@ -7,7 +7,7 @@ BigFoot_Config = {
 	},
 	["BUnitFrame"] = {
 		["EnableEasyFocusFrame"] = 0,
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 		["EnableTargetTarget"] = 0,
 		["EnableBUnitFrame"] = 1,
 		["EnableTargetTargetTarget"] = 0,
@@ -55,9 +55,9 @@ BigFoot_Config = {
 	["ActionButton"] = {
 		["ShowCenter"] = 0,
 		["EnableCooldownCount2"] = 1,
-		["ToggleBar"] = 0,
 		["ShineType"] = "标准",
-		["checkedVersion"] = "808",
+		["ToggleBar"] = 0,
+		["checkedVersion"] = "809",
 	},
 	["SellerHelper"] = {
 		["AutoSellPoor"] = 1,
@@ -69,13 +69,13 @@ BigFoot_Config = {
 		["EnableSellerHelper"] = 1,
 	},
 	["BF_System"] = {
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 		["EnableLoadLater"] = 0,
 	},
 	["BagManagement"] = {
 		["EnabelOpenAllBagsOnBank"] = 1,
 		["EnabelOpenAllBagsOnTrading"] = 1,
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 	},
 	["BagIntegration"] = {
 		["Enable_Combuctor"] = 1,
@@ -91,15 +91,15 @@ BigFoot_Config = {
 		["EnableTeamNoticeRaid"] = 1,
 	},
 	["MiDKP"] = {
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 		["MiDKPEnable"] = 0,
 	},
 	["ArenaMod"] = {
 		["EnableProximo"] = 0,
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 		["EnableGladiatorlosSA"] = 0,
 	},
-	["BIGFOOT_VERSION_NEW"] = "zhCN8.3.0.808",
+	["BIGFOOT_VERSION_NEW"] = "zhCN8.3.0.809",
 	["BuffMaster"] = {
 		["EnablePartyShortBuffer"] = 1,
 		["EnablePartyBuffer"] = 1,
@@ -113,13 +113,13 @@ BigFoot_Config = {
 	},
 	["ActionBar"] = {
 		["EnableDistanceAlert"] = 1,
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 		["Enable_BigFootBar"] = 1,
 		["HideTab"] = 0,
 		["HideGrid"] = 1,
 	},
 	["MarkAssistant"] = {
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 		["EnablewMarker"] = 0,
 	},
 	["BigFootGadget"] = {
@@ -139,12 +139,12 @@ BigFoot_Config = {
 	},
 	["TrinketMenu"] = {
 		["EnableTrinketMenu"] = 1,
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 	},
 	["BigFootClassMod"] = {
 		["EnableAttackTimer"] = 1,
 		["EnableNewPowerBar"] = 0,
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 	},
 	["BFMount"] = {
 		["EnableHPetBattleAny"] = 1,
@@ -174,7 +174,7 @@ BigFoot_Config = {
 	["SpellMonitor"] = {
 		["EnableEventAlert"] = 1,
 		["EnableBigDebuffs"] = 1,
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 	},
 	["BFTT"] = {
 		["BigFootTooltipFade"] = "是",
@@ -183,17 +183,17 @@ BigFoot_Config = {
 		["BigFootTooltipItemLevel"] = "显示",
 		["BigFootTooltipPosition"] = "无",
 		["EnableBFTooltip"] = 1,
-		["checkedVersion"] = "808",
+		["EnableNewTypeBFTooltip"] = 0,
 		["BigFootTooltipGuildRank"] = "隐藏",
 		["BigFootTooltipToT"] = "显示",
 		["BigFootTooltipTalent"] = "显示",
 		["BigFootTooltipPositionX"] = -20,
-		["EnableNewTypeBFTooltip"] = 0,
+		["checkedVersion"] = "808",
 	},
 	["CombatIndicator"] = {
 		["EnableCombatLeave"] = 1,
 		["EnableCombatIndicator"] = 1,
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 		["EnableShowSpell"] = 1,
 		["EnableSpell"] = 1,
 		["EnableDCT"] = 0,
@@ -205,7 +205,7 @@ BigFoot_Config = {
 	},
 	["ChatEnhancement"] = {
 		["EnableWhisperPop"] = 1,
-		["checkedVersion"] = "808",
+		["checkedVersion"] = "809",
 		["EnableItemLinkLevel"] = 1,
 		["EnableAchievementCompare"] = 1,
 		["EnablePlayerLink"] = 1,
@@ -272,7 +272,6 @@ BigFoot_Error = {
 			["trace"] = "[string \"@Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua\"]:83: in function <Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua:77>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"safecall Dispatcher[1]\"]:9: in function <[string \"safecall Dispatcher[1]\"]:5>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\LibClass-2.0\\Class-2.0.lua\"]:156: in function `Fire'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\NetEaseGUI-2.0\\Embed\\Blocker.lua\"]:43: in function `UpdateBlockers'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua\"]:23: in function <Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua:21>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\LibModule-1.0\\LibModule-1.0.lua\"]:131: in function `ShowModule'\n[string \"@Interface\\AddOns\\MeetingStone\\Main.lua\"]:88: in function `Toggle'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\DataBroker.lua\"]:48: in function <Interface\\AddOns\\MeetingStone\\Module\\DataBroker.lua:43>\n",
 		},
 	},
-	["debug_Mod"] = false,
 	["zhCN8.3.0.802"] = {
 		["3362174060392526504510479001973711176174"] = {
 			["combat"] = false,
@@ -295,6 +294,20 @@ BigFoot_Error = {
 			["file"] = "Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua",
 			["line"] = "83",
 			["level"] = 100,
+		},
+	},
+	["debug_Mod"] = false,
+	["zhCN8.3.0.809"] = {
+		["951946841417121185141765963682827517584"] = {
+			["combat"] = true,
+			["zone"] = "黑海岸",
+			["class"] = "猎人",
+			["desc"] = "SetPortraitToTexture(): Texture is not 64x64 pixels: FileData ID 611425.\n",
+			["race"] = "玛格汉兽人",
+			["level"] = 120,
+			["trace"] = "[string \"=[C]\"]: in function `SetPortraitToTexture'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:1688: in function `UNIT_AURA'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:1843: in function `?'\n[string \"@Interface\\AddOns\\!!!Libs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:119: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\!!!Libs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:29: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n[string \"@Interface\\AddOns\\!!!Libs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface\\AddOns\\!!!Libs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua\"]:120: in function <...ce\\AddOns\\!!!Libs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n[string \"=[C]\"]: in function `TargetNearestEnemy'\n[string \"TARGETNEARESTENEMY\"]:2: in function <[string \"TARGETNEARESTENEMY\"]:1>\n",
+			["line"] = "1688",
+			["file"] = "Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua",
 		},
 	},
 	["zhCN8.3.0.808"] = {
@@ -381,5 +394,7 @@ BF_LogonInfo = {
 	1590509582, -- [32]
 	1590595915, -- [33]
 	1590741331, -- [34]
+	1590826757, -- [35]
+	1590899233, -- [36]
 }
 ModelChangeVariable = nil

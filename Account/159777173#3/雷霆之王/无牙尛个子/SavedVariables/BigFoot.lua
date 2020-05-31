@@ -10,10 +10,10 @@ BF_Frames_Config = {
 		},
 	},
 	["TrinketMenu_MainFrame"] = {
-		["offX"] = 94.62110900878906,
+		["offX"] = 106.821647644043,
 		["point"] = "BOTTOM",
 		["region"] = "UIParent",
-		["offY"] = 105.6014785766602,
+		["offY"] = 103.8585968017578,
 		["refPoint"] = "BOTTOM",
 	},
 }

@@ -6,10 +6,10 @@ BigFootBar_Info = {
 			["buttonCount"] = 0,
 			["arrangement"] = "vertical",
 			["region"] = {
-				["top"] = 103,
-				["right"] = 1556,
-				["left"] = 1516,
-				["bottom"] = 63,
+				["top"] = 105,
+				["right"] = 1564,
+				["left"] = 1524,
+				["bottom"] = 65,
 			},
 		},
 		["BigFootBarFrame1"] = {

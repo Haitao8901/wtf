@@ -195,6 +195,7 @@ BlizzMoveDB = {
 		["relativePoint"] = "TOPLEFT",
 		["yOfs"] = -169.1590270996094,
 		["xOfs"] = 172.8627014160156,
+		["save"] = true,
 		["point"] = "TOPLEFT",
 	},
 	["ItemSocketingFrame"] = {

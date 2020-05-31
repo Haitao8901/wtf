@@ -6,6 +6,7 @@ CorruptionTooltipsDB = {
 	},
 	["profiles"] = {
 		["洛克达姆 - 雷霆之王"] = {
+			["showlevel"] = true,
 		},
 		["无牙尛个子 - 雷霆之王"] = {
 		},
