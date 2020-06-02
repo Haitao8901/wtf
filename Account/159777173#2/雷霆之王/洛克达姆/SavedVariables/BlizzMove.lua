@@ -27,11 +27,11 @@ BlizzMoveDB = {
 			["yOfs"] = -116.0000076293945,
 			["xOfs"] = 16,
 		},
-		["relativePoint"] = "TOP",
-		["yOfs"] = -135.1721038818359,
-		["xOfs"] = 216.3679962158203,
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -156.9585723876953,
+		["xOfs"] = 233.8649597167969,
 		["scale"] = 0.9999999761581421,
-		["point"] = "TOP",
+		["point"] = "TOPLEFT",
 	},
 	["MailFrame"] = {
 	},
@@ -105,10 +105,10 @@ BlizzMoveDB = {
 			["yOfs"] = 0,
 			["xOfs"] = 0,
 		},
-		["relativePoint"] = "BOTTOM",
-		["yOfs"] = 123.7473907470703,
-		["xOfs"] = -333.2788391113281,
-		["point"] = "BOTTOM",
+		["relativePoint"] = "BOTTOMLEFT",
+		["yOfs"] = 94.11775207519531,
+		["xOfs"] = 50.54467391967773,
+		["point"] = "BOTTOMLEFT",
 	},
 	["version"] = "201109013",
 	["QuestFrame"] = {
@@ -215,7 +215,7 @@ BlizzMoveDB = {
 	["KeyBindingFrame"] = {
 		["scale"] = 1.000000023841858,
 	},
-	["AzeriteEmpoweredItemUI"] = {
+	["LFDParentFrame"] = {
 	},
 	["ScrappingMachineFrame"] = {
 		["default"] = {
@@ -342,7 +342,7 @@ BlizzMoveDB = {
 		["point"] = "LEFT",
 		["save"] = true,
 	},
-	["LFDParentFrame"] = {
+	["AzeriteEmpoweredItemUI"] = {
 	},
 	["HelpFrame"] = {
 	},

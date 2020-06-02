@@ -60,7 +60,7 @@ MADB = {
 						-9.999969482421875, -- [5]
 					},
 				},
-				["BonusRollFrame"] = {
+				["GroupLootFrame1"] = {
 					["orgPos"] = {
 						"TOP", -- [1]
 						"UIParent", -- [2]
@@ -68,13 +68,13 @@ MADB = {
 						0, -- [4]
 						-135, -- [5]
 					},
-					["name"] = "BonusRollFrame",
+					["name"] = "GroupLootFrame1",
 					["pos"] = {
 						"TOP", -- [1]
 						"UIParent", -- [2]
 						"TOP", -- [3]
-						330.3645629882813, -- [4]
-						-585.4379272460938, -- [5]
+						0, -- [4]
+						0, -- [5]
 					},
 				},
 				["TargetFrameSpellBar"] = {
@@ -96,7 +96,7 @@ MADB = {
 					},
 					["orgScale"] = 1,
 				},
-				["GroupLootFrame1"] = {
+				["BonusRollFrame"] = {
 					["orgPos"] = {
 						"TOP", -- [1]
 						"UIParent", -- [2]
@@ -104,13 +104,13 @@ MADB = {
 						0, -- [4]
 						-135, -- [5]
 					},
-					["name"] = "GroupLootFrame1",
+					["name"] = "BonusRollFrame",
 					["pos"] = {
 						"TOP", -- [1]
 						"UIParent", -- [2]
 						"TOP", -- [3]
-						0, -- [4]
-						0, -- [5]
+						330.3645629882813, -- [4]
+						-585.4379272460938, -- [5]
 					},
 				},
 				["CastingBarFrame"] = {
@@ -164,22 +164,24 @@ MADB = {
 						-690.0567626953125, -- [5]
 					},
 				},
-				["BonusRollMoneyWonFrame"] = {
+				["TargetFrameToT"] = {
 					["orgPos"] = {
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						0, -- [4]
-						-135, -- [5]
+						"CENTER", -- [1]
+						"TargetFrame", -- [2]
+						"CENTER", -- [3]
+						60, -- [4]
+						-45, -- [5]
 					},
-					["name"] = "BonusRollMoneyWonFrame",
+					["name"] = "TargetFrameToT",
+					["scale"] = 1.140556746952735,
 					["pos"] = {
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						209.9031982421875, -- [4]
-						-800.4597778320312, -- [5]
+						"CENTER", -- [1]
+						"TargetFrame", -- [2]
+						"CENTER", -- [3]
+						74.38174205476244, -- [4]
+						-47.57565507172762, -- [5]
 					},
+					["orgScale"] = 1,
 				},
 				["QueueStatusMinimapButton"] = {
 					["orgPos"] = {
@@ -342,6 +344,57 @@ MADB = {
 						443.9268798828125, -- [5]
 					},
 				},
+				["SpellActivationOverlayFrame"] = {
+					["orgPos"] = {
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					},
+					["name"] = "SpellActivationOverlayFrame",
+					["pos"] = {
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0.000152587890625, -- [4]
+						0, -- [5]
+					},
+				},
+				["RaidWarningFrame"] = {
+					["orgPos"] = {
+						"TOP", -- [1]
+						"UIErrorsFrame", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						0, -- [5]
+					},
+					["name"] = "RaidWarningFrame",
+					["pos"] = {
+						"TOP", -- [1]
+						"UIErrorsFrame", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						6.103515625e-05, -- [5]
+					},
+				},
+				["BossBanner"] = {
+					["orgPos"] = {
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						-120, -- [5]
+					},
+					["name"] = "BossBanner",
+					["pos"] = {
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						-119.9998779296875, -- [5]
+					},
+				},
 				["LootFrame"] = {
 					["orgPos"] = {
 						"CENTER", -- [1]
@@ -364,57 +417,6 @@ MADB = {
 						544.2435302734375, -- [5]
 					},
 					["orgScale"] = 1,
-				},
-				["RaidWarningFrame"] = {
-					["orgPos"] = {
-						"TOP", -- [1]
-						"UIErrorsFrame", -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
-					["name"] = "RaidWarningFrame",
-					["pos"] = {
-						"TOP", -- [1]
-						"UIErrorsFrame", -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						6.103515625e-05, -- [5]
-					},
-				},
-				["Boss1TargetFramePowerBarAlt"] = {
-					["orgPos"] = {
-						"RIGHT", -- [1]
-						"Boss1TargetFrame", -- [2]
-						"LEFT", -- [3]
-						0, -- [4]
-						5, -- [5]
-					},
-					["name"] = "Boss1TargetFramePowerBarAlt",
-					["pos"] = {
-						"RIGHT", -- [1]
-						"Boss1TargetFrame", -- [2]
-						"LEFT", -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
-				},
-				["SpellActivationOverlayFrame"] = {
-					["orgPos"] = {
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
-					["name"] = "SpellActivationOverlayFrame",
-					["pos"] = {
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0.000152587890625, -- [4]
-						0, -- [5]
-					},
 				},
 				["SpellBookFrame"] = {
 					["UIPanelWindows"] = {
@@ -440,21 +442,21 @@ MADB = {
 						0, -- [5]
 					},
 				},
-				["BossBanner"] = {
+				["Boss1TargetFramePowerBarAlt"] = {
 					["orgPos"] = {
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
+						"RIGHT", -- [1]
+						"Boss1TargetFrame", -- [2]
+						"LEFT", -- [3]
 						0, -- [4]
-						-120, -- [5]
+						5, -- [5]
 					},
-					["name"] = "BossBanner",
+					["name"] = "Boss1TargetFramePowerBarAlt",
 					["pos"] = {
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
+						"RIGHT", -- [1]
+						"Boss1TargetFrame", -- [2]
+						"LEFT", -- [3]
 						0, -- [4]
-						-119.9998779296875, -- [5]
+						0, -- [5]
 					},
 				},
 				["TargetFramePowerBarAltMover"] = {
@@ -555,24 +557,22 @@ MADB = {
 						452.1828002929688, -- [5]
 					},
 				},
-				["TargetFrameToT"] = {
+				["BonusRollMoneyWonFrame"] = {
 					["orgPos"] = {
-						"CENTER", -- [1]
-						"TargetFrame", -- [2]
-						"CENTER", -- [3]
-						60, -- [4]
-						-45, -- [5]
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						-135, -- [5]
 					},
-					["name"] = "TargetFrameToT",
-					["scale"] = 1.140556746952735,
+					["name"] = "BonusRollMoneyWonFrame",
 					["pos"] = {
-						"CENTER", -- [1]
-						"TargetFrame", -- [2]
-						"CENTER", -- [3]
-						74.38174205476244, -- [4]
-						-47.57565507172762, -- [5]
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						209.9031982421875, -- [4]
+						-800.4597778320312, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 			},
 		},

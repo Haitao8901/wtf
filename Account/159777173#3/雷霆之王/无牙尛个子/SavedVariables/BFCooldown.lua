@@ -28,18 +28,6 @@ BFCooldownDB = {
 		["b"] = 0.1,
 	},
 	["spellCache"] = {
-		["学习"] = {
-			163810, -- [1]
-			"item", -- [2]
-		},
-		["藏宝图"] = {
-			166999, -- [1]
-			"item", -- [2]
-		},
-		["逃脱"] = {
-			49, -- [1]
-			"spell", -- [2]
-		},
 	},
 	["isChangeFont"] = true,
 	["secs"] = {
@@ -54,9 +42,9 @@ BFCooldownDB = {
 		["text"] = true,
 		["alpha"] = 0.65,
 		["width"] = 67,
-		["font"] = "Fonts\\ARKai_T.ttf",
 		["config"] = false,
-		["style"] = 1,
+		["font"] = "Fonts\\ARKai_T.ttf",
+		["time"] = 1.2,
 		["position"] = {
 			["y"] = 78,
 			["p"] = "CENTER",
@@ -65,7 +53,7 @@ BFCooldownDB = {
 		},
 		["g"] = 1,
 		["mode"] = true,
-		["time"] = 1.2,
+		["style"] = 1,
 		["size"] = 30,
 	},
 	["mins"] = {
