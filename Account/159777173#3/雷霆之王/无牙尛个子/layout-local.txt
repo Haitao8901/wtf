@@ -1,4 +1,11 @@
 Version: 1
+Frame: TargetFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -484
+Y: 236
+W: 232
+H: 100
 Frame: PlayerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -13,13 +20,6 @@ X: 5
 Y: 256
 W: 220
 H: 13
-Frame: TargetFrame
-FrameLevel: 1
-Anchor: RIGHT
-X: -484
-Y: 236
-W: 232
-H: 100
 Frame: FocusFrame
 FrameLevel: 1
 Anchor: RIGHT

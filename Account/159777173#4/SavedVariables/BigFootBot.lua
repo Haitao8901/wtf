@@ -19,22 +19,14 @@ BigFootBot_Version = {
 }
 BigFootBot_Info = nil
 PlayersDB = {
-	["我的大锤子:罗宁"] = {
-		["race"] = 6,
-		["name"] = "我的大锤子",
-		["level"] = 86,
-		["gender"] = 2,
-		["class"] = 3,
-		["server"] = "罗宁",
-	},
-	["我真黑:勇士岛"] = {
-		["race"] = 19,
-		["name"] = "我真黑",
-		["guild"] = "噬魂",
-		["level"] = 85,
-		["gender"] = 2,
+	["画扇浅醉:克尔苏加德"] = {
+		["race"] = 0,
+		["name"] = "画扇浅醉",
+		["guild"] = "匆匆那年我们还年少如华而今已成奥恩",
+		["level"] = 88,
+		["gender"] = 3,
 		["class"] = 2,
-		["server"] = "勇士岛",
+		["server"] = "克尔苏加德",
 	},
 	["鞋不遮脚:雷霆之王"] = {
 		["race"] = 22,
@@ -45,14 +37,14 @@ PlayersDB = {
 		["class"] = 9,
 		["server"] = "雷霆之王",
 	},
-	["水龍敬:燃烧之刃"] = {
-		["race"] = 5,
-		["name"] = "水龍敬",
-		["guild"] = "怎么了嘛",
-		["level"] = 120,
-		["gender"] = 3,
-		["class"] = 9,
-		["server"] = "燃烧之刃",
+	["就你离线:奥特兰克"] = {
+		["race"] = 0,
+		["name"] = "就你离线",
+		["guild"] = "奥城咸鱼多样性保护与绿色发展基金会",
+		["level"] = 85,
+		["gender"] = 2,
+		["class"] = 2,
+		["server"] = "奥特兰克",
 	},
 }
 UtilDB = {

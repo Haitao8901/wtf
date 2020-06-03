@@ -4,12 +4,16 @@ WQTrackerDB = {
 		["瞎撸法尔 - 雷霆之王"] = "Default",
 		["巨击黑牛 - 雷霆之王"] = "Default",
 		["鞋不遮脚 - 雷霆之王"] = "Default",
+		["瞎不掩瑜 - 雷霆之王"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["low_level_tutorial"] = true,
 			["TutorialPopupID"] = 1,
 			["is_BFA_version"] = true,
 			["quests_tracked"] = {
+				["Player-726-053F850A"] = {
+				},
 				["Player-726-0536E38D"] = {
 				},
 				["Player-726-053A356F"] = {
@@ -18,6 +22,11 @@ WQTrackerDB = {
 				},
 			},
 			["player_names"] = {
+				["Player-726-053F850A"] = {
+					["class"] = "DEMONHUNTER",
+					["name"] = "瞎不掩瑜",
+					["realm"] = "雷霆之王",
+				},
 				["Player-726-0536E38D"] = {
 					["class"] = "MAGE",
 					["name"] = "鞋不遮脚",
@@ -36,6 +45,8 @@ WQTrackerDB = {
 			},
 			["rarescan"] = {
 				["recently_killed"] = {
+					["Player-726-053F850A"] = {
+					},
 					["Player-726-053B0B10"] = {
 					},
 					["Player-726-0536E38D"] = {

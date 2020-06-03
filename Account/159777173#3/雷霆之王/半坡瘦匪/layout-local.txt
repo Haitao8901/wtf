@@ -20,13 +20,6 @@ X: 0
 Y: -20
 W: 165
 H: 262
-Frame: CastingBarFrame
-FrameLevel: 1
-Anchor: BOTTOM
-X: 5
-Y: 256
-W: 220
-H: 13
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: TOPRIGHT
@@ -34,3 +27,10 @@ X: -420
 Y: -234
 W: 232
 H: 100
+Frame: CastingBarFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: 5
+Y: 256
+W: 220
+H: 13

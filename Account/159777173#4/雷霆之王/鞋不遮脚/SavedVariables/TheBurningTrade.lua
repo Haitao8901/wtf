@@ -22,10 +22,10 @@ TradeLog_TradesHistory = {
 		["id"] = 2,
 		["playerItems"] = {
 			{
-				["numItems"] = 1,
-				["name"] = "岩石死神手套",
-				["itemLink"] = "|cffa335ee|Hitem:45325::::::::120:63::3::::|h[岩石死神手套]|h|r",
 				["texture"] = 132956,
+				["itemLink"] = "|cffa335ee|Hitem:45325::::::::120:63::3::::|h[岩石死神手套]|h|r",
+				["name"] = "岩石死神手套",
+				["numItems"] = 1,
 			}, -- [1]
 		},
 		["reason"] = "交易失败，交易目标没有足够的物品栏空间。",
@@ -48,10 +48,10 @@ TradeLog_TradesHistory = {
 		["id"] = 3,
 		["playerItems"] = {
 			{
-				["numItems"] = 1,
-				["name"] = "岩石死神手套",
-				["itemLink"] = "|cffa335ee|Hitem:45325::::::::120:63::3::::|h[岩石死神手套]|h|r",
 				["texture"] = 132956,
+				["itemLink"] = "|cffa335ee|Hitem:45325::::::::120:63::3::::|h[岩石死神手套]|h|r",
+				["name"] = "岩石死神手套",
+				["numItems"] = 1,
 			}, -- [1]
 		},
 		["targetItems"] = {
@@ -77,8 +77,8 @@ TradeLog_TradesHistory = {
 			{
 				["name"] = "固执胜利者的头盔",
 				["numItems"] = 1,
-				["itemLink"] = "|cffa335ee|Hitem:45649::::::::120:63::3::::|h[固执胜利者的头盔]|h|r",
 				["isUsable"] = true,
+				["itemLink"] = "|cffa335ee|Hitem:45649::::::::120:63::3::::|h[固执胜利者的头盔]|h|r",
 				["texture"] = 133126,
 			}, -- [1]
 		},
@@ -99,10 +99,10 @@ TradeLog_TradesHistory = {
 		["id"] = 5,
 		["playerItems"] = {
 			{
-				["numItems"] = 1,
-				["name"] = "胜利者的圣洁印记",
-				["itemLink"] = "|cffa335ee|Hitem:52025::::::::120:63::::::|h[胜利者的圣洁印记]|h|r",
 				["texture"] = 236264,
+				["itemLink"] = "|cffa335ee|Hitem:52025::::::::120:63::::::|h[胜利者的圣洁印记]|h|r",
+				["name"] = "胜利者的圣洁印记",
+				["numItems"] = 1,
 			}, -- [1]
 		},
 		["targetItems"] = {

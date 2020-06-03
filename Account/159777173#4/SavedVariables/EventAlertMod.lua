@@ -33,9 +33,9 @@ EA_Config = {
 	["ShowAuraValueWhenOver"] = 1000,
 	["AllowESC"] = false,
 	["TimerFontSize"] = 26,
-	["LockFrame"] = false,
-	["ShowFrame"] = true,
 	["SNameFontSize"] = 12,
+	["ShowFrame"] = true,
+	["LockFrame"] = false,
 	["Target_MyDebuff"] = true,
 	["HUNTER_GlowPetFocus"] = 50,
 	["AllowAltAlerts"] = true,
@@ -73,6 +73,77 @@ EA_Position = {
 	["xLoc"] = 150,
 }
 EA_Items = {
+	["WARRIOR"] = {
+		[207982] = {
+			["enable"] = true,
+			["overgrow"] = 3,
+			["self"] = true,
+		},
+		[202164] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[85739] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[188923] = {
+			["enable"] = true,
+			["overgrow"] = 2,
+			["self"] = true,
+		},
+		[871] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[118038] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[206333] = {
+			["enable"] = true,
+			["overgrow"] = 6,
+			["self"] = true,
+		},
+		[23920] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[46924] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[184364] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[107574] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[184362] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[202539] = {
+			["enable"] = true,
+			["overgrow"] = 3,
+			["self"] = true,
+		},
+		[215572] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+	},
+	["DEMONHUNTER"] = {
+		[163073] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[188501] = {
+			["enable"] = true,
+		},
+	},
 	["MAGE"] = {
 		[12042] = {
 			["enable"] = true,
@@ -83,13 +154,24 @@ EA_Items = {
 		[12051] = {
 			["enable"] = true,
 		},
-		[48108] = {
-			["enable"] = true,
-		},
 		[87023] = {
 			["enable"] = true,
 		},
+		[48108] = {
+			["enable"] = true,
+		},
 		[36032] = {
+			["enable"] = true,
+		},
+	},
+	["MONK"] = {
+		[120954] = {
+			["enable"] = true,
+		},
+		[119611] = {
+			["enable"] = true,
+		},
+		[115175] = {
 			["enable"] = true,
 		},
 	},
@@ -208,79 +290,6 @@ EA_Items = {
 			["self"] = false,
 		},
 	},
-	["MONK"] = {
-		[120954] = {
-			["enable"] = true,
-		},
-		[119611] = {
-			["enable"] = true,
-		},
-		[115175] = {
-			["enable"] = true,
-		},
-	},
-	["WARRIOR"] = {
-		[207982] = {
-			["enable"] = true,
-			["overgrow"] = 3,
-			["self"] = true,
-		},
-		[202164] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[85739] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[188923] = {
-			["enable"] = true,
-			["overgrow"] = 2,
-			["self"] = true,
-		},
-		[871] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[118038] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[206333] = {
-			["enable"] = true,
-			["overgrow"] = 6,
-			["self"] = true,
-		},
-		[184364] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[46924] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[23920] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[107574] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[184362] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[202539] = {
-			["enable"] = true,
-			["overgrow"] = 3,
-			["self"] = true,
-		},
-		[215572] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-	},
 }
 EA_AltItems = {
 	["MAGE"] = {
@@ -288,6 +297,8 @@ EA_AltItems = {
 	["WARRIOR"] = {
 	},
 	["MONK"] = {
+	},
+	["DEMONHUNTER"] = {
 	},
 }
 EA_TarItems = {
@@ -310,31 +321,31 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[871] = {
+		[12323] = {
 			["enable"] = true,
-			["self"] = false,
+			["self"] = true,
 		},
 		[1715] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[113344] = {
+		[772] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[12323] = {
+		[871] = {
 			["enable"] = true,
-			["self"] = true,
+			["self"] = false,
 		},
 		[215537] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[132169] = {
+		[118038] = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[772] = {
+		[208086] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -362,11 +373,11 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[208086] = {
+		[113344] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[118038] = {
+		[132169] = {
 			["enable"] = true,
 			["self"] = false,
 		},
@@ -384,6 +395,8 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
+	},
+	["DEMONHUNTER"] = {
 	},
 }
 EA_ScdItems = {
@@ -561,6 +574,53 @@ EA_ScdItems = {
 			["enable"] = true,
 		},
 	},
+	["DEMONHUNTER"] = {
+		[131347] = {
+			["enable"] = true,
+		},
+		[202644] = {
+			["enable"] = true,
+		},
+		[192611] = {
+			["enable"] = true,
+		},
+		[178740] = {
+			["enable"] = true,
+		},
+		[188501] = {
+			["enable"] = true,
+		},
+		[189110] = {
+			["enable"] = true,
+		},
+		[204021] = {
+			["enable"] = true,
+		},
+		[195072] = {
+			["enable"] = true,
+		},
+		[185245] = {
+			["enable"] = true,
+		},
+		[187827] = {
+			["enable"] = true,
+		},
+		[162794] = {
+			["enable"] = true,
+		},
+		[204596] = {
+			["enable"] = true,
+		},
+		[204157] = {
+			["enable"] = true,
+		},
+		[203720] = {
+			["enable"] = true,
+		},
+		[207684] = {
+			["enable"] = true,
+		},
+	},
 }
 EA_GrpItems = {
 	["MAGE"] = {
@@ -607,6 +667,8 @@ EA_GrpItems = {
 	["WARRIOR"] = {
 	},
 	["MONK"] = {
+	},
+	["DEMONHUNTER"] = {
 	},
 }
 EA_Pos = {

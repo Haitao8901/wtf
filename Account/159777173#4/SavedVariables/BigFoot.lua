@@ -86,7 +86,7 @@ BigFoot_Config = {
 		["EnableProximo"] = 0,
 		["EnableGladiatorlosSA"] = 0,
 	},
-	["BIGFOOT_VERSION_NEW"] = "zhCN8.3.0.808",
+	["BIGFOOT_VERSION_NEW"] = "zhCN8.3.0.809",
 	["BuffMaster"] = {
 		["BuffMasterShowTimeLeft"] = 1,
 		["EnablePartyShortBuffer"] = 1,
@@ -194,10 +194,10 @@ BigFoot_Error = {
 			["class"] = "法师",
 			["desc"] = "SetPortraitToTexture(): Texture is not 64x64 pixels: FileData ID 611425.\n",
 			["race"] = "赞达拉巨魔",
-			["level"] = 120,
 			["trace"] = "[string \"=[C]\"]: in function `SetPortraitToTexture'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:1488: in function `UNIT_AURA'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:411: in function <Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua:411>\n",
-			["line"] = "1488",
 			["file"] = "Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua",
+			["line"] = "1488",
+			["level"] = 120,
 		},
 	},
 	["debug_Mod"] = false,
@@ -207,6 +207,7 @@ MBBDB = {
 		["瞎撸法尔 - 雷霆之王"] = "瞎撸法尔 - 雷霆之王",
 		["巨击黑牛 - 雷霆之王"] = "巨击黑牛 - 雷霆之王",
 		["鞋不遮脚 - 雷霆之王"] = "鞋不遮脚 - 雷霆之王",
+		["瞎不掩瑜 - 雷霆之王"] = "瞎不掩瑜 - 雷霆之王",
 	},
 	["profiles"] = {
 		["瞎撸法尔 - 雷霆之王"] = {
@@ -214,6 +215,8 @@ MBBDB = {
 		["巨击黑牛 - 雷霆之王"] = {
 		},
 		["鞋不遮脚 - 雷霆之王"] = {
+		},
+		["瞎不掩瑜 - 雷霆之王"] = {
 		},
 	},
 }
@@ -227,5 +230,6 @@ BF_LogonInfo = {
 	1590219594, -- [6]
 	1590482496, -- [7]
 	1590586566, -- [8]
+	1591102549, -- [9]
 }
 ModelChangeVariable = nil

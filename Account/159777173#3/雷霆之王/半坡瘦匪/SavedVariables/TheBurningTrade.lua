@@ -6,10 +6,10 @@ TradeLog_TradesHistory = {
 		["id"] = 1,
 		["playerItems"] = {
 			{
-				["numItems"] = 1,
-				["name"] = "佐诺兹之指",
-				["itemLink"] = "|cffa335ee|Hitem:78392::::::::101:72::::::|h[佐诺兹之指]|h|r",
 				["texture"] = 536311,
+				["itemLink"] = "|cffa335ee|Hitem:78392::::::::101:72::::::|h[佐诺兹之指]|h|r",
+				["name"] = "佐诺兹之指",
+				["numItems"] = 1,
 			}, -- [1]
 		},
 		["targetItems"] = {
@@ -31,25 +31,25 @@ TradeLog_TradesHistory = {
 		["id"] = 2,
 		["playerItems"] = {
 			{
-				["numItems"] = 1,
-				["name"] = "无尽痛楚手术刀",
-				["itemLink"] = "|cffa335ee|Hitem:78404::::::::101:72::::::|h[无尽痛楚手术刀]|h|r",
 				["texture"] = 571786,
+				["itemLink"] = "|cffa335ee|Hitem:78404::::::::101:72::::::|h[无尽痛楚手术刀]|h|r",
+				["name"] = "无尽痛楚手术刀",
+				["numItems"] = 1,
 			}, -- [1]
 		},
 		["targetItems"] = {
 			{
 				["name"] = "堕落保卫者的护腿",
 				["numItems"] = 1,
-				["itemLink"] = "|cffa335ee|Hitem:78857::::::::101:72::::::|h[堕落保卫者的护腿]|h|r",
 				["isUsable"] = true,
+				["itemLink"] = "|cffa335ee|Hitem:78857::::::::101:72::::::|h[堕落保卫者的护腿]|h|r",
 				["texture"] = 133834,
 			}, -- [1]
 			{
 				["name"] = "堕落保卫者的手套",
 				["numItems"] = 1,
-				["itemLink"] = "|cffa335ee|Hitem:78854::::::::101:72::::::|h[堕落保卫者的手套]|h|r",
 				["isUsable"] = true,
+				["itemLink"] = "|cffa335ee|Hitem:78854::::::::101:72::::::|h[堕落保卫者的手套]|h|r",
 				["texture"] = 132963,
 			}, -- [2]
 		},
@@ -70,18 +70,18 @@ TradeLog_TradesHistory = {
 		["id"] = 3,
 		["playerItems"] = {
 			{
-				["numItems"] = 1,
-				["name"] = "临风之心",
-				["itemLink"] = "|cffa335ee|Hitem:78001::::::::101:72::::::|h[临风之心]|h|r",
 				["texture"] = 237001,
+				["itemLink"] = "|cffa335ee|Hitem:78001::::::::101:72::::::|h[临风之心]|h|r",
+				["name"] = "临风之心",
+				["numItems"] = 1,
 			}, -- [1]
 		},
 		["targetItems"] = {
 			{
 				["name"] = "闪电法杖",
 				["numItems"] = 1,
-				["itemLink"] = "|cffa335ee|Hitem:78418::::::::101:72::::::|h[闪电法杖]|h|r",
 				["isUsable"] = true,
+				["itemLink"] = "|cffa335ee|Hitem:78418::::::::101:72::::::|h[闪电法杖]|h|r",
 				["texture"] = 535300,
 			}, -- [1]
 		},

@@ -1,6 +1,10 @@
 
 MasterPlanAG = {
 	["雷霆之王"] = {
+		["瞎不掩瑜"] = {
+			["faction"] = "Horde",
+			["class"] = "DEMONHUNTER",
+		},
 		["瞎撸法尔"] = {
 			["class"] = "MONK",
 			["faction"] = "Horde",
