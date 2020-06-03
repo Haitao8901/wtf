@@ -29,10 +29,10 @@ OmniCDDB = {
 					["spell147362"] = true,
 					["spell19577"] = true,
 					["spell203340"] = false,
-					["spell1766"] = true,
+					["spell2139"] = true,
 					["spell110960"] = true,
 					["spell2094"] = true,
-					["spell2139"] = true,
+					["spell1766"] = true,
 				},
 				["visibility"] = {
 					["scenario"] = true,

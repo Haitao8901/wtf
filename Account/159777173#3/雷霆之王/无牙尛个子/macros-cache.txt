@@ -1,10 +1,26 @@
-VER 3 0100000000000003 "aa" "INV_MISC_QUESTIONMARK"
-/focus [modifier:shift, target=mouseover] target;[nomodifier] player
+VER 3 0100000000000004 "坐骑" "413588"
+/click [button:2][modifier:shift]BigFootBarFrame2ActionButton1;[button:1]MountJournalSummonRandomFavoriteButton;
+END
+VER 3 0100000000000008 "打断" "249170"
+/cast [target=focus,modifier:shift,exists,harm]反制射击;[target=focus,modifier:ctrl,exists,harm]胁迫
 END
 VER 3 0100000000000002 "治疗" "1850550"
 /cast [nomodifier,target=pet][modifier:shift,target=player] 灵魂治愈
 END
+VER 3 0100000000000006 "焦点" "132218"
+/focus [target=mouseover,harm,nodead]
+END
+VER 3 0100000000000005 "牦牛" "413588"
+/cast [modifier:shift,button:1] 沙石幼龙;[button:1]雄壮远足牦牛
+END
+VER 3 0100000000000009 "皎白" "INV_MISC_QUESTIONMARK"
+/cleartarget
+/target 皎白云端翔龙
+END
 VER 3 0100000000000001 "误宠" "132180"
 #showtooltip 误导
 /cast [target=focus,exists,noharm,nodead] 误导;[target=pet,exists,nodead]误导
+END
+VER 3 0100000000000007 "误断" "249170"
+/click [modifier:shift][modifier:ctrl]BigFootBarFrame2ActionButton2;BigFootBarFrame2ActionButton3;
 END
