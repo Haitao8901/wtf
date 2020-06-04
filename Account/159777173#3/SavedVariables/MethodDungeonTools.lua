@@ -6,7 +6,7 @@ MethodDungeonToolsDB = {
 	},
 	["global"] = {
 		["anchorTo"] = "CENTER",
-		["currentDungeonIdx"] = 20,
+		["currentDungeonIdx"] = 18,
 		["anchorFrom"] = "CENTER",
 		["nonFullscreenScale"] = 1,
 		["MDI"] = {
@@ -138,7 +138,37 @@ MethodDungeonToolsDB = {
 					},
 				}, -- [1]
 			}, -- [17]
-			nil, -- [18]
+			{
+				{
+					["objects"] = {
+					},
+					["week"] = 8,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							[8] = {
+							},
+						},
+						["currentDungeonIdx"] = 18,
+						["teeming"] = true,
+						["selection"] = {
+							1, -- [1]
+						},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
+						},
+					},
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
+					["difficulty"] = 9,
+				}, -- [1]
+			}, -- [18]
 			nil, -- [19]
 			{
 				{

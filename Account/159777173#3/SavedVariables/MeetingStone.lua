@@ -53,5 +53,11 @@ MEETINGSTONE_UI_DB = {
 			["default"] = true,
 		},
 		["version"] = "80300.01",
+		["ActivityProfiles"] = {
+			["评级战场"] = {
+				["ItemLevel"] = 435,
+				["HonorLevel"] = 0,
+			},
+		},
 	},
 }

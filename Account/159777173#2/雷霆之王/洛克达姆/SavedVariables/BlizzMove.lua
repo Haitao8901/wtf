@@ -30,8 +30,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "TOPLEFT",
 		["yOfs"] = -168.2875823974609,
 		["xOfs"] = 422.1001892089844,
-		["scale"] = 0.9999999761581421,
 		["point"] = "TOPLEFT",
+		["scale"] = 0.9999999761581421,
 	},
 	["MailFrame"] = {
 	},
@@ -63,8 +63,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "TOPLEFT",
 		["yOfs"] = -86.99999237060547,
 		["xOfs"] = 206.0000152587891,
-		["point"] = "TOPLEFT",
 		["save"] = true,
+		["point"] = "TOPLEFT",
 	},
 	["ArchaeologyFrame"] = {
 	},
@@ -212,10 +212,9 @@ BlizzMoveDB = {
 		["xOfs"] = 367.1982727050781,
 		["point"] = "LEFT",
 	},
-	["KeyBindingFrame"] = {
-		["scale"] = 1.000000023841858,
-	},
 	["LFDParentFrame"] = {
+	},
+	["AzeriteEmpoweredItemUI"] = {
 	},
 	["ScrappingMachineFrame"] = {
 		["default"] = {
@@ -256,32 +255,9 @@ BlizzMoveDB = {
 		["xOfs"] = 25.15354156494141,
 		["point"] = "CENTER",
 	},
-	["AuctionHouseFrame"] = {
-		["default"] = {
-			["relativeTo"] = "UIParent",
-			["point"] = "TOPLEFT",
-			["relativePoint"] = "TOPLEFT",
-			["yOfs"] = -116.0000076293945,
-			["xOfs"] = 36,
-		},
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -48.99999618530273,
-		["xOfs"] = 41.99998092651367,
-		["save"] = true,
-		["point"] = "TOPLEFT",
+	["ItemSocketingFrame"] = {
 	},
-	["MerchantFrame"] = {
-		["default"] = {
-			["relativeTo"] = "UIParent",
-			["point"] = "TOPLEFT",
-			["relativePoint"] = "TOPLEFT",
-			["yOfs"] = -116.0000076293945,
-			["xOfs"] = 16,
-		},
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -106.9999923706055,
-		["xOfs"] = 0,
-		["point"] = "TOPLEFT",
+	["LFRParentFrame"] = {
 	},
 	["LootFrame"] = {
 		["default"] = {
@@ -306,8 +282,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "CENTER",
 		["yOfs"] = 83.66001892089844,
 		["xOfs"] = 2.614244699478149,
-		["scale"] = 1.10000011920929,
 		["point"] = "CENTER",
+		["scale"] = 1.10000011920929,
 	},
 	["AzeriteEssenceUI"] = {
 	},
@@ -324,9 +300,32 @@ BlizzMoveDB = {
 		["xOfs"] = 97.06429290771484,
 		["point"] = "CENTER",
 	},
-	["LFRParentFrame"] = {
+	["MerchantFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -106.9999923706055,
+		["xOfs"] = 0,
+		["point"] = "TOPLEFT",
 	},
-	["ItemSocketingFrame"] = {
+	["AuctionHouseFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 36,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -48.99999618530273,
+		["xOfs"] = 41.99998092651367,
+		["point"] = "TOPLEFT",
+		["save"] = true,
 	},
 	["EncounterJournal"] = {
 		["default"] = {
@@ -339,10 +338,11 @@ BlizzMoveDB = {
 		["relativePoint"] = "LEFT",
 		["yOfs"] = 171.5119476318359,
 		["xOfs"] = 302.7103271484375,
-		["point"] = "LEFT",
 		["save"] = true,
+		["point"] = "LEFT",
 	},
-	["AzeriteEmpoweredItemUI"] = {
+	["KeyBindingFrame"] = {
+		["scale"] = 1.000000023841858,
 	},
 	["HelpFrame"] = {
 	},
