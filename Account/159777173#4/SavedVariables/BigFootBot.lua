@@ -19,38 +19,11 @@ BigFootBot_Version = {
 }
 BigFootBot_Info = nil
 PlayersDB = {
-	["画扇浅醉:克尔苏加德"] = {
-		["race"] = 0,
-		["name"] = "画扇浅醉",
-		["guild"] = "匆匆那年我们还年少如华而今已成奥恩",
-		["level"] = 88,
-		["gender"] = 3,
-		["class"] = 2,
-		["server"] = "克尔苏加德",
-	},
-	["鞋不遮脚:雷霆之王"] = {
-		["race"] = 22,
-		["name"] = "鞋不遮脚",
-		["guild"] = "凤台鸾阁",
-		["level"] = 120,
-		["gender"] = 2,
-		["class"] = 9,
-		["server"] = "雷霆之王",
-	},
-	["就你离线:奥特兰克"] = {
-		["race"] = 0,
-		["name"] = "就你离线",
-		["guild"] = "奥城咸鱼多样性保护与绿色发展基金会",
-		["level"] = 85,
-		["gender"] = 2,
-		["class"] = 2,
-		["server"] = "奥特兰克",
-	},
 }
 UtilDB = {
 	["M"] = {
 		["NumSysUnread"] = 0,
-		["MD5"] = "6163186385128038128522206802578104031",
+		["MD5"] = "1026195545297724093314160568702751289869",
 		["NumNormalRead"] = 0,
 		["NumSysRead"] = 0,
 		["NumNormalUnread"] = 0,

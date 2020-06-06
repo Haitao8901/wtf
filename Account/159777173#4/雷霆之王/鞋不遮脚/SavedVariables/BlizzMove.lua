@@ -10,7 +10,7 @@ BlizzMoveDB = {
 	},
 	["GameMenuFrame"] = {
 	},
-	["HelpFrame"] = {
+	["InterfaceOptionsFrame"] = {
 	},
 	["CharacterFrame"] = {
 	},
@@ -18,22 +18,23 @@ BlizzMoveDB = {
 	},
 	["CommunitiesFrame"] = {
 	},
-	["TradeFrame"] = {
-	},
-	["AuctionHouseFrame"] = {
-		["save"] = true,
-	},
-	["FriendsFrame"] = {
+	["EncounterJournal"] = {
 	},
 	["AchievementFrame"] = {
 		["save"] = true,
 	},
+	["FriendsFrame"] = {
+	},
+	["AuctionHouseFrame"] = {
+		["save"] = true,
+	},
+	["VideoOptionsFrame"] = {
+	},
+	["PVEFrame"] = {
+	},
 	["LFDParentFrame"] = {
 	},
-	["version"] = "201109013",
-	["MerchantFrame"] = {
-	},
-	["GossipFrame"] = {
+	["BankFrame"] = {
 	},
 	["DressUpFrame"] = {
 	},
@@ -50,28 +51,27 @@ BlizzMoveDB = {
 		["xOfs"] = -148.0958099365234,
 		["point"] = "CENTER",
 	},
-	["GuildBankFrame"] = {
-		["save"] = true,
+	["LootFrame"] = {
 	},
 	["PlayerTalentFrame"] = {
 	},
-	["LootFrame"] = {
+	["GuildBankFrame"] = {
+		["save"] = true,
 	},
 	["SpellBookFrame"] = {
 	},
-	["BankFrame"] = {
+	["GossipFrame"] = {
 	},
-	["PVEFrame"] = {
-	},
-	["VideoOptionsFrame"] = {
+	["version"] = "201109013",
+	["MerchantFrame"] = {
 	},
 	["QuestFrame"] = {
 	},
-	["EncounterJournal"] = {
+	["TradeFrame"] = {
 	},
 	["CalendarFrame"] = {
 		["save"] = true,
 	},
-	["InterfaceOptionsFrame"] = {
+	["HelpFrame"] = {
 	},
 }

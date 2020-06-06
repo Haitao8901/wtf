@@ -16,12 +16,12 @@ BF_Frames_Config = {
 			39.6954460144043, -- [5]
 		},
 	},
-	["SpellTimerFrameBFCD"] = {
-		["offX"] = 445.2499694824219,
-		["point"] = "BOTTOMLEFT",
-		["region"] = "UIParent",
-		["offY"] = 267.9998779296875,
-		["refPoint"] = "BOTTOMLEFT",
+	["BFocusTargetFrame"] = {
+		["offX"] = 0,
+		["point"] = "BOTTOMRIGHT",
+		["region"] = "FocusFrame",
+		["offY"] = -18,
+		["refPoint"] = "BOTTOMRIGHT",
 	},
 	["TrinketMenu_MainFrame"] = {
 		["offX"] = -72.37904357910156,
@@ -30,12 +30,12 @@ BF_Frames_Config = {
 		["offY"] = 102.2853698730469,
 		["refPoint"] = "BOTTOM",
 	},
-	["BFocusTargetFrame"] = {
-		["offX"] = 0,
-		["point"] = "BOTTOMRIGHT",
-		["region"] = "FocusFrame",
-		["offY"] = -18,
-		["refPoint"] = "BOTTOMRIGHT",
+	["SpellTimerFrameBFCD"] = {
+		["offX"] = 445.2499694824219,
+		["point"] = "BOTTOMLEFT",
+		["region"] = "UIParent",
+		["offY"] = 267.9998779296875,
+		["refPoint"] = "BOTTOMLEFT",
 	},
 }
 BigFoot_Character = {
@@ -50,6 +50,6 @@ BigFoot_Character = {
 	["Realm"] = "雷霆之王",
 }
 BigFoot_SysTemSetTab = {
-	["UtilsPatchVersion"] = "2020-03-26",
 	["BigFoot_LoadBefore"] = 1,
+	["UtilsPatchVersion"] = "2020-03-26",
 }

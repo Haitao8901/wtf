@@ -18,12 +18,12 @@ EA_Config = {
 		["SoulShards"] = false,
 		["ComboPoint"] = false,
 		["DemonicFury"] = false,
-		["Energy"] = false,
-		["Maelstrom"] = false,
-		["Insanity"] = false,
-		["Rage"] = false,
-		["HolyPower"] = false,
 		["ArcaneCharges"] = false,
+		["HolyPower"] = false,
+		["Rage"] = false,
+		["Insanity"] = false,
+		["Maelstrom"] = false,
+		["Energy"] = false,
 		["Pain"] = false,
 	},
 	["ICON_APPEND_SPELL_TIP"] = true,
@@ -33,10 +33,10 @@ EA_Config = {
 	["ShowAuraValueWhenOver"] = 1000,
 	["AllowESC"] = false,
 	["TimerFontSize"] = 26,
-	["SNameFontSize"] = 12,
+	["OPTION_ICON"] = false,
 	["ShowFrame"] = true,
-	["LockFrame"] = false,
-	["Target_MyDebuff"] = true,
+	["SNameFontSize"] = 12,
+	["AlertSound"] = 568154,
 	["HUNTER_GlowPetFocus"] = 50,
 	["AllowAltAlerts"] = true,
 	["ShowFlash"] = false,
@@ -46,8 +46,8 @@ EA_Config = {
 	["Version"] = "8.0.1",
 	["EA_SPELL_ITEM"] = {
 	},
-	["AlertSound"] = 568154,
-	["OPTION_ICON"] = false,
+	["Target_MyDebuff"] = true,
+	["LockFrame"] = false,
 	["SCD_RemoveWhenCooldown"] = true,
 	["SCD_GlowWhenUsable"] = true,
 }
@@ -65,12 +65,12 @@ EA_Position = {
 	["Tar_yOffset"] = 180,
 	["RedDebuff"] = 0.5,
 	["Tar_xOffset"] = 150,
-	["Scd_yOffset"] = -65,
-	["TarrelativePoint"] = "BOTTOM",
-	["Scd_xOffset"] = 80,
-	["ScdAnchor"] = "CENTER",
-	["Tar_NewLine"] = true,
 	["xLoc"] = 150,
+	["TarrelativePoint"] = "BOTTOM",
+	["Tar_NewLine"] = true,
+	["ScdAnchor"] = "CENTER",
+	["Scd_xOffset"] = 80,
+	["Scd_yOffset"] = -65,
 }
 EA_Items = {
 	["WARRIOR"] = {
@@ -105,7 +105,7 @@ EA_Items = {
 			["overgrow"] = 6,
 			["self"] = true,
 		},
-		[23920] = {
+		[215572] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -113,15 +113,11 @@ EA_Items = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[184364] = {
+		[23920] = {
 			["enable"] = true,
 			["self"] = true,
 		},
 		[107574] = {
-			["enable"] = true,
-			["self"] = true,
-		},
-		[184362] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -130,7 +126,11 @@ EA_Items = {
 			["overgrow"] = 3,
 			["self"] = true,
 		},
-		[215572] = {
+		[184362] = {
+			["enable"] = true,
+			["self"] = true,
+		},
+		[184364] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -154,13 +154,13 @@ EA_Items = {
 		[12051] = {
 			["enable"] = true,
 		},
+		[36032] = {
+			["enable"] = true,
+		},
 		[87023] = {
 			["enable"] = true,
 		},
 		[48108] = {
-			["enable"] = true,
-		},
-		[36032] = {
 			["enable"] = true,
 		},
 	},
@@ -228,9 +228,10 @@ EA_Items = {
 		[10060] = {
 			["enable"] = true,
 		},
-		[64844] = {
+		[6940] = {
 			["enable"] = true,
-			["name"] = "神聖禮頌",
+			["name"] = "犧牲祝福",
+			["self"] = false,
 		},
 		[81782] = {
 			["enable"] = true,
@@ -256,38 +257,37 @@ EA_Items = {
 		[98007] = {
 			["enable"] = true,
 		},
-		[159234] = {
+		[45438] = {
 			["enable"] = true,
-			["self"] = true,
+			["self"] = false,
 		},
 		[146555] = {
 			["enable"] = true,
 			["name"] = "憤怒之鼓",
 			["self"] = false,
 		},
-		[90355] = {
+		[80353] = {
 			["enable"] = true,
 		},
-		[80353] = {
+		[90355] = {
 			["enable"] = true,
 		},
 		[186265] = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[45438] = {
+		[159234] = {
 			["enable"] = true,
-			["self"] = false,
+			["self"] = true,
 		},
 		[1850] = {
 			["enable"] = true,
 			["name"] = "突進",
 			["self"] = false,
 		},
-		[6940] = {
+		[64844] = {
 			["enable"] = true,
-			["name"] = "犧牲祝福",
-			["self"] = false,
+			["name"] = "神聖禮頌",
 		},
 	},
 }
@@ -321,21 +321,21 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[12323] = {
+		[132169] = {
 			["enable"] = true,
-			["self"] = true,
+			["self"] = false,
 		},
 		[1715] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[772] = {
+		[113344] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[871] = {
+		[12323] = {
 			["enable"] = true,
-			["self"] = false,
+			["self"] = true,
 		},
 		[215537] = {
 			["enable"] = true,
@@ -345,7 +345,7 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[208086] = {
+		[772] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -353,11 +353,11 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[46924] = {
+		[5246] = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[5246] = {
+		[46924] = {
 			["enable"] = true,
 			["self"] = false,
 		},
@@ -373,11 +373,11 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[113344] = {
+		[208086] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[132169] = {
+		[871] = {
 			["enable"] = true,
 			["self"] = false,
 		},
@@ -487,13 +487,13 @@ EA_ScdItems = {
 		[23881] = {
 			["enable"] = true,
 		},
-		[12975] = {
+		[184367] = {
 			["enable"] = true,
 		},
 		[871] = {
 			["enable"] = true,
 		},
-		[6343] = {
+		[5308] = {
 			["enable"] = true,
 		},
 		[163201] = {
@@ -505,16 +505,16 @@ EA_ScdItems = {
 		[12292] = {
 			["enable"] = true,
 		},
-		[202168] = {
-			["enable"] = true,
-		},
 		[6552] = {
 			["enable"] = true,
 		},
-		[5308] = {
+		[202168] = {
 			["enable"] = true,
 		},
-		[184367] = {
+		[6343] = {
+			["enable"] = true,
+		},
+		[12975] = {
 			["enable"] = true,
 		},
 	},
@@ -555,7 +555,7 @@ EA_ScdItems = {
 		[101545] = {
 			["enable"] = true,
 		},
-		[122470] = {
+		[115399] = {
 			["enable"] = true,
 		},
 		[116847] = {
@@ -570,7 +570,7 @@ EA_ScdItems = {
 		[115288] = {
 			["enable"] = true,
 		},
-		[115399] = {
+		[122470] = {
 			["enable"] = true,
 		},
 	},
@@ -587,22 +587,22 @@ EA_ScdItems = {
 		[178740] = {
 			["enable"] = true,
 		},
-		[188501] = {
+		[207684] = {
 			["enable"] = true,
 		},
-		[189110] = {
+		[203720] = {
 			["enable"] = true,
 		},
 		[204021] = {
 			["enable"] = true,
 		},
-		[195072] = {
+		[204157] = {
 			["enable"] = true,
 		},
 		[185245] = {
 			["enable"] = true,
 		},
-		[187827] = {
+		[195072] = {
 			["enable"] = true,
 		},
 		[162794] = {
@@ -611,13 +611,13 @@ EA_ScdItems = {
 		[204596] = {
 			["enable"] = true,
 		},
-		[204157] = {
+		[187827] = {
 			["enable"] = true,
 		},
-		[203720] = {
+		[189110] = {
 			["enable"] = true,
 		},
-		[207684] = {
+		[188501] = {
 			["enable"] = true,
 		},
 	},
@@ -657,10 +657,10 @@ EA_GrpItems = {
 			},
 			["LocX"] = 0,
 			["GroupResult"] = false,
-			["GroupIndex"] = 1,
+			["LocY"] = -200,
 			["IconSize"] = 80,
 			["IconPoint"] = "Top",
-			["LocY"] = -200,
+			["GroupIndex"] = 1,
 			["IconRelatePoint"] = "Top",
 		}, -- [1]
 	},
@@ -686,12 +686,12 @@ EA_Pos = {
 		["Tar_yOffset"] = 180,
 		["RedDebuff"] = 0.5,
 		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
 		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
 	},
 	["WARRIOR"] = {
 		["Execution"] = 0,
@@ -707,12 +707,12 @@ EA_Pos = {
 		["Tar_yOffset"] = 180,
 		["RedDebuff"] = 0.5,
 		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
 		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
 	},
 	["PALADIN"] = {
 		["Execution"] = 0,
@@ -728,12 +728,12 @@ EA_Pos = {
 		["Tar_yOffset"] = 180,
 		["RedDebuff"] = 0.5,
 		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
 		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
 	},
 	["MAGE"] = {
 		["Execution"] = 0,
@@ -749,12 +749,12 @@ EA_Pos = {
 		["Tar_yOffset"] = 180,
 		["RedDebuff"] = 0.5,
 		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
 		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
 	},
 	["PRIEST"] = {
 		["Execution"] = 0,
@@ -770,138 +770,12 @@ EA_Pos = {
 		["Tar_yOffset"] = 180,
 		["RedDebuff"] = 0.5,
 		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
 		["xLoc"] = 150,
-	},
-	["SHAMAN"] = {
-		["Execution"] = 0,
-		["GreenDebuff"] = 0.5,
-		["xOffset"] = -50,
-		["TarAnchor"] = "BOTTOM",
-		["yOffset"] = 0,
-		["PlayerLv2BOSS"] = false,
-		["relativePoint"] = "CENTER",
-		["Anchor"] = "CENTER",
-		["yLoc"] = -140,
-		["SCD_UseCooldown"] = false,
-		["Tar_yOffset"] = 180,
-		["RedDebuff"] = 0.5,
-		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
 		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
 		["Tar_NewLine"] = true,
-		["xLoc"] = 150,
-	},
-	["WARLOCK"] = {
-		["Execution"] = 0,
-		["GreenDebuff"] = 0.5,
-		["xOffset"] = -50,
-		["TarAnchor"] = "BOTTOM",
-		["yOffset"] = 0,
-		["PlayerLv2BOSS"] = false,
-		["relativePoint"] = "CENTER",
-		["Anchor"] = "CENTER",
-		["yLoc"] = -140,
-		["SCD_UseCooldown"] = false,
-		["Tar_yOffset"] = 180,
-		["RedDebuff"] = 0.5,
-		["Tar_xOffset"] = 150,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
 		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
-		["xLoc"] = 150,
-	},
-	["DEMONHUNTER"] = {
-		["Execution"] = 0,
-		["GreenDebuff"] = 0.5,
-		["xOffset"] = -50,
-		["TarAnchor"] = "BOTTOM",
-		["yOffset"] = 0,
-		["PlayerLv2BOSS"] = false,
-		["relativePoint"] = "CENTER",
-		["Anchor"] = "CENTER",
-		["yLoc"] = -140,
-		["SCD_UseCooldown"] = false,
-		["Tar_yOffset"] = 180,
-		["RedDebuff"] = 0.5,
-		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
-		["xLoc"] = 150,
-	},
-	["HUNTER"] = {
-		["Execution"] = 0,
-		["GreenDebuff"] = 0.5,
-		["xOffset"] = -50,
-		["TarAnchor"] = "BOTTOM",
-		["yOffset"] = 0,
-		["PlayerLv2BOSS"] = false,
-		["relativePoint"] = "CENTER",
-		["Anchor"] = "CENTER",
-		["yLoc"] = -140,
-		["SCD_UseCooldown"] = false,
-		["Tar_yOffset"] = 180,
-		["RedDebuff"] = 0.5,
-		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
-		["xLoc"] = 150,
-	},
-	["DRUID"] = {
-		["Execution"] = 0,
-		["GreenDebuff"] = 0.5,
-		["xOffset"] = -50,
-		["TarAnchor"] = "BOTTOM",
-		["yOffset"] = 0,
-		["PlayerLv2BOSS"] = false,
-		["relativePoint"] = "CENTER",
-		["Anchor"] = "CENTER",
-		["yLoc"] = -140,
-		["SCD_UseCooldown"] = false,
-		["Tar_yOffset"] = 180,
-		["RedDebuff"] = 0.5,
-		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
-		["xLoc"] = 150,
-	},
-	["MONK"] = {
-		["Execution"] = 0,
-		["GreenDebuff"] = 0.5,
-		["xOffset"] = -50,
-		["TarAnchor"] = "BOTTOM",
-		["yOffset"] = 0,
-		["PlayerLv2BOSS"] = false,
-		["relativePoint"] = "CENTER",
-		["Anchor"] = "CENTER",
-		["yLoc"] = -140,
-		["SCD_UseCooldown"] = false,
-		["Tar_yOffset"] = 180,
-		["RedDebuff"] = 0.5,
-		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
-		["xLoc"] = 150,
 	},
 	["ROGUE"] = {
 		["Execution"] = 0,
@@ -917,11 +791,137 @@ EA_Pos = {
 		["Tar_yOffset"] = 180,
 		["RedDebuff"] = 0.5,
 		["Tar_xOffset"] = 150,
-		["Scd_yOffset"] = -65,
-		["TarrelativePoint"] = "BOTTOM",
-		["Scd_xOffset"] = 80,
-		["ScdAnchor"] = "CENTER",
-		["Tar_NewLine"] = true,
 		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
+	},
+	["WARLOCK"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -50,
+		["TarAnchor"] = "BOTTOM",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = false,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = 180,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 150,
+		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
+	},
+	["DEMONHUNTER"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -50,
+		["TarAnchor"] = "BOTTOM",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = false,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = 180,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 150,
+		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
+	},
+	["HUNTER"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -50,
+		["TarAnchor"] = "BOTTOM",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = false,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = 180,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 150,
+		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
+	},
+	["DRUID"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -50,
+		["TarAnchor"] = "BOTTOM",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = false,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = 180,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 150,
+		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
+	},
+	["MONK"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -50,
+		["TarAnchor"] = "BOTTOM",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = false,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = 180,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 150,
+		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
+	},
+	["SHAMAN"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = -50,
+		["TarAnchor"] = "BOTTOM",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = false,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = -140,
+		["SCD_UseCooldown"] = false,
+		["Tar_yOffset"] = 180,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 150,
+		["xLoc"] = 150,
+		["TarrelativePoint"] = "BOTTOM",
+		["Tar_NewLine"] = true,
+		["ScdAnchor"] = "CENTER",
+		["Scd_xOffset"] = 80,
+		["Scd_yOffset"] = -65,
 	},
 }
