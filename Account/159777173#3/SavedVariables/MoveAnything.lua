@@ -15,22 +15,22 @@ MADB = {
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
 						0, -- [4]
-						194.9999847412109, -- [5]
+						195, -- [5]
 					},
 					["name"] = "CastingBarFrame",
 					["pos"] = {
 						"BOTTOM", -- [1]
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
-						5.228851318359375, -- [4]
-						256.0020751953125, -- [5]
+						3.48602294921875, -- [4]
+						228.1156005859375, -- [5]
 					},
 				},
 			},
 		},
 	},
-	["closeGUIOnEscape"] = false,
-	["playSound"] = false,
-	["noBags"] = false,
 	["tooltips"] = true,
+	["noBags"] = false,
+	["playSound"] = false,
+	["closeGUIOnEscape"] = false,
 }

@@ -1,5 +1,7 @@
 
 SkadaPerCharDB = {
+	["sets"] = {
+	},
 	["total"] = {
 		["orb_count"] = 0,
 		["healingabsorbed"] = 0,
@@ -23,12 +25,10 @@ SkadaPerCharDB = {
 		["mobs"] = {
 		},
 		["name"] = "总体",
-		["starttime"] = 1591379165,
+		["starttime"] = 1591465345,
 		["shielding"] = 0,
 		["mobhdone"] = 0,
-		["last_action"] = 1591379165,
+		["last_action"] = 1591465345,
 		["mobdone"] = 0,
-	},
-	["sets"] = {
 	},
 }
