@@ -35,7 +35,7 @@ EA_Config = {
 	["TimerFontSize"] = 26,
 	["OPTION_ICON"] = false,
 	["ShowFrame"] = true,
-	["SNameFontSize"] = 12,
+	["LockFrame"] = false,
 	["AlertSound"] = 568154,
 	["HUNTER_GlowPetFocus"] = 50,
 	["AllowAltAlerts"] = true,
@@ -47,7 +47,7 @@ EA_Config = {
 	["EA_SPELL_ITEM"] = {
 	},
 	["Target_MyDebuff"] = true,
-	["LockFrame"] = false,
+	["SNameFontSize"] = 12,
 	["SCD_RemoveWhenCooldown"] = true,
 	["SCD_GlowWhenUsable"] = true,
 }
@@ -113,7 +113,7 @@ EA_Items = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[23920] = {
+		[184364] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -130,7 +130,7 @@ EA_Items = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[184364] = {
+		[23920] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -157,10 +157,10 @@ EA_Items = {
 		[36032] = {
 			["enable"] = true,
 		},
-		[87023] = {
+		[48108] = {
 			["enable"] = true,
 		},
-		[48108] = {
+		[87023] = {
 			["enable"] = true,
 		},
 	},
@@ -321,7 +321,7 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[132169] = {
+		[118038] = {
 			["enable"] = true,
 			["self"] = false,
 		},
@@ -329,23 +329,23 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[113344] = {
+		[772] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[12323] = {
+		[871] = {
 			["enable"] = true,
-			["self"] = true,
+			["self"] = false,
 		},
 		[215537] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[118038] = {
+		[132169] = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[772] = {
+		[208086] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -373,13 +373,13 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[208086] = {
+		[113344] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[871] = {
+		[12323] = {
 			["enable"] = true,
-			["self"] = false,
+			["self"] = true,
 		},
 	},
 	["MONK"] = {
@@ -602,7 +602,7 @@ EA_ScdItems = {
 		[185245] = {
 			["enable"] = true,
 		},
-		[195072] = {
+		[187827] = {
 			["enable"] = true,
 		},
 		[162794] = {
@@ -611,7 +611,7 @@ EA_ScdItems = {
 		[204596] = {
 			["enable"] = true,
 		},
-		[187827] = {
+		[195072] = {
 			["enable"] = true,
 		},
 		[189110] = {

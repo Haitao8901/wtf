@@ -5,8 +5,6 @@ MTGDB = {
 	},
 	["buyList"] = {
 	},
-	["buyLists"] = {
-	},
 	["merchantItemList"] = {
 		[167902] = {
 			["NPC"] = 151950,
@@ -228,6 +226,8 @@ MTGDB = {
 				}, -- [2]
 			},
 		},
+	},
+	["buyLists"] = {
 	},
 	["NPCNameList"] = {
 		[152084] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_2:26|t 穆勒尔",

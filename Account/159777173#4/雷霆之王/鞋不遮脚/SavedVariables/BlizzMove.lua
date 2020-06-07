@@ -32,7 +32,7 @@ BlizzMoveDB = {
 	},
 	["PVEFrame"] = {
 	},
-	["LFDParentFrame"] = {
+	["MerchantFrame"] = {
 	},
 	["BankFrame"] = {
 	},
@@ -63,7 +63,7 @@ BlizzMoveDB = {
 	["GossipFrame"] = {
 	},
 	["version"] = "201109013",
-	["MerchantFrame"] = {
+	["LFDParentFrame"] = {
 	},
 	["QuestFrame"] = {
 	},

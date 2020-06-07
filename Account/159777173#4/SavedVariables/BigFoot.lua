@@ -195,10 +195,10 @@ BigFoot_Error = {
 			["class"] = "法师",
 			["desc"] = "SetPortraitToTexture(): Texture is not 64x64 pixels: FileData ID 611425.\n",
 			["race"] = "赞达拉巨魔",
-			["level"] = 120,
 			["trace"] = "[string \"=[C]\"]: in function `SetPortraitToTexture'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:1488: in function `UNIT_AURA'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:411: in function <Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua:411>\n",
-			["line"] = "1488",
 			["file"] = "Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua",
+			["line"] = "1488",
+			["level"] = 120,
 		},
 	},
 }
@@ -232,5 +232,6 @@ BF_LogonInfo = {
 	1590586566, -- [8]
 	1591102549, -- [9]
 	1591378092, -- [10]
+	1591544151, -- [11]
 }
 ModelChangeVariable = nil
