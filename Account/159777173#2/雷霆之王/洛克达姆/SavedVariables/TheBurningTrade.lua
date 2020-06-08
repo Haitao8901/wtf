@@ -316,9 +316,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -343,9 +343,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -370,9 +370,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -397,9 +397,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -424,9 +424,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -451,9 +451,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -1261,9 +1261,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "魔石保险箱",
 				["numItems"] = 1,
-				["itemLink"] = "|cff1eff00|Hitem:121331::::::::120:260::::::|h[魔石保险箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
+				["itemLink"] = "|cff1eff00|Hitem:121331::::::::120:260::::::|h[魔石保险箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -2088,9 +2088,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
+				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -2115,9 +2115,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
-				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
+				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -7273,6 +7273,58 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "奥格瑞玛",
 	}, -- [247]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 248,
+		["playerItems"] = {
+			[7] = {
+				["name"] = "集体意识之戒",
+				["numItems"] = 1,
+				["enchantment"] = "爆击之符",
+				["itemLink"] = "|cffa335ee|Hitem:174530::::::::120:260::6:6:4824:6578:6513:1517:4786:6516:::|h[集体意识之戒]|h|r",
+				["texture"] = 1391766,
+			},
+		},
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "无牙尛个子",
+		["when"] = "06-08 20:59:18",
+		["result"] = "complete",
+		["where"] = "达萨罗",
+	}, -- [248]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 249,
+		["playerItems"] = {
+			[7] = {
+				["name"] = "闪电防御之握",
+				["numItems"] = 1,
+				["enchantment"] = "赞达拉工艺",
+				["itemLink"] = "|cffa335ee|Hitem:159337::::::::120:260::16:5:6536:6516:6515:1637:4786:::|h[闪电防御之握]|h|r",
+				["texture"] = 1892757,
+			},
+		},
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "无牙尛个子",
+		["when"] = "06-08 21:14:34",
+		["result"] = "complete",
+		["where"] = "达萨罗",
+	}, -- [249]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

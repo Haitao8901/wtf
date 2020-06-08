@@ -144,7 +144,7 @@ g_auctionHouseSortsBySearchContext = {
 	}, -- [15]
 	{
 		{
-			["reverseSort"] = false,
+			["reverseSort"] = true,
 			["sortOrder"] = 4,
 		}, -- [1]
 		{

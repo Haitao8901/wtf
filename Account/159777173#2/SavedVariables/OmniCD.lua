@@ -69,7 +69,7 @@ OmniCDDB = {
 					["spell2094"] = true,
 					["spell110960"] = true,
 					["spell78675"] = true,
-					["spell109304"] = false,
+					["spell109304"] = true,
 				},
 				["highlight"] = {
 					["markEnhanced"] = false,
