@@ -328,7 +328,7 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[113344] = {
+		[208086] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -344,7 +344,7 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[772] = {
+		[113344] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -372,7 +372,7 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[208086] = {
+		[772] = {
 			["enable"] = true,
 			["self"] = true,
 		},

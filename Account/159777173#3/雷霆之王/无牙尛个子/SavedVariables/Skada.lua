@@ -20,13 +20,13 @@ SkadaPerCharDB = {
 		},
 		["power"] = {
 		},
-		["starttime"] = 1591621109,
-		["damagetaken"] = 0,
-		["name"] = "总体",
-		["mobtaken"] = 0,
 		["overhealing"] = 0,
+		["mobtaken"] = 0,
+		["name"] = "总体",
+		["damagetaken"] = 0,
+		["starttime"] = 1591698857,
 		["mobhdone"] = 0,
-		["last_action"] = 1591621109,
+		["last_action"] = 1591698857,
 		["mobdone"] = 0,
 	},
 	["sets"] = {

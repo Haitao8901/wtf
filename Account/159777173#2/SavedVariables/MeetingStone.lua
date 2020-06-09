@@ -72,8 +72,8 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 460,
 				["HonorLevel"] = 0,
 			},
-			["围攻伯拉勒斯（史诗钥石）"] = {
-				["ItemLevel"] = 450,
+			["地渊孢林（史诗）"] = {
+				["ItemLevel"] = 325,
 				["HonorLevel"] = 0,
 			},
 			["自定义PvP"] = {
@@ -92,16 +92,16 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 450,
 				["HonorLevel"] = 0,
 			},
-			["地渊孢林（史诗）"] = {
-				["ItemLevel"] = 325,
+			["麦卡贡垃圾场（史诗钥石）"] = {
+				["ItemLevel"] = 462,
 				["HonorLevel"] = 0,
 			},
 			["风暴神殿（史诗钥石）"] = {
 				["ItemLevel"] = 458,
 				["HonorLevel"] = 0,
 			},
-			["麦卡贡垃圾场（史诗钥石）"] = {
-				["ItemLevel"] = 462,
+			["围攻伯拉勒斯（史诗钥石）"] = {
+				["ItemLevel"] = 450,
 				["HonorLevel"] = 0,
 			},
 			["塞塔里斯神庙（史诗）"] = {

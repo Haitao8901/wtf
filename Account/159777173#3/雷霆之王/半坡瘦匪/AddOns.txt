@@ -57,7 +57,7 @@ BFTooltip: enabled
 MeetingStone: enabled
 DBM-Core: enabled
 DBM-SpellTimers: enabled
-DBM-RaidLeadTools: enabled
+DBM-RaidLeadTools: disabled
 DBM-StatusBarTimers: enabled
 DBM-DefaultSkin: enabled
 DBM-GUI: enabled
