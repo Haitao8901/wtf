@@ -36,17 +36,6 @@ DBMGarrisonInvasions_AllSavedVars = {
 				["SpecWarn180779spellSWNote"] = true,
 			},
 		},
-		["Teluur"] = {
-			[2] = {
-				["Enabled"] = true,
-				["SpecWarn180836dodge"] = true,
-				["announce180849spell"] = true,
-				["SpecWarn180836dodgeSWSound"] = 1,
-				["announce180825spell"] = true,
-				["SpecWarn180836dodgeSWNote"] = true,
-				["announceother180836target"] = true,
-			},
-		},
 		["Annihilon"] = {
 			[2] = {
 				["announceother180950target"] = true,
@@ -61,18 +50,6 @@ DBMGarrisonInvasions_AllSavedVars = {
 				["SpecWarn180939youSWSound"] = 1,
 				["SpecWarn180939youSWNote"] = true,
 				["SpecWarn180939you"] = true,
-			},
-		},
-		["Gaur"] = {
-			[2] = {
-				["Enabled"] = true,
-				["SpecWarn180830spellSWSound"] = 2,
-				["SpecWarn180868spell"] = true,
-				["SpecWarn180868spellSWNote"] = true,
-				["SpecWarn180868spellSWSound"] = 2,
-				["SpecWarn180830spellSWNote"] = true,
-				["announce180879spell"] = true,
-				["SpecWarn180830spell"] = true,
 			},
 		},
 		["Goggnathog"] = {
@@ -95,6 +72,29 @@ DBMGarrisonInvasions_AllSavedVars = {
 				["SpecWarn180816dispelSWSound"] = 1,
 				["SpecWarn180819spellSWSound"] = 2,
 				["RangeFrame"] = true,
+			},
+		},
+		["Gaur"] = {
+			[2] = {
+				["Enabled"] = true,
+				["SpecWarn180830spellSWSound"] = 2,
+				["SpecWarn180868spell"] = true,
+				["SpecWarn180868spellSWNote"] = true,
+				["SpecWarn180868spellSWSound"] = 2,
+				["SpecWarn180830spellSWNote"] = true,
+				["announce180879spell"] = true,
+				["SpecWarn180830spell"] = true,
+			},
+		},
+		["Teluur"] = {
+			[2] = {
+				["Enabled"] = true,
+				["SpecWarn180836dodge"] = true,
+				["announce180849spell"] = true,
+				["SpecWarn180836dodgeSWSound"] = 1,
+				["announce180825spell"] = true,
+				["SpecWarn180836dodgeSWNote"] = true,
+				["announceother180836target"] = true,
 			},
 		},
 		["Drogan"] = {

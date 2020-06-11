@@ -26,13 +26,13 @@ END
 VER 3 0100000000000059 "牦牛" "413588"
 /cast [modifier:shift,button:1] 沙石幼龙;[button:1]雄壮远足牦牛
 END
-VER 3 0100000000000053 "目标" "134400"
-/cleartarget
-/target 艾杜瓦尔
-END
 VER 3 0100000000000039 "目标" "134400"
 /cleartarget
 /target 泥泞蛞蝓
+END
+VER 3 0100000000000053 "目标" "134400"
+/cleartarget
+/target 艾杜瓦尔
 END
 VER 3 0100000000000047 "龙" "132365"
 /target 皎白云端翔龙

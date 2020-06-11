@@ -7,33 +7,33 @@ WhisperPopDB = {
 			["state"] = "read",
 			["messages"] = {
 				{
-					["time"] = "|cffffd200Sun Jun  7 01:19:02 2020|r",
-					["text"] = "兄弟你帽子哪来的？",
 					["inform"] = false,
+					["text"] = "兄弟你帽子哪来的？",
+					["time"] = "|cffffd200Sun Jun  7 01:19:02 2020|r",
 					["timeraw"] = 1591463942,
 				}, -- [1]
 				{
-					["time"] = "|cffffd200Sun Jun  7 01:19:18 2020|r",
-					["text"] = "之前商城买的",
 					["inform"] = true,
+					["text"] = "之前商城买的",
+					["time"] = "|cffffd200Sun Jun  7 01:19:18 2020|r",
 					["timeraw"] = 1591463958,
 				}, -- [2]
 				{
-					["time"] = "|cffffd200Sun Jun  7 01:19:55 2020|r",
-					["text"] = "好吧  好像绝版了  看不到  了  真的帅",
 					["inform"] = false,
+					["text"] = "好吧  好像绝版了  看不到  了  真的帅",
+					["time"] = "|cffffd200Sun Jun  7 01:19:55 2020|r",
 					["timeraw"] = 1591463995,
 				}, -- [3]
 				{
-					["time"] = "|cffffd200Sun Jun  7 01:20:42 2020|r",
-					["text"] = "不太清楚啊 可以去网上查哈",
 					["inform"] = true,
+					["text"] = "不太清楚啊 可以去网上查哈",
+					["time"] = "|cffffd200Sun Jun  7 01:20:42 2020|r",
 					["timeraw"] = 1591464042,
 				}, -- [4]
 				{
-					["time"] = "|cffffd200Sun Jun  7 01:20:59 2020|r",
-					["text"] = "多谢了",
 					["inform"] = false,
+					["text"] = "多谢了",
+					["time"] = "|cffffd200Sun Jun  7 01:20:59 2020|r",
 					["timeraw"] = 1591464059,
 				}, -- [5]
 			},
