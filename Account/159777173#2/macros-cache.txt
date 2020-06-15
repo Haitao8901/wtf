@@ -1,0 +1,287 @@
+VER 3 0000000000000001 "  羽毛加仇敌" "2032580"
+/use 罪邪角斗士的勋章
+/cast  仇敌之血
+END
+VER 3 0000000000000002 "/目标 长者廖禄" "134400"
+/目标 长者廖禄
+END
+VER 3 0000000000000003 "/跟随 老饿八号" "134400"
+/跟随 老饿八号
+END
+VER 3 0000000000000004 "1" "236299"
+/#showtooltip 混乱之刃
+/cast 涅墨西斯
+/cast 混乱之刃
+END
+VER 3 0000000000000005 "1111" "132095"
+use 黑暗灵魂：哀难
+/castsequence reset=5 灵魂燃烧,11,11,11,11,11,11
+/castsequence reset=5 灵魂交换,11,11,11,11,11,11
+END
+VER 3 0000000000000006 "123" "136103"
+/target 卡兰希尔
+/cast 庇护祝福
+END
+VER 3 0000000000000007 "222" "134400"
+/script LeaveParty()
+END
+VER 3 0000000000000008 "41241" "134400"
+/run DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hachievement:425:"..strsub(UnitGUID("player"),3)..":2:9:18:5:4294967295:4294967295:4294967295:4294967295\124h[埃提耶什，守护者的传说之杖]\124h\124r")
+END
+VER 3 0000000000000009 "AOE" "132096"
+/w 杀戮乄綠贱-格瑞姆巴托 3
+/click StaticPopup1Button1
+/click LFGDungeonReadyDialogEnterDungeonButton
+END
+VER 3 000000000000000A "BF_Mount" "132226"
+/run CompactRaidFrameManager:UnregisterAllEvents()CompactRaidFrameManager:Hide()CompactRaidFrameContainer:UnregisterAllEvents()CompactRaidFrameContainer:Hide()
+END
+VER 3 000000000000000B "BF_Mount" "132226"
+/cancelform
+/bfmount
+END
+VER 3 000000000000000C "BF_Mount" "132226"
+/bfmount
+END
+VER 3 000000000000000E "BF_Pet" "236701"
+/target focus
+/click ExtraActionButton1
+END
+VER 3 000000000000000D "BF_Pet" "236701"
+/BFPET
+END
+VER 3 000000000000000F "CD" "136103"
+/W 林荫下的乞丐-安苏 0
+/W 死神的黑羽翼-山丘之王 0
+/W 永夜绽放之薇-艾森娜 0
+/W 永夜绽放之薇-艾森娜 1.311DX
+/W 未闻君名-白银之手 0
+/W 千山云影-雷霆号角 0
+/W 第三仙-轻风之语 0
+/W 永不凋零之薇-战歌 0
+/W 波雅丶汉库克-埃雷达尔 0
+END
+VER 3 0000000000000010 "CD进组" "136103"
+run local M=function(a,b)SendChatMessage(b,"WHISPER",nil,a)end;M("第三仙-轻风之语","1")M("死神的黑羽翼-山丘之王","1")M("未闻君名-白银之手","1")M("千山云影-雷霆号角","1")M("永夜绽放之薇-艾森娜","9")M("林荫下的乞丐-安苏","44296")M("永不凋零之薇-战歌","9")M("波雅丶汉库克-埃雷达尔","1")
+/Y 急速分流免费CD宏，1.311版本。18年8月5日发布。
+END
+VER 3 0000000000000011 "Decursive" "134400"
+/script DecursiveRootTable.Dcr:Println('没有相关技能')
+END
+VER 3 0000000000000012 "Decursive" "134400"
+/script DecursiveRootTable.Dcr:Println('没有相关技能')
+END
+VER 3 0000000000000013 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清毒术;  [@mouseover,exists,mod:ctrl] 清毒术; [@mouseover,exists,mod:shift] 清毒术
+END
+VER 3 0000000000000014 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 吞噬魔法;  [@mouseover,exists,mod:ctrl] 吞噬魔法; [@mouseover,exists,mod:shift] 吞噬魔法
+END
+VER 3 0000000000000015 "MillHelper" "236229"
+/click MillHelperButton
+END
+VER 3 0000000000000016 "ot" "132091"
+/大喊 我OT啦 ！！！！啊啊啊啊啊啊啊啊啊啊啊
+END
+VER 3 0000000000000017 "saxue" "1117778"
+/click StaticPopup1Button1
+END
+VER 3 0000000000000019 "TAB" "644389"
+/run SetCVar("TargetPriorityAllowAnyOnScreen", 0) 
+END
+VER 3 0000000000000018 "TAB" "135754"
+/console SET targetNearestDistance "50"
+END
+VER 3 000000000000001A "倒数5" "644389"
+/dbm pull 5
+END
+VER 3 000000000000001B "关掉" "134400"
+/reload ui
+END
+VER 3 000000000000001C "减伤" "132743"
+/USE 提克迪奥斯之牙
+/use 活性骨壳
+END
+VER 3 000000000000001D "功能" "132874"
+/click ExtraActionButton1
+END
+VER 3 000000000000001E "去提示" "134400"
+/script UIErrorsFrame:Hide()
+END
+VER 3 000000000000001F "取消炎爆" "132874"
+/focus
+END
+VER 3 0000000000000020 "吞噬魔法" "INV_Misc_QuestionMark"
+#showtooltip 吞噬魔法
+/target 递归元素
+/cast 吞噬魔法
+END
+VER 3 0000000000000022 "坐骑" "132226"
+/RandomMount
+END
+VER 3 0000000000000021 "坐骑" "132226"
+END
+VER 3 0000000000000023 "多重" "132330"
+/cast 多重射击
+/petattack
+END
+VER 3 0000000000000024 "大树" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] 激活
+/cast 化身：生命之树 
+END
+VER 3 0000000000000025 "安定坊" "413587"
+/script DEFAULT_CHAT_FRAME:AddMessage("\124cff71d5ff\124Hspell:31984\124h[死亡一指]\124h\124r");
+END
+VER 3 0000000000000026 "小怪帮打" "132089"
+/大喊 小怪帮打！！！！
+END
+VER 3 0000000000000027 "屏蔽" "136103"
+/console SET profanityFilter "0"
+END
+VER 3 0000000000000029 "开怪" "134400"
+/DBM PULL 10
+END
+VER 3 0000000000000028 "开怪" "648840"
+/DBM PULL 7
+END
+VER 3 000000000000002A "恶魔变形" "INV_Misc_QuestionMark"
+#showtooltip 恶魔变形
+/cast [@cursor] 恶魔变形
+END
+VER 3 000000000000002B "战斗" "134400"
+e 0
+END
+VER 3 000000000000002C "打断" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=focus] 心灵冰冻
+/团队 我已经打断！！
+/团队 我已经打断！！
+/团队 我已经打断！！
+END
+VER 3 000000000000002D "打断喊话宏" "135923"
+/脚本 A=CreateFrame("frame")A:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")A:SetScript("OnEvent",function(_,_,_,e,_,_,p,_,_,_,n,_,_,_,_,_,_,s)if(e=="SPELL_INTERRUPT"and p=="上面有人照")then SendChatMessage("成功打断>"..n.."<的-"..s,"say");end;end)
+END
+VER 3 000000000000002E "投掷利刃" "INV_Misc_QuestionMark"
+#showtooltips 投掷利刃
+/stopcasting
+/cast [target=focus,harm,exists] 投掷利刃;[harm] 投掷利刃
+END
+VER 3 000000000000002F "掉线" "134400"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript ("OnUpdate",X)
+END
+VER 3 0000000000000030 "搏击俱乐部" "135274"
+/use 拳手的延时之力药水
+/use 延时之力药水
+END
+VER 3 0000000000000032 "标记宏" "135274"
+/script SetRaidTarget("target", 1)
+END
+VER 3 0000000000000031 "标记宏" "136103"
+/script SetRaidTarget("mouseover",2)
+END
+VER 3 0000000000000033 "毁灭HHH" "538563"
+/#showtooltip 烧尽
+/castsequence reset=4/combat/target 献祭,燃烧,烧尽,烧尽,烧尽,烧尽,烧尽
+/castsequence reset=4/combat/target 混乱之箭
+/cast 黑暗灵魂：易爆
+END
+VER 3 0000000000000034 "治疗" "458735"
+/use 治疗石
+/cast 黑暗再生
+END
+VER 3 0000000000000036 "混乱" "1309101"
+/CAST 混乱之刃
+/cast 涅墨西斯
+/use 13
+/use 11
+END
+VER 3 0000000000000035 "混乱" "INV_Misc_QuestionMark"
+#showtooltips
+/cast 涅墨西斯
+/cast 混乱之刃
+END
+VER 3 0000000000000037 "焦点" "135833"
+/focus 递归元素
+END
+VER 3 0000000000000038 "焦点嫁祸" "376022"
+/focus [target=focus,noexists] 
+/cast [target=focus] 嫁祸诀窍
+END
+VER 3 0000000000000039 "焦点打断" "INV_Misc_QuestionMark"
+#showtooltips 瓦解
+/stopcasting
+/cast [target=focus,harm,exists] 瓦解;[harm] 瓦解; [target=targettarget, harm] 瓦解
+END
+VER 3 000000000000003A "焦点投掷" "1305159"
+/cast [target=focus]投掷利刃
+END
+VER 3 000000000000003B "爆" "135872"
+/cast 黑暗灵魂：易爆
+/use 恶孽角斗士的统御徽章
+/cast 拳手之狡诈药水
+END
+VER 3 000000000000003D "爆发" "132096"
+/cast 气定神闲
+/cast 奥术强化
+/cast 精力充沛
+END
+VER 3 000000000000003C "爆发" "INV_Misc_QuestionMark"
+#showtooltips 混乱之刃
+/cast 涅墨西斯
+/use 11
+/use 13
+/cast 混乱之刃
+END
+VER 3 000000000000003E "玷污" "644389"
+/团队 快刷我的玷污！！！
+END
+VER 3 000000000000003F "眼镜" "461114"
+/cast 眼镜蛇射击
+/petattack
+END
+VER 3 0000000000000040 "神之怒" "236263"
+/cast 动荡徽记
+/cast 神圣复仇者
+/cast 复仇之怒
+END
+VER 3 0000000000000041 "禁锢" "1380368"
+/target 轻薄的假象丶
+/cast 禁锢
+END
+VER 3 0000000000000042 "群拉" "132637"
+/团队 群啦CD 来人补上！！！
+END
+VER 3 0000000000000043 "翅膀" "INV_Misc_QuestionMark"
+#showtooltips
+/cast 复仇之怒
+/use 13
+END
+VER 3 0000000000000044 "虚空行走" "INV_Misc_QuestionMark"
+#showtooltip 虚空行走
+/cancelAura 虚空行走 
+/cast 虚空行走
+END
+VER 3 0000000000000045 "视角" "237446"
+/run SetCVar("cameraDistanceMaxFactor", 2.6)
+END
+VER 3 0000000000000046 "误导bb" "INV_Misc_QuestionMark"
+#showtooltip 误导
+/cast [target=pet]误导
+END
+VER 3 0000000000000047 "起手" "136175"
+/use 黑暗灵魂：哀难
+/castsequence reset=5 灵魂燃烧,11,11,11,11,11,11
+/castsequence reset=5 灵魂交换,11,11,11,11,11,11
+END
+VER 3 0000000000000048 "跑" "136222"
+/团队 1111跑技能1111  来人修血！！！
+END
+VER 3 0000000000000049 "隐藏团队框架" "237551"
+/run CompactRaidFrameManager:UnregisterAllEvents() CompactRaidFrameManager:Hide() CompactRaidFrameContainer:UnregisterAllEvents() CompactRaidFrameContainer:Hide() 
+END
+VER 3 000000000000004A "雷龙" "1360763"
+/W 佶天鸿公益号-伊森利恩 801
+END

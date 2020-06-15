@@ -1,3 +1,16 @@
 VER 3 0000000000000001 "BF_Mount" "ability_mount_charger"
 /bfmount
 END
+VER 3 0000000000000002 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 吞噬魔法;  [@mouseover,exists,mod:ctrl] 吞噬魔法; [@mouseover,exists,mod:shift] 吞噬魔法
+END
+VER 3 0000000000000003 "t" "132089"
+/1 10人监狱来的MMM
+END
+VER 3 0000000000000004 "坐骑" "132226"
+/RandomMount
+END
+VER 3 0000000000000005 "视角" "236165"
+/script SetCVar("cameradistanceMax",50)
+END

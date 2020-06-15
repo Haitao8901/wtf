@@ -10,10 +10,10 @@ TrinketMenuPerOptions = {
 	},
 	["Hidden"] = {
 	},
-	["MenuDock"] = "BOTTOMLEFT",
+	["MenuScale"] = 1,
 	["MainDock"] = "BOTTOMRIGHT",
 	["YPos"] = 155.8585815429688,
-	["MenuScale"] = 1,
+	["MenuDock"] = "BOTTOMLEFT",
 	["MenuOrient"] = "VERTICAL",
 }
 TrinketMenuQueue = {
@@ -40,6 +40,7 @@ TrinketMenuQueue = {
 			"172673", -- [15]
 			"159612", -- [16]
 			"139333", -- [17]
+			"174528", -- [18]
 		}, -- [1]
 		[0] = {
 			"172672", -- [1]
@@ -59,6 +60,7 @@ TrinketMenuQueue = {
 			"172673", -- [15]
 			"159612", -- [16]
 			"139333", -- [17]
+			"174528", -- [18]
 		},
 	},
 	["Profiles"] = {

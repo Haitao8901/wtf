@@ -3,11 +3,26 @@ VER 3 0100000000000048 "仇敌" "2032580"
 /cast 仇敌之血
 /use 腐化角斗士的徽章
 END
+VER 3 010000000000005A "刺杀" "132298"
+/cast [target=focus,modifier:shift,exists,harm]脚踢;[target=focus,modifier:ctrl,exists,harm]肾击;[target=focus,modifier:alt,exists,harm]致盲;
+END
 VER 3 0100000000000058 "坐骑" "413588"
-/click [button:2][modifier:shift]BigFootBarFrame2ActionButton1;[button:1]MountJournalSummonRandomFavoriteButton;
+/click [button:2][modifier:shift][modifier:alt]BigFootBarFrame2ActionButton1;[button:1]MountJournalSummonRandomFavoriteButton;
 END
 VER 3 0100000000000036 "嫁祸" "236283"
 /cast [target=focus,exists,noharm] 嫁祸诀窍;[noharm] 嫁祸诀窍
+END
+VER 3 010000000000005B "帷幕宏" "3050176"
+/#showtooltip 潜伏帷幕
+/cast 潜伏帷幕
+/y 潜伏帷幕释放 持续15S
+/in 4 /y 剩余10s
+/in 9 /y 剩余5s
+/in 10 /y 剩余4s
+/in 11 /y 剩余3s
+/in 12 /y 剩余2s
+/in 13 /y 剩余1s
+/in 14 /y 潜伏帷幕结束
 END
 VER 3 0100000000000043 "影袭" "136189"
 #showtooltip
@@ -23,8 +38,12 @@ END
 VER 3 0100000000000057 "焦点" "135431"
 /focus [target=mouseover,harm,nodead]
 END
+VER 3 010000000000005C "焦点忙" "132310"
+/focus [target=focus,noexists] 
+/cast [target=focus] 致盲
+END
 VER 3 0100000000000059 "牦牛" "413588"
-/cast [modifier:shift,button:1] 沙石幼龙;[button:1]雄壮远足牦牛
+/cast [modifier:shift,button:1]探险者的丛林中转机;[modifier:alt,button:1] 沙石幼龙;[button:1]雄壮远足牦牛
 END
 VER 3 0100000000000039 "目标" "134400"
 /cleartarget
