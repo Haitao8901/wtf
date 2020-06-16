@@ -35,7 +35,7 @@ EA_Config = {
 	["TimerFontSize"] = 16,
 	["OPTION_ICON"] = false,
 	["ShowFrame"] = true,
-	["LockFrame"] = true,
+	["SNameFontSize"] = 12,
 	["AlertSound"] = 568154,
 	["HUNTER_GlowPetFocus"] = 50,
 	["AllowAltAlerts"] = true,
@@ -47,7 +47,7 @@ EA_Config = {
 	["EA_SPELL_ITEM"] = {
 	},
 	["Target_MyDebuff"] = true,
-	["SNameFontSize"] = 12,
+	["LockFrame"] = true,
 	["SCD_RemoveWhenCooldown"] = true,
 	["SCD_GlowWhenUsable"] = true,
 }

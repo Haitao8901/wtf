@@ -316,9 +316,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
-				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -343,9 +343,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
-				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -370,9 +370,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
-				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -397,9 +397,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
-				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -424,9 +424,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
-				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -451,9 +451,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["enchantment"] = "开锁",
 				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
-				["enchantment"] = "开锁",
 				["texture"] = 644388,
 			},
 		},
@@ -1261,9 +1261,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "魔石保险箱",
 				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:121331::::::::120:260::::::|h[魔石保险箱]|h|r",
 				["enchantment"] = "开锁",
 				["isUsable"] = true,
-				["itemLink"] = "|cff1eff00|Hitem:121331::::::::120:260::::::|h[魔石保险箱]|h|r",
 				["texture"] = 644388,
 			},
 		},
@@ -2088,9 +2088,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
-				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -2115,9 +2115,9 @@ TradeLog_TradesHistory = {
 			[7] = {
 				["name"] = "长满藤壶的宝箱",
 				["numItems"] = 1,
+				["isUsable"] = true,
 				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
 				["enchantment"] = "开锁",
-				["isUsable"] = true,
 				["texture"] = 644388,
 			},
 		},
@@ -7436,6 +7436,128 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "黑石铸造厂",
 	}, -- [252]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 253,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [1]
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [2]
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [3]
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [4]
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [5]
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [6]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "Sarawst",
+		["when"] = "06-16 22:22:15",
+		["where"] = "心之秘室",
+		["result"] = "complete",
+	}, -- [253]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 254,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [1]
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [2]
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [3]
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [4]
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::26::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [5]
+			{
+				["name"] = "长满藤壶的宝箱",
+				["numItems"] = 1,
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:260::::::|h[长满藤壶的宝箱]|h|r",
+				["isUsable"] = true,
+				["texture"] = 644388,
+			}, -- [6]
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "Sarawst",
+		["when"] = "06-16 22:22:23",
+		["where"] = "心之秘室",
+		["result"] = "complete",
+	}, -- [254]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

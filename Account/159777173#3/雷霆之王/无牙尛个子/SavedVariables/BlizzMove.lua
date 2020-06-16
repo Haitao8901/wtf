@@ -165,8 +165,8 @@ BlizzMoveDB = {
 			["xOfs"] = 16,
 		},
 		["relativePoint"] = "TOP",
-		["yOfs"] = -92.47056579589844,
-		["xOfs"] = -326.465087890625,
+		["yOfs"] = -166.5446319580078,
+		["xOfs"] = 78.76374816894531,
 		["point"] = "TOP",
 	},
 	["FriendsFrame"] = {
