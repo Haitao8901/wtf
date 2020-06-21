@@ -40,6 +40,7 @@ OmniCDDB = {
 				},
 				["visibility"] = {
 					["scenario"] = true,
+					["finder"] = true,
 					["none"] = true,
 				},
 			},

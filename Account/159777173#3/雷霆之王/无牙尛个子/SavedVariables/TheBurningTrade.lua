@@ -1749,6 +1749,45 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "地渊孢林",
 	}, -- [56]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 57,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "长满藤壶的宝箱",
+				["itemLink"] = "|cff1eff00|Hitem:169475::::::::120:253::::::|h[长满藤壶的宝箱]|h|r",
+				["texture"] = 644388,
+			}, -- [1]
+		},
+		["targetItems"] = {
+			{
+				["name"] = "有标记的无瑕战斗石",
+				["numItems"] = 1,
+				["itemLink"] = "|cff0070dd|Hitem:98715::::::::120:253::::::|h[有标记的无瑕战斗石]|h|r",
+				["isUsable"] = true,
+				["texture"] = 667492,
+			}, -- [1]
+			{
+				["name"] = "战斗宠物绷带",
+				["numItems"] = 250,
+				["itemLink"] = "|cff1eff00|Hitem:86143::::::::120:253::::::|h[战斗宠物绷带]|h|r",
+				["isUsable"] = true,
+				["texture"] = 133675,
+			}, -- [2]
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "06-19 23:47:42",
+		["result"] = "complete",
+		["where"] = "腐化泥沼",
+	}, -- [57]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

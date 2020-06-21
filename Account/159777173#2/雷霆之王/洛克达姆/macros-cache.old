@@ -6,6 +6,12 @@ END
 VER 3 010000000000005A "刺杀" "132298"
 /cast [target=focus,modifier:shift,exists,harm]脚踢;[target=focus,modifier:ctrl,exists,harm]肾击;[target=focus,modifier:alt,exists,harm]致盲;
 END
+VER 3 010000000000005D "刺杀" "132298"
+/cast [target=focus,modifier:shift,exists,harm]脚踢;[target=focus,modifier:ctrl,exists,harm]肾击;[target=focus,modifier:alt,exists,harm]致盲;
+END
+VER 3 010000000000005E "坐骑" "413588"
+/click [button:2][modifier:shift]BigFootBarFrame2ActionButton1;[button:1]MountJournalSummonRandomFavoriteButton;
+END
 VER 3 0100000000000058 "坐骑" "413588"
 /click [button:2][modifier:shift][modifier:alt]BigFootBarFrame2ActionButton1;[button:1]MountJournalSummonRandomFavoriteButton;
 END
@@ -42,16 +48,19 @@ VER 3 010000000000005C "焦点忙" "132310"
 /focus [target=focus,noexists] 
 /cast [target=focus] 致盲
 END
+VER 3 010000000000005F "牦牛" "413588"
+/cast [modifier:shift,button:1] 沙石幼龙;[button:1]雄壮远足牦牛
+END
 VER 3 0100000000000059 "牦牛" "413588"
 /cast [modifier:shift,button:1]探险者的丛林中转机;[modifier:alt,button:1] 沙石幼龙;[button:1]雄壮远足牦牛
-END
-VER 3 0100000000000039 "目标" "134400"
-/cleartarget
-/target 泥泞蛞蝓
 END
 VER 3 0100000000000053 "目标" "134400"
 /cleartarget
 /target 艾杜瓦尔
+END
+VER 3 0100000000000039 "目标" "134400"
+/cleartarget
+/target 泥泞蛞蝓
 END
 VER 3 0100000000000047 "龙" "132365"
 /target 皎白云端翔龙

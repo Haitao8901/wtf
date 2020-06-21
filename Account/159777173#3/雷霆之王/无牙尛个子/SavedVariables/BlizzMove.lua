@@ -58,6 +58,17 @@ BlizzMoveDB = {
 		["save"] = true,
 	},
 	["SpellBookFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOP",
+		["yOfs"] = -129.9433135986328,
+		["xOfs"] = -126.429313659668,
+		["point"] = "TOP",
 	},
 	["version"] = "201109013",
 	["QuestFrame"] = {

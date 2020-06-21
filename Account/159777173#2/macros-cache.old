@@ -33,9 +33,6 @@ VER 3 0000000000000009 "AOE" "132096"
 /click StaticPopup1Button1
 /click LFGDungeonReadyDialogEnterDungeonButton
 END
-VER 3 000000000000000C "BF_Mount" "132226"
-/bfmount
-END
 VER 3 000000000000000A "BF_Mount" "132226"
 /run CompactRaidFrameManager:UnregisterAllEvents()CompactRaidFrameManager:Hide()CompactRaidFrameContainer:UnregisterAllEvents()CompactRaidFrameContainer:Hide()
 END
@@ -43,12 +40,15 @@ VER 3 000000000000000B "BF_Mount" "132226"
 /cancelform
 /bfmount
 END
-VER 3 000000000000000D "BF_Pet" "236701"
-/BFPET
+VER 3 000000000000000C "BF_Mount" "132226"
+/bfmount
 END
 VER 3 000000000000000E "BF_Pet" "236701"
 /target focus
 /click ExtraActionButton1
+END
+VER 3 000000000000000D "BF_Pet" "236701"
+/BFPET
 END
 VER 3 000000000000000F "CD" "136103"
 /W 林荫下的乞丐-安苏 0
@@ -88,11 +88,11 @@ END
 VER 3 0000000000000017 "saxue" "1117778"
 /click StaticPopup1Button1
 END
-VER 3 0000000000000018 "TAB" "135754"
-/console SET targetNearestDistance "50"
-END
 VER 3 0000000000000019 "TAB" "644389"
 /run SetCVar("TargetPriorityAllowAnyOnScreen", 0) 
+END
+VER 3 0000000000000018 "TAB" "135754"
+/console SET targetNearestDistance "50"
 END
 VER 3 000000000000001A "倒数5" "644389"
 /dbm pull 5
@@ -118,10 +118,10 @@ VER 3 0000000000000020 "吞噬魔法" "INV_Misc_QuestionMark"
 /target 递归元素
 /cast 吞噬魔法
 END
-VER 3 0000000000000021 "坐骑" "132226"
-END
 VER 3 0000000000000022 "坐骑" "132226"
 /RandomMount
+END
+VER 3 0000000000000021 "坐骑" "132226"
 END
 VER 3 0000000000000023 "多重" "132330"
 /cast 多重射击
@@ -141,11 +141,11 @@ END
 VER 3 0000000000000027 "屏蔽" "136103"
 /console SET profanityFilter "0"
 END
-VER 3 0000000000000028 "开怪" "648840"
-/DBM PULL 7
-END
 VER 3 0000000000000029 "开怪" "134400"
 /DBM PULL 10
+END
+VER 3 0000000000000028 "开怪" "648840"
+/DBM PULL 7
 END
 VER 3 000000000000002A "恶魔变形" "INV_Misc_QuestionMark"
 #showtooltip 恶魔变形
@@ -176,11 +176,11 @@ VER 3 0000000000000030 "搏击俱乐部" "135274"
 /use 拳手的延时之力药水
 /use 延时之力药水
 END
-VER 3 0000000000000031 "标记宏" "136103"
-/script SetRaidTarget("mouseover",2)
-END
 VER 3 0000000000000032 "标记宏" "135274"
 /script SetRaidTarget("target", 1)
+END
+VER 3 0000000000000031 "标记宏" "136103"
+/script SetRaidTarget("mouseover",2)
 END
 VER 3 0000000000000033 "毁灭HHH" "538563"
 /#showtooltip 烧尽
@@ -192,16 +192,16 @@ VER 3 0000000000000034 "治疗" "458735"
 /use 治疗石
 /cast 黑暗再生
 END
-VER 3 0000000000000035 "混乱" "INV_Misc_QuestionMark"
-#showtooltips
-/cast 涅墨西斯
-/cast 混乱之刃
-END
 VER 3 0000000000000036 "混乱" "1309101"
 /CAST 混乱之刃
 /cast 涅墨西斯
 /use 13
 /use 11
+END
+VER 3 0000000000000035 "混乱" "INV_Misc_QuestionMark"
+#showtooltips
+/cast 涅墨西斯
+/cast 混乱之刃
 END
 VER 3 0000000000000037 "焦点" "135833"
 /focus 递归元素
@@ -223,17 +223,17 @@ VER 3 000000000000003B "爆" "135872"
 /use 恶孽角斗士的统御徽章
 /cast 拳手之狡诈药水
 END
+VER 3 000000000000003D "爆发" "132096"
+/cast 气定神闲
+/cast 奥术强化
+/cast 精力充沛
+END
 VER 3 000000000000003C "爆发" "INV_Misc_QuestionMark"
 #showtooltips 混乱之刃
 /cast 涅墨西斯
 /use 11
 /use 13
 /cast 混乱之刃
-END
-VER 3 000000000000003D "爆发" "132096"
-/cast 气定神闲
-/cast 奥术强化
-/cast 精力充沛
 END
 VER 3 000000000000003E "玷污" "644389"
 /团队 快刷我的玷污！！！

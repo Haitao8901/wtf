@@ -2,16 +2,16 @@
 BigFoot_Config = {
 	["BFVersion"] = 20120927,
 	["MapToolkit"] = {
-		["MapWordFlight"] = 1,
 		["MapSexyMinimap"] = 0,
+		["MapWordFlight"] = 1,
 	},
 	["BUnitFrame"] = {
 		["EnableEasyFocusFrame"] = 0,
-		["EnableTargetTarget"] = 0,
-		["EnableBUnitFrame"] = 1,
-		["EnableTargetTargetTarget"] = 0,
-		["EnableCastingIcon"] = 1,
 		["EnableCastingShining"] = 1,
+		["EnableCastingIcon"] = 1,
+		["EnableTargetTargetTarget"] = 0,
+		["EnableBUnitFrame"] = 1,
+		["EnableTargetTarget"] = 0,
 	},
 	["Item Info"] = {
 		["EnableAdditionalInfo"] = 1,
@@ -24,8 +24,8 @@ BigFoot_Config = {
 	["RaidToolkit"] = {
 		["EnableDBM"] = 1,
 		["EnableRaidAlerter"] = 0,
-		["EnableDecursive"] = 0,
 		["EnableThreat"] = 0,
+		["EnableDecursive"] = 0,
 		["EnableMeetingStone"] = 1,
 		["EnableRecount2"] = 0,
 		["EnableSkada"] = 0,
@@ -86,22 +86,22 @@ BigFoot_Config = {
 		["EnableProximo"] = 0,
 		["EnableGladiatorlosSA"] = 0,
 	},
-	["BIGFOOT_VERSION_NEW"] = "zhCN8.3.0.809",
+	["BIGFOOT_VERSION_NEW"] = "zhCN8.3.0.812",
 	["BuffMaster"] = {
-		["BFCH_MYBUFF_SIZE"] = 23,
+		["BuffMasterShowTimeLeft"] = 1,
 		["EnablePartyShortBuffer"] = 1,
-		["BFCH_OTHERBUFF_SIZE"] = 17,
+		["BuffMasterShowDetailTimeLeft"] = 1,
 		["ShowTargetCooldown2"] = 1,
 		["EnablePartyBuffer"] = 1,
 		["AdjustBuffSize"] = 1,
-		["BuffMasterShowDetailTimeLeft"] = 1,
-		["BuffMasterShowTimeLeft"] = 1,
+		["BFCH_OTHERBUFF_SIZE"] = 17,
+		["BFCH_MYBUFF_SIZE"] = 23,
 	},
 	["ActionBar"] = {
 		["HideTab"] = 0,
-		["Enable_BigFootBar"] = 0,
-		["EnableDistanceAlert"] = 1,
 		["HideGrid"] = 0,
+		["EnableDistanceAlert"] = 1,
+		["Enable_BigFootBar"] = 0,
 	},
 	["MarkAssistant"] = {
 		["EnablewMarker"] = 0,
@@ -128,16 +128,16 @@ BigFoot_Config = {
 		["EnableBigFootBlackBank"] = 1,
 	},
 	["BFMount"] = {
-		["EnableHPetBattleAny"] = 1,
 		["EnableMasterPlan"] = 1,
+		["EnableHPetBattleAny"] = 1,
 	},
 	["PortraitEnhancement"] = {
 		["EnablePartyCastBar"] = 1,
 		["EnablePartyTarget"] = 1,
 		["EnablePartyPor"] = 1,
 		["EnablePorEnhance"] = 1,
-		["EnableEasyFrames"] = 1,
 		["EnableTargetClassInfo"] = 1,
+		["EnableEasyFrames"] = 1,
 	},
 	["BagManagement"] = {
 		["EnabelOpenAllBagsOnBank"] = 1,
@@ -160,34 +160,33 @@ BigFoot_Config = {
 		["BigFootTooltipItemLevel"] = "显示",
 		["EnableBFTooltip"] = 1,
 		["EnableNewTypeBFTooltip"] = 0,
-		["BigFootTooltipPosition"] = "无",
+		["BigFootTooltipGuildRank"] = "隐藏",
 		["BigFootTooltipToT"] = "显示",
 		["BigFootTooltipTalent"] = "显示",
 		["BigFootTooltipPositionX"] = -20,
-		["BigFootTooltipGuildRank"] = "隐藏",
+		["BigFootTooltipPosition"] = "无",
 	},
 	["CombatIndicator"] = {
 		["EnableCombatLeave"] = 1,
 		["EnableCombatIndicator"] = 1,
 		["EnableShowSpell"] = 1,
-		["EnableSpell"] = 1,
 		["EnableDCT"] = 0,
+		["EnableSpell"] = 1,
 	},
 	["AutoEquip"] = {
-		["EnableAdvancedMode"] = 0,
 		["EnableAutoEquip"] = 0,
+		["EnableAdvancedMode"] = 0,
 		["EnableAutoHide"] = 0,
 	},
 	["ChatEnhancement"] = {
 		["EnableWhisperPop"] = 1,
-		["EnableItemLinkLevel"] = 1,
+		["EnableBFC"] = 1,
 		["EnableAchievementCompare"] = 1,
 		["EnablePlayerLink"] = 1,
-		["EnableBFC"] = 1,
+		["EnableItemLinkLevel"] = 1,
 	},
 }
 BigFoot_Error = {
-	["debug_Mod"] = false,
 	["zhCN8.3.0.808"] = {
 		["3843933464207431122131024622181904189374"] = {
 			["combat"] = false,
@@ -195,28 +194,29 @@ BigFoot_Error = {
 			["class"] = "法师",
 			["desc"] = "SetPortraitToTexture(): Texture is not 64x64 pixels: FileData ID 611425.\n",
 			["race"] = "赞达拉巨魔",
-			["trace"] = "[string \"=[C]\"]: in function `SetPortraitToTexture'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:1488: in function `UNIT_AURA'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:411: in function <Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua:411>\n",
-			["file"] = "Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua",
-			["line"] = "1488",
 			["level"] = 120,
+			["trace"] = "[string \"=[C]\"]: in function `SetPortraitToTexture'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:1488: in function `UNIT_AURA'\n[string \"@Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua\"]:411: in function <Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua:411>\n",
+			["line"] = "1488",
+			["file"] = "Interface\\AddOns\\BigDebuffs\\BigDebuffs.lua",
 		},
 	},
+	["debug_Mod"] = false,
 }
 MBBDB = {
 	["profileKeys"] = {
 		["瞎撸法尔 - 雷霆之王"] = "瞎撸法尔 - 雷霆之王",
 		["巨击黑牛 - 雷霆之王"] = "巨击黑牛 - 雷霆之王",
-		["瞎不掩瑜 - 雷霆之王"] = "瞎不掩瑜 - 雷霆之王",
 		["鞋不遮脚 - 雷霆之王"] = "鞋不遮脚 - 雷霆之王",
+		["瞎不掩瑜 - 雷霆之王"] = "瞎不掩瑜 - 雷霆之王",
 	},
 	["profiles"] = {
 		["瞎撸法尔 - 雷霆之王"] = {
 		},
 		["巨击黑牛 - 雷霆之王"] = {
 		},
-		["瞎不掩瑜 - 雷霆之王"] = {
-		},
 		["鞋不遮脚 - 雷霆之王"] = {
+		},
+		["瞎不掩瑜 - 雷霆之王"] = {
 		},
 	},
 }
@@ -233,5 +233,6 @@ BF_LogonInfo = {
 	1591102549, -- [9]
 	1591378092, -- [10]
 	1591544151, -- [11]
+	1592717595, -- [12]
 }
 ModelChangeVariable = nil

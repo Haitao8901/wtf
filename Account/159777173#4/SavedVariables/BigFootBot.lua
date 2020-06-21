@@ -19,49 +19,6 @@ BigFootBot_Version = {
 }
 BigFootBot_Info = nil
 PlayersDB = {
-	["酒酿圆子:阿古斯"] = {
-		["race"] = 17,
-		["name"] = "酒酿圆子",
-		["level"] = 88,
-		["gender"] = 3,
-		["class"] = 1,
-		["server"] = "阿古斯",
-	},
-	["被逼玩坦:熊猫酒仙"] = {
-		["race"] = 10,
-		["name"] = "被逼玩坦",
-		["guild"] = "缅怀刘老师",
-		["level"] = 88,
-		["gender"] = 3,
-		["class"] = 7,
-		["server"] = "熊猫酒仙",
-	},
-	["肉丸馄饨丶:罗宁"] = {
-		["race"] = 10,
-		["name"] = "肉丸馄饨丶",
-		["guild"] = "神话铁骑",
-		["level"] = 90,
-		["gender"] = 3,
-		["class"] = 3,
-		["server"] = "罗宁",
-	},
-	["鞋不遮脚:雷霆之王"] = {
-		["race"] = 22,
-		["name"] = "鞋不遮脚",
-		["guild"] = "凤台鸾阁",
-		["level"] = 120,
-		["gender"] = 2,
-		["class"] = 9,
-		["server"] = "雷霆之王",
-	},
-	["秋橘:辛达苟萨"] = {
-		["race"] = 13,
-		["name"] = "秋橘",
-		["level"] = 88,
-		["gender"] = 3,
-		["class"] = 11,
-		["server"] = "辛达苟萨",
-	},
 }
 UtilDB = {
 	["M"] = {

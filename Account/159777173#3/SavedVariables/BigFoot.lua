@@ -56,8 +56,8 @@ BigFoot_Config = {
 		["ShowCenter"] = 0,
 		["EnableCooldownCount2"] = 1,
 		["checkedVersion"] = "809",
-		["ToggleBar"] = 0,
 		["ShineType"] = "标准",
+		["ToggleBar"] = 0,
 	},
 	["SellerHelper"] = {
 		["AutoSellPoor"] = 1,
@@ -181,9 +181,9 @@ BigFoot_Config = {
 		["BigFootTooltipActor"] = "隐藏",
 		["BigFootTooltipPositionY"] = -25,
 		["BigFootTooltipItemLevel"] = "显示",
-		["EnableNewTypeBFTooltip"] = 0,
-		["EnableBFTooltip"] = 1,
 		["checkedVersion"] = "808",
+		["EnableBFTooltip"] = 1,
+		["EnableNewTypeBFTooltip"] = 0,
 		["BigFootTooltipGuildRank"] = "隐藏",
 		["BigFootTooltipToT"] = "显示",
 		["BigFootTooltipTalent"] = "显示",
@@ -267,9 +267,9 @@ BigFoot_Error = {
 			["race"] = "玛格汉兽人",
 			["time"] = 1591889566,
 			["version"] = "zhCN8.3.0.811",
-			["level"] = 120,
-			["forbiddenfunc"] = "UNKNOWN()",
 			["trace"] = "[string \"@Interface\\AddOns\\BigFoot\\BigFootError.lua\"]:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseAction'\n[string \"@Interface\\FrameXML\\SecureTemplates.lua\"]:345: in function `handler'\n[string \"@Interface\\FrameXML\\SecureTemplates.lua\"]:632: in function `SecureActionButton_OnClick'\n[string \"*:OnClick\"]:4: in function <[string \"*:OnClick\"]:1>\n",
+			["forbiddenfunc"] = "UNKNOWN()",
+			["level"] = 120,
 		},
 	},
 	["zhCN8.3.0.802"] = {
@@ -462,5 +462,8 @@ BF_LogonInfo = {
 	1592323688, -- [50]
 	1592454376, -- [51]
 	1592497921, -- [52]
+	1592637790, -- [53]
+	1592673848, -- [54]
+	1592761016, -- [55]
 }
 ModelChangeVariable = nil
