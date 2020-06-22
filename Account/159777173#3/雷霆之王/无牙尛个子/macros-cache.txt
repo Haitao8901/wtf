@@ -1,5 +1,5 @@
 VER 3 0100000000000004 "坐骑" "413588"
-/click [button:2][modifier:shift]BigFootBarFrame2ActionButton1;[button:1]MountJournalSummonRandomFavoriteButton;
+/click [button:2][modifier:shift][modifier:alt]BigFootBarFrame2ActionButton1;[button:1]MountJournalSummonRandomFavoriteButton;
 END
 VER 3 0100000000000008 "打断" "249170"
 /cast [target=focus,modifier:shift,exists,harm]反制射击;[target=focus,modifier:ctrl,exists,harm]胁迫
@@ -11,7 +11,7 @@ VER 3 0100000000000006 "焦点" "132218"
 /focus [target=mouseover,harm,nodead]
 END
 VER 3 0100000000000005 "牦牛" "413588"
-/cast [modifier:shift,button:1] 沙石幼龙;[button:1]雄壮远足牦牛
+/cast [modifier:shift,button:1]探险者的丛林中转机;[modifier:alt,button:1] 沙石幼龙;[button:1]雄壮远足牦牛
 END
 VER 3 0100000000000009 "皎白" "INV_MISC_QUESTIONMARK"
 /cleartarget

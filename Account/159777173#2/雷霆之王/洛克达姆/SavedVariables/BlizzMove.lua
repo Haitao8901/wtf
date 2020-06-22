@@ -212,9 +212,9 @@ BlizzMoveDB = {
 		["xOfs"] = -245.5010375976563,
 		["point"] = "TOP",
 	},
-	["LFDParentFrame"] = {
-	},
 	["AzeriteEmpoweredItemUI"] = {
+	},
+	["LFDParentFrame"] = {
 	},
 	["ScrappingMachineFrame"] = {
 		["default"] = {
