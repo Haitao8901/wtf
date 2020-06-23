@@ -6,7 +6,7 @@ MasterPlanAG = {
 			["faction"] = "Horde",
 		},
 		["洛克达姆"] = {
-			["faction"] = "Horde",
+			["curOil"] = 2030,
 			["summary"] = {
 				["lastOilTime"] = 1589473276,
 				["inProgress"] = {
@@ -33,11 +33,11 @@ MasterPlanAG = {
 				["tt3"] = 1588610489,
 				["tt2"] = true,
 			},
-			["curOil"] = 2030,
+			["faction"] = "Horde",
 			["cacheSize"] = 1000,
-			["lastCacheTime"] = 1586670977,
-			["curRes"] = 9270,
 			["class"] = "ROGUE",
+			["curRes"] = 9270,
+			["lastCacheTime"] = 1586670977,
 		},
 		["无牙尛个子"] = {
 			["summary"] = {
@@ -45,11 +45,11 @@ MasterPlanAG = {
 				["inProgress"] = {
 					[479] = 1566938467,
 					[313] = 1566938465,
-					[184] = 1566925874,
 					[107] = 1566942069,
+					[483] = 1566938483,
 					[365] = 1566938472,
 					[177] = 1566926776,
-					[483] = 1566938483,
+					[184] = 1566925874,
 				},
 				["tt1"] = true,
 			},
