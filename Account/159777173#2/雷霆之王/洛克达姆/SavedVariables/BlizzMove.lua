@@ -149,8 +149,8 @@ BlizzMoveDB = {
 			["xOfs"] = 0,
 		},
 		["relativePoint"] = "CENTER",
-		["yOfs"] = 36.60135269165039,
-		["xOfs"] = -305.8822631835938,
+		["yOfs"] = -4.357313632965088,
+		["xOfs"] = 128.9758453369141,
 		["point"] = "CENTER",
 	},
 	["InspectFrame"] = {
@@ -212,9 +212,9 @@ BlizzMoveDB = {
 		["xOfs"] = -245.5010375976563,
 		["point"] = "TOP",
 	},
-	["LFDParentFrame"] = {
-	},
 	["AzeriteEmpoweredItemUI"] = {
+	},
+	["LFDParentFrame"] = {
 	},
 	["ScrappingMachineFrame"] = {
 		["default"] = {

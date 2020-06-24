@@ -34,7 +34,7 @@ BF_Frames_Config = {
 		["offX"] = 0,
 		["point"] = "BOTTOMRIGHT",
 		["region"] = "FocusFrame",
-		["offY"] = -18,
+		["offY"] = -17.99999809265137,
 		["refPoint"] = "BOTTOMRIGHT",
 	},
 }

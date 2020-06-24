@@ -8,8 +8,8 @@ BattleGroundEnemiesDB = {
 		["Default"] = {
 			["Enemies"] = {
 				["15"] = {
-					["Position_Y"] = 380.2143665015465,
-					["Position_X"] = 1122.035990545541,
+					["Position_Y"] = 385.2339757643495,
+					["Position_X"] = 1154.942396060025,
 				},
 			},
 			["Allies"] = {

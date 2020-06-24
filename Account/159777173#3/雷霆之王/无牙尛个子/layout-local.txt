@@ -1,11 +1,4 @@
 Version: 1
-Frame: TargetFrame
-FrameLevel: 1
-Anchor: RIGHT
-X: -484
-Y: 236
-W: 232
-H: 100
 Frame: PlayerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -48,7 +41,7 @@ X: 0
 Y: -20
 W: 165
 H: 262
-Frame: CharacterFrame
+Frame: FriendsFrame
 FrameLevel: 1
 Anchor: TOPLEFT
 X: 16
@@ -62,6 +55,13 @@ X: 351
 Y: 201
 W: 200
 H: 50
+Frame: TargetFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -484
+Y: 236
+W: 232
+H: 100
 Frame: CastingBarFrame
 FrameLevel: 1
 Anchor: BOTTOM
@@ -69,7 +69,7 @@ X: 3
 Y: 228
 W: 220
 H: 13
-Frame: FriendsFrame
+Frame: CharacterFrame
 FrameLevel: 1
 Anchor: TOPLEFT
 X: 16
