@@ -260,6 +260,17 @@ BigFoot_Error = {
 		},
 	},
 	["ADDON_ACTION_FORBIDDEN"] = {
+		["!!!Libs"] = {
+			["combat"] = true,
+			["zone"] = "纳兹米尔",
+			["class"] = "猎人",
+			["race"] = "玛格汉兽人",
+			["time"] = 1593423752,
+			["version"] = "zhCN8.3.0.812",
+			["trace"] = "[string \"@Interface\\AddOns\\BigFoot\\BigFootError.lua\"]:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[string \"=[C]\"]: in function `UseQuestLogSpecialItem'\n[string \"@Interface\\AddOns\\Blizzard_ObjectiveTracker\\Blizzard_ObjectiveTrackerShared.lua\"]:95: in function <...ObjectiveTracker\\Blizzard_ObjectiveTrackerShared.lua:88>\n",
+			["forbiddenfunc"] = "UseQuestLogSpecialItem()",
+			["level"] = 120,
+		},
 		["BigFootBar"] = {
 			["combat"] = false,
 			["zone"] = "戈尔隆德",
@@ -270,6 +281,17 @@ BigFoot_Error = {
 			["trace"] = "[string \"@Interface\\AddOns\\BigFoot\\BigFootError.lua\"]:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `UseAction'\n[string \"@Interface\\FrameXML\\SecureTemplates.lua\"]:345: in function `handler'\n[string \"@Interface\\FrameXML\\SecureTemplates.lua\"]:632: in function `SecureActionButton_OnClick'\n[string \"*:OnClick\"]:4: in function <[string \"*:OnClick\"]:1>\n",
 			["forbiddenfunc"] = "UNKNOWN()",
 			["version"] = "zhCN8.3.0.811",
+		},
+		["ArkInventory"] = {
+			["combat"] = false,
+			["zone"] = "祖达萨",
+			["class"] = "猎人",
+			["race"] = "玛格汉兽人",
+			["time"] = 1593276033,
+			["version"] = "zhCN8.3.0.812",
+			["trace"] = "[string \"@Interface\\AddOns\\BigFoot\\BigFootError.lua\"]:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[string \"=[C]\"]: in function `UseToy'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_ToyBox.lua\"]:169: in function `ToySpellButton_OnClick'\n[string \"*:OnClick\"]:4: in function <[string \"*:OnClick\"]:1>\n",
+			["forbiddenfunc"] = "UseToy()",
+			["level"] = 120,
 		},
 	},
 	["zhCN8.3.0.802"] = {
@@ -345,6 +367,19 @@ BigFoot_Error = {
 			["level"] = 101,
 			["line"] = "83",
 			["trace"] = "[string \"@Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua\"]:83: in function <Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua:77>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"safecall Dispatcher[1]\"]:9: in function <[string \"safecall Dispatcher[1]\"]:5>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\LibClass-2.0\\Class-2.0.lua\"]:156: in function `Fire'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\NetEaseGUI-2.0\\Embed\\Blocker.lua\"]:43: in function `UpdateBlockers'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua\"]:23: in function <Interface\\AddOns\\MeetingStone\\Module\\MainPanel.lua:21>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\AddOns\\MeetingStone\\Libs\\LibModule-1.0\\LibModule-1.0.lua\"]:131: in function `ShowModule'\n[string \"@Interface\\AddOns\\MeetingStone\\Main.lua\"]:88: in function `Toggle'\n[string \"@Interface\\AddOns\\MeetingStone\\Module\\DataBroker.lua\"]:48: in function <Interface\\AddOns\\MeetingStone\\Module\\DataBroker.lua:43>\n",
+		},
+	},
+	["zhCN8.3.0.812"] = {
+		["315581577318191367523261971572466097792"] = {
+			["combat"] = true,
+			["zone"] = "纳兹米尔",
+			["class"] = "猎人",
+			["desc"] = "Invalid option in `format'",
+			["race"] = "玛格汉兽人",
+			["file"] = "Interface\\FrameXML\\ChatFrame.lua",
+			["level"] = 120,
+			["line"] = "3624",
+			["trace"] = "[string \"=[C]\"]: in function `format'\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:3624: in function `ChannelFilter_7c151c5e4af573821a13320cffbe335b'\n[string \"@Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua\"]:1: in function <Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\AddOns\\BigFootChat\\core.lua\"]:1: in function <Interface\\AddOns\\BigFootChat\\core.lua:1>\n[string \"=(tail call)\"]: ?\n[string \"@Interface\\FrameXML\\ChatFrame.lua\"]:3018: in function `ChatFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
 		},
 	},
 	["zhCN8.3.0.808"] = {
@@ -468,5 +503,9 @@ BF_LogonInfo = {
 	1592892794, -- [56]
 	1592978536, -- [57]
 	1593017400, -- [58]
+	1593102476, -- [59]
+	1593247435, -- [60]
+	1593276045, -- [61]
+	1593363508, -- [62]
 }
 ModelChangeVariable = nil

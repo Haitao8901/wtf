@@ -1842,6 +1842,96 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "祖达萨",
 	}, -- [59]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 60,
+		["playerItems"] = {
+			{
+				["numItems"] = 20,
+				["name"] = "幽影之尘",
+				["itemLink"] = "|cffffffff|Hitem:152875::::::::120:253::::::|h[幽影之尘]|h|r",
+				["texture"] = 2060145,
+			}, -- [1]
+		},
+		["targetItems"] = {
+			{
+				["name"] = "邪能战斗训练石",
+				["numItems"] = 1,
+				["itemLink"] = "|cffffffff|Hitem:127755::::::::120:253::::::|h[邪能战斗训练石]|h|r",
+				["isUsable"] = true,
+				["texture"] = 667493,
+			}, -- [1]
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "06-26 14:46:30",
+		["result"] = "complete",
+		["where"] = "祖达萨",
+	}, -- [60]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 61,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "软泥鲭鱼",
+				["numItems"] = 20,
+				["itemLink"] = "|cffffffff|Hitem:152544::::::::120:253::::::|h[软泥鲭鱼]|h|r",
+				["isUsable"] = true,
+				["texture"] = 2057316,
+			}, -- [1]
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "06-26 15:04:12",
+		["result"] = "complete",
+		["where"] = "纳兹米尔",
+	}, -- [61]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 62,
+		["playerItems"] = {
+			{
+				["texture"] = 627313,
+				["itemLink"] = "|cff1eff00|Hitem:164432::::::::120:253::::::|h[静谧之途卫衣]|h|r",
+				["name"] = "静谧之途卫衣",
+				["numItems"] = 1,
+			}, -- [1]
+		},
+		["targetItems"] = {
+			{
+				["name"] = "致命熔岩青金石",
+				["numItems"] = 3,
+				["isUsable"] = true,
+				["itemLink"] = "|cffa335ee|Hitem:168639::::::::120:253::::::|h[致命熔岩青金石]|h|r",
+				["texture"] = 629170,
+			}, -- [1]
+		},
+		["player"] = "无牙尛个子",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "洛克达姆",
+		["when"] = "06-28 00:20:10",
+		["result"] = "complete",
+		["where"] = "祖达萨",
+	}, -- [62]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil
