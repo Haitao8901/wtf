@@ -19,6 +19,15 @@ BigFootBot_Version = {
 }
 BigFootBot_Info = nil
 PlayersDB = {
+	["小格的付小徳:影之哀伤"] = {
+		["race"] = 2,
+		["name"] = "小格的付小徳",
+		["guild"] = "The Silmarillion",
+		["level"] = 120,
+		["gender"] = 3,
+		["class"] = 10,
+		["server"] = "影之哀伤",
+	},
 }
 UtilDB = {
 	["M"] = {
