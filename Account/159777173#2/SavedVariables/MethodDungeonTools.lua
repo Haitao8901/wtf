@@ -290,11 +290,13 @@ MethodDungeonToolsDB = {
 					["mdiEnabled"] = true,
 					["difficulty"] = 15,
 					["freeholdCrewSelected"] = true,
-					["week"] = 12,
+					["week"] = 1,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
 						["riftOffsets"] = {
+							{
+							}, -- [1]
 							[6] = {
 							},
 							[7] = {
@@ -309,7 +311,7 @@ MethodDungeonToolsDB = {
 							},
 						},
 						["currentDungeonIdx"] = 16,
-						["teeming"] = false,
+						["teeming"] = true,
 						["selection"] = {
 							1, -- [1]
 						},
@@ -342,7 +344,7 @@ MethodDungeonToolsDB = {
 						["beguiling"] = 1,
 						["freehold"] = 1,
 					},
-					["freeholdCrew"] = 3,
+					["freeholdCrew"] = 1,
 					["objects"] = {
 					},
 				}, -- [1]
@@ -866,7 +868,7 @@ MethodDungeonToolsDB = {
 					},
 					["value"] = {
 						["currentPull"] = 1,
-						["currentSublevel"] = 3,
+						["currentSublevel"] = 7,
 						["pulls"] = {
 							{
 								{
@@ -886,27 +888,19 @@ MethodDungeonToolsDB = {
 									15, -- [5]
 								}, -- [4]
 								[26] = {
-									17, -- [1]
-									5, -- [2]
+									5, -- [1]
 								},
 								[27] = {
-									10, -- [1]
-									12, -- [2]
 								},
 								["color"] = "ff3eff",
+								[29] = {
+									1, -- [1]
+								},
 								[17] = {
-									2, -- [1]
 								},
 								[18] = {
-									1, -- [1]
-									2, -- [2]
 								},
 								[19] = {
-									6, -- [1]
-									7, -- [2]
-									5, -- [3]
-									2, -- [4]
-									3, -- [5]
 								},
 								[22] = {
 									2, -- [1]
@@ -917,8 +911,7 @@ MethodDungeonToolsDB = {
 								},
 								[28] = {
 									8, -- [1]
-									3, -- [2]
-									10, -- [3]
+									10, -- [2]
 								},
 							}, -- [1]
 						},
@@ -929,6 +922,10 @@ MethodDungeonToolsDB = {
 						},
 						["riftOffsets"] = {
 							[12] = {
+								[161243] = {
+									["y"] = -108.4906625912398,
+									["x"] = 490.8590266154313,
+								},
 							},
 						},
 					},
@@ -1142,10 +1139,10 @@ MethodDungeonToolsDB = {
 				}, -- [1]
 			}, -- [26]
 		},
-		["currentDungeonIdx"] = 26,
+		["currentDungeonIdx"] = 16,
 		["version"] = 305,
 		["xoffset"] = -118.2510833740234,
-		["currentDifficulty"] = 16,
+		["currentDifficulty"] = 15,
 		["yoffset"] = -132.0830383300781,
 	},
 }

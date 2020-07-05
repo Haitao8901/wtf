@@ -7737,6 +7737,56 @@ TradeLog_TradesHistory = {
 		["result"] = "complete",
 		["where"] = "祖达萨",
 	}, -- [260]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 261,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "潜伏阴谋者之戒",
+				["itemLink"] = "|cffa335ee|Hitem:175008::::::::120:260::6:5:4824:6516:6513:1517:4786:::|h[潜伏阴谋者之戒]|h|r",
+				["texture"] = 1391766,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "Sarawst",
+		["when"] = "07-01 21:12:28",
+		["result"] = "complete",
+		["where"] = "祖达萨",
+	}, -- [261]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 262,
+		["playerItems"] = {
+			{
+				["texture"] = 3004126,
+				["itemLink"] = "|cff0070dd|Hbattlepet:2836:1:3:147:13:11:0000000000000000:92438|h[腐化之眼]|h|r",
+				["name"] = "腐化之眼",
+				["numItems"] = 1,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "洛克达姆",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "Sarawst",
+		["when"] = "07-02 00:49:30",
+		["result"] = "complete",
+		["where"] = "暴风城的幻象",
+	}, -- [262]
 }
 TRADE_LOG_BUTTON_POS = 190
 TradeLog_Announce_Checked = nil

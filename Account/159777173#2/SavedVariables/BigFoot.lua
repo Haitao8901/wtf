@@ -590,15 +590,15 @@ BigFoot_Error = {
 	["zhCN8.3.0.812"] = {
 		["70864994798398717119115967882614124117"] = {
 			["combat"] = true,
-			["zone"] = "暴风城的幻象",
+			["zone"] = "格罗玛什要塞的幻象",
 			["class"] = "潜行者",
 			["desc"] = "Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: FocusFrameSpellBar:SetPoint.",
 			["race"] = "赞达拉巨魔",
-			["srcError"] = "BigFootBar",
-			["level"] = 120,
-			["trace"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:1116: in function <Interface\\FrameXML\\TargetFrame.lua:1096>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\FrameXML\\CastingBarFrame.lua\"]:201: in function `CastingBarFrame_OnEvent'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:1093: in function <Interface\\FrameXML\\TargetFrame.lua:1055>\n",
 			["line"] = "",
+			["trace"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:1108: in function `Target_Spellbar_AdjustPosition'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:637: in function <Interface\\FrameXML\\TargetFrame.lua:495>\n[string \"=[C]\"]: in function `TargetFrame_UpdateAuras'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:209: in function `OnEvent'\n[string \"@Interface\\FrameXML\\UnitFrame.lua\"]:917: in function <Interface\\FrameXML\\UnitFrame.lua:915>\n",
 			["file"] = "",
+			["level"] = 120,
+			["srcError"] = "MoveAnything",
 		},
 		["1269200706131341642726643948361734611092"] = {
 			["combat"] = false,
@@ -613,13 +613,13 @@ BigFoot_Error = {
 		},
 		["341897347319376670933521178701745649481"] = {
 			["combat"] = true,
-			["zone"] = "暴风城的幻象",
+			["zone"] = "格罗玛什要塞的幻象",
 			["class"] = "潜行者",
 			["desc"] = "Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: TargetFrameSpellBar:SetPoint.",
 			["race"] = "赞达拉巨魔",
-			["srcError"] = "BigFootBar",
+			["srcError"] = "MoveAnything",
 			["level"] = 120,
-			["trace"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:1114: in function `Target_Spellbar_AdjustPosition'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:637: in function <Interface\\FrameXML\\TargetFrame.lua:495>\n[string \"=[C]\"]: in function `TargetFrame_UpdateAuras'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:144: in function `TargetFrame_Update'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:163: in function `OnEvent'\n[string \"@Interface\\FrameXML\\UnitFrame.lua\"]:917: in function <Interface\\FrameXML\\UnitFrame.lua:915>\n",
+			["trace"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:1108: in function `Target_Spellbar_AdjustPosition'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:637: in function <Interface\\FrameXML\\TargetFrame.lua:495>\n[string \"=[C]\"]: in function `TargetFrame_UpdateAuras'\n[string \"@Interface\\FrameXML\\TargetFrame.lua\"]:209: in function `OnEvent'\n[string \"@Interface\\FrameXML\\UnitFrame.lua\"]:917: in function <Interface\\FrameXML\\UnitFrame.lua:915>\n",
 			["line"] = "",
 			["file"] = "",
 		},
@@ -1267,5 +1267,10 @@ BF_LogonInfo = {
 	1593328610, -- [148]
 	1593363279, -- [149]
 	1593495525, -- [150]
+	1593606849, -- [151]
+	1593620604, -- [152]
+	1593752743, -- [153]
+	1593877021, -- [154]
+	1593880982, -- [155]
 }
 ModelChangeVariable = nil

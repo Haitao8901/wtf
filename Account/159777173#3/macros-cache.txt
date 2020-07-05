@@ -1,3 +1,11 @@
+VER 3 0000000000000006 " " "132294"
+/cast 逃脱
+/cast 棱彩装饰
+END
+VER 3 0000000000000007 "BB转火宏" "132120"
+/petattack
+/cast 急奔
+END
 VER 3 0000000000000001 "BF_Mount" "ability_mount_charger"
 /bfmount
 END
@@ -8,9 +16,147 @@ END
 VER 3 0000000000000003 "t" "132089"
 /1 10人监狱来的MMM
 END
+VER 3 0000000000000008 "假死" "132293"
+/stopcasting
+/cast 假死
+END
+VER 3 0000000000000009 "冰冻" "INV_Misc_QuestionMark"
+#showtooltip 冰冻陷阱
+/cast [@cursor] 冰冻陷阱
+END
+VER 3 000000000000000A "卡宠" "INV_Misc_QuestionMark"
+#showtooltip 急奔
+/petfollow 
+/petpassive 
+/cast 急奔 
+/cast 治疗宠物 
+/script UIErrorsFrame:Clear()
+END
+VER 3 000000000000000B "取消" "135727"
+/cancelAura 嗜血
+/cancelAura 时间扭曲
+END
 VER 3 0000000000000004 "坐骑" "132226"
 /RandomMount
 END
+VER 3 0000000000000020 "奇美拉射击" "236176"
+/cast 奇美拉射击
+/cast 爪击
+/cast 撕咬
+END
+VER 3 000000000000000C "威慑" "INV_Misc_QuestionMark"
+#showtooltip 灵龟守护
+/stopcasting 
+/cancelaura 灵龟守护
+/cast 灵龟守护
+END
+VER 3 000000000000000D "开怪" "134400"
+/DBM PULL 10
+END
+VER 3 000000000000000E "打断" "249170"
+/s 3333333333333333
+#showtooltip
+/cleartarget
+/targetexact 艾萨亚雷女巫
+/focus
+/target 奥戈佐亚
+/stopmacro [target=focus,noexists]
+/cast [target=focus] 反制射击
+END
+VER 3 000000000000000F "焦油" "INV_Misc_QuestionMark"
+#showtooltip 焦油陷阱
+/cast [@cursor] 焦油陷阱
+END
+VER 3 0000000000000010 "焦点" "132212"
+/focus
+END
+VER 3 0000000000000011 "焦点误导" "INV_Misc_QuestionMark"
+#showtooltip 误导
+/cast [target=focus,exists][target=pet][] 误导
+END
+VER 3 0000000000000012 "燃爆" "252268"
+/施放 燃烧
+/use 狂暴
+END
+VER 3 0000000000000013 "爆发" "INV_Misc_QuestionMark"
+#showtooltip 狂野怒火
+/cast 血性狂怒(种族特长)
+/cast 狂暴(种族特长)
+/cast 先祖召唤(种族特长)
+/cast 狂野怒火
+/cast 协同进攻
+/cast 百发百中
+/use 13
+/use 14
+END
+VER 3 0000000000000021 "猎豹" "132242"
+/cast 猎豹守护
+/use 棱彩装饰
+END
+VER 3 0000000000000014 "猎豹守护" "132242"
+/petattack
+/cast 猎豹守护
+/cast 泡泡棒
+END
+VER 3 0000000000000015 "目标" "463286"
+/目标 维克提斯
+END
+VER 3 0000000000000016 "目标" "INV_Misc_QuestionMark"
+#showtooltip
+/cleartarget
+/targetenemy
+/targetenemyplayer
+END
+VER 3 0000000000000022 "眼镜蛇射击" "461114"
+/cast 眼镜蛇射击
+/cast 爪击
+/cast 撕咬
+END
+VER 3 0000000000000017 "羽毛" "136224"
+/施放 狂暴(种族特长)
+/施放 野性守护
+/use 金辉飞羽
+END
+VER 3 0000000000000018 "胁迫" "132111"
+/petattack
+/cast 胁迫
+END
+VER 3 0000000000000019 "莫忆丶" "132180"
+/Cast [target=凡儿丶尘]误导
+/Cast [target=残阳裂开了]误导
+/Cast [target=期盼丶-杜隆坦]误导
+END
+VER 3 000000000000001A "血-" "237587"
+/cast [@player] 灵魂治愈
+END
+VER 3 0000000000000023 "袋里乾坤" "3193419"
+/目标 自己
+/施放 袋里乾坤
+END
 VER 3 0000000000000005 "视角" "236165"
 /script SetCVar("cameradistanceMax",50)
+END
+VER 3 000000000000001B "误导" "132180"
+/cast [@focus]误导
+/Y 已误导 
+END
+VER 3 000000000000001C "连发" "537468"
+/petattack
+/cast 二连发
+/cast 泡泡棒
+END
+VER 3 000000000000001D "选球" "132108"
+/目标 邪能炸药
+END
+VER 3 0000000000000024 "选矿" "134081"
+/cast 选矿
+/use 镍铜矿石
+END
+VER 3 000000000000001E "驱散" "839977"
+/petattack
+/cast 灵魂震击
+END
+VER 3 000000000000001F "龟壳" "132199"
+/stopcasting
+/cast 灵龟守护
 END

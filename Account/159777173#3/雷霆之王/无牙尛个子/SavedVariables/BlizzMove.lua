@@ -28,8 +28,8 @@ BlizzMoveDB = {
 			["xOfs"] = 16,
 		},
 		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -152.6012878417969,
-		["xOfs"] = 248.3659820556641,
+		["yOfs"] = -169.1590270996094,
+		["xOfs"] = 24.71458435058594,
 		["point"] = "TOPLEFT",
 	},
 	["MailFrame"] = {
@@ -119,8 +119,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "CENTER",
 		["yOfs"] = -0.8715533018112183,
 		["xOfs"] = 202.1785430908203,
-		["scale"] = 1.000000023841858,
 		["point"] = "CENTER",
+		["scale"] = 1.000000023841858,
 	},
 	["GossipFrame"] = {
 	},
@@ -128,7 +128,7 @@ BlizzMoveDB = {
 	},
 	["AzeriteEmpoweredItemUI"] = {
 	},
-	["GameMenuFrame"] = {
+	["ItemSocketingFrame"] = {
 	},
 	["DressUpFrame"] = {
 		["default"] = {
@@ -158,9 +158,27 @@ BlizzMoveDB = {
 	},
 	["LFDParentFrame"] = {
 	},
-	["CommunitiesFrame"] = {
+	["MerchantFrame"] = {
 	},
 	["LootFrame"] = {
+	},
+	["AchievementFrame"] = {
+		["save"] = true,
+	},
+	["AzeriteEssenceUI"] = {
+	},
+	["PVEFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOP",
+		["yOfs"] = -95.9563217163086,
+		["xOfs"] = -256.7483825683594,
+		["point"] = "TOP",
 	},
 	["FriendsFrame"] = {
 		["default"] = {
@@ -175,25 +193,7 @@ BlizzMoveDB = {
 		["xOfs"] = 290.5097961425781,
 		["point"] = "TOPLEFT",
 	},
-	["AzeriteEssenceUI"] = {
-	},
-	["PVEFrame"] = {
-		["default"] = {
-			["relativeTo"] = "UIParent",
-			["point"] = "TOPLEFT",
-			["relativePoint"] = "TOPLEFT",
-			["yOfs"] = -116.0000076293945,
-			["xOfs"] = 16,
-		},
-		["relativePoint"] = "TOP",
-		["yOfs"] = -166.5446319580078,
-		["xOfs"] = 78.76374816894531,
-		["point"] = "TOP",
-	},
-	["AchievementFrame"] = {
-		["save"] = true,
-	},
-	["MerchantFrame"] = {
+	["CommunitiesFrame"] = {
 	},
 	["EncounterJournal"] = {
 		["default"] = {
@@ -206,10 +206,10 @@ BlizzMoveDB = {
 		["relativePoint"] = "TOPLEFT",
 		["yOfs"] = -169.1590270996094,
 		["xOfs"] = 172.8627014160156,
-		["save"] = true,
 		["point"] = "TOPLEFT",
+		["save"] = true,
 	},
-	["ItemSocketingFrame"] = {
+	["GameMenuFrame"] = {
 	},
 	["HelpFrame"] = {
 	},

@@ -529,7 +529,16 @@ WeakAurasSaved = {
 			["anchorPoint"] = "CENTER",
 			["cooldownSwipe"] = true,
 			["cooldownEdge"] = false,
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -558,7 +567,28 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 29,
 			["keepAspectRatio"] = false,
-			["selfPoint"] = "CENTER",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["easeType"] = "none",
+					["duration_type"] = "seconds",
+					["preset"] = "starShakeDecay",
+					["easeStrength"] = 3,
+				},
+				["main"] = {
+					["type"] = "preset",
+					["easeType"] = "none",
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+					["easeStrength"] = 3,
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
 			["desaturate"] = false,
 			["subRegions"] = {
 				{
@@ -629,55 +659,25 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["config"] = {
-			},
+			["uid"] = "hi)W7H5BH1G",
+			["anchorFrameType"] = "SCREEN",
 			["authorOptions"] = {
 			},
-			["parent"] = "New 33",
 			["cooldownTextDisabled"] = false,
 			["auto"] = true,
-			["zoom"] = 0,
+			["selfPoint"] = "CENTER",
 			["id"] = "New 34",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["easeType"] = "none",
-					["duration_type"] = "seconds",
-					["preset"] = "starShakeDecay",
-					["easeStrength"] = 3,
-				},
-				["main"] = {
-					["type"] = "preset",
-					["easeType"] = "none",
-					["duration_type"] = "seconds",
-					["preset"] = "pulse",
-					["easeStrength"] = 3,
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
+			["zoom"] = 0,
 			["alpha"] = 1,
 			["width"] = 50,
-			["xOffset"] = 0,
-			["uid"] = "hi)W7H5BH1G",
-			["inverse"] = false,
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["do_custom"] = false,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["parent"] = "New 33",
+			["config"] = {
 			},
+			["inverse"] = false,
+			["icon"] = true,
 			["conditions"] = {
 			},
-			["anchorFrameType"] = "SCREEN",
+			["xOffset"] = 0,
 			["frameStrata"] = 1,
 		},
 		["New 3"] = {
@@ -2627,13 +2627,24 @@ WeakAurasSaved = {
 			["parent"] = "New 15",
 		},
 		["New 25"] = {
-			["authorOptions"] = {
-			},
+			["xOffset"] = -244.65771484375,
 			["yOffset"] = 63.55438232421875,
 			["anchorPoint"] = "CENTER",
 			["cooldownSwipe"] = true,
 			["cooldownEdge"] = false,
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+					["do_loop"] = false,
+					["do_sound"] = true,
+					["sound_repeat"] = 2,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\kaching.ogg",
+					["do_glow"] = false,
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -2863,21 +2874,10 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
-			["actions"] = {
-				["start"] = {
-					["do_loop"] = false,
-					["do_sound"] = true,
-					["sound_repeat"] = 2,
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\kaching.ogg",
-					["do_glow"] = false,
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["icon"] = true,
 			["displayIcon"] = 1373910,
-			["xOffset"] = -244.65771484375,
+			["authorOptions"] = {
+			},
 			["selfPoint"] = "CENTER",
 		},
 		["Horrific Visions - Chest Text"] = {
@@ -3972,25 +3972,12 @@ WeakAurasSaved = {
 			["xOffset"] = 103,
 		},
 		["New 39"] = {
-			["authorOptions"] = {
-			},
+			["xOffset"] = 76.0386962890625,
 			["yOffset"] = 325.8638305664063,
 			["anchorPoint"] = "CENTER",
 			["cooldownSwipe"] = true,
 			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-					["do_loop"] = false,
-					["do_sound"] = false,
-					["sound_repeat"] = 2,
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\kaching.ogg",
-					["do_glow"] = false,
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -4166,9 +4153,22 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
-			["xOffset"] = 76.0386962890625,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = 1373910,
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+					["do_loop"] = false,
+					["do_sound"] = false,
+					["sound_repeat"] = 2,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\kaching.ogg",
+					["do_glow"] = false,
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4455,9 +4455,9 @@ WeakAurasSaved = {
 			["fontSize"] = 20,
 			["alpha"] = 1,
 			["width"] = 64,
+			["preferToUpdate"] = false,
 			["parent"] = "8.3 大幻象监控 布局美化",
 			["automaticWidth"] = "Auto",
-			["selfPoint"] = "CENTER",
 			["conditions"] = {
 			},
 			["regionType"] = "icon",
@@ -4491,8 +4491,8 @@ WeakAurasSaved = {
 			["inverse"] = false,
 			["url"] = "https://wago.io/JxMRlFNNX/8",
 			["fixedWidth"] = 200,
-			["preferToUpdate"] = false,
 			["xOffset"] = -56,
+			["selfPoint"] = "CENTER",
 		},
 		["词缀提示 二区 恐虫症 opt"] = {
 			["color"] = {
@@ -6937,12 +6937,24 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 		},
 		["New 37"] = {
-			["parent"] = "New 21",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
 			["cooldownSwipe"] = true,
 			["cooldownEdge"] = false,
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -7050,37 +7062,25 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["config"] = {
-			},
+			["uid"] = "dVybg4xTrHZ",
 			["alpha"] = 1,
-			["xOffset"] = 0,
+			["width"] = 50,
 			["zoom"] = 0,
 			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
+			["xOffset"] = 0,
 			["id"] = "New 37",
 			["selfPoint"] = "CENTER",
 			["frameStrata"] = 1,
-			["width"] = 50,
+			["anchorFrameType"] = "SCREEN",
 			["authorOptions"] = {
 			},
-			["uid"] = "dVybg4xTrHZ",
-			["inverse"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["config"] = {
 			},
+			["inverse"] = false,
+			["parent"] = "New 21",
 			["conditions"] = {
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["icon"] = true,
 			["cooldownTextDisabled"] = false,
 		},
 		["New 36"] = {
@@ -7550,20 +7550,12 @@ WeakAurasSaved = {
 			["icon"] = true,
 		},
 		["New"] = {
-			["authorOptions"] = {
-			},
+			["xOffset"] = -473.9992980957031,
 			["yOffset"] = 155.0000305175781,
 			["anchorPoint"] = "CENTER",
 			["cooldownSwipe"] = true,
 			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -7763,9 +7755,17 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["inverse"] = false,
-			["xOffset"] = -473.9992980957031,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = 132282,
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -8003,7 +8003,14 @@ WeakAurasSaved = {
 			["anchorPoint"] = "CENTER",
 			["cooldownSwipe"] = true,
 			["cooldownEdge"] = false,
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -8092,31 +8099,24 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["config"] = {
-			},
-			["width"] = 50,
-			["xOffset"] = 0,
-			["zoom"] = 0,
-			["auto"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["id"] = "New 24",
-			["cooldownTextDisabled"] = false,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
+			["uid"] = "7q(khAfNU(6",
+			["parent"] = "New 21",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["uid"] = "7q(khAfNU(6",
+			["zoom"] = 0,
+			["auto"] = true,
+			["icon"] = true,
+			["id"] = "New 24",
+			["cooldownTextDisabled"] = false,
+			["frameStrata"] = 1,
+			["width"] = 50,
+			["xOffset"] = 0,
+			["config"] = {
+			},
 			["inverse"] = false,
 			["animation"] = {
 				["start"] = {
@@ -8140,7 +8140,7 @@ WeakAurasSaved = {
 			},
 			["conditions"] = {
 			},
-			["parent"] = "New 21",
+			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
 		},
 		["药水提示 蓝 opt"] = {
@@ -9270,19 +9270,7 @@ WeakAurasSaved = {
 			["anchorPoint"] = "CENTER",
 			["cooldownSwipe"] = true,
 			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-					["do_loop"] = false,
-					["do_sound"] = false,
-					["sound_repeat"] = 2,
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\kaching.ogg",
-					["do_glow"] = false,
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -9465,16 +9453,28 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+					["do_loop"] = false,
+					["do_sound"] = false,
+					["sound_repeat"] = 2,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\kaching.ogg",
+					["do_glow"] = false,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["cooldownTextDisabled"] = false,
 			["auto"] = true,
 			["displayIcon"] = 1373910,
 			["id"] = "New 41",
-			["xOffset"] = 1.0926513671875,
-			["alpha"] = 0.9500000000000001,
-			["width"] = 64,
 			["authorOptions"] = {
 			},
+			["alpha"] = 0.9500000000000001,
+			["width"] = 64,
+			["xOffset"] = 1.0926513671875,
 			["uid"] = "p(FYZEL2Z8y",
 			["inverse"] = false,
 			["zoom"] = 0,
@@ -10534,10 +10534,14 @@ WeakAurasSaved = {
 			["id"] = "8.3 大幻象监控 布局美化",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["uid"] = "puGnLuLqqZN",
+			["borderInset"] = 1,
 			["config"] = {
 			},
-			["uid"] = "puGnLuLqqZN",
 			["xOffset"] = 874.6598933293267,
+			["conditions"] = {
+			},
+			["groupIcon"] = "1357795",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -10558,10 +10562,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["conditions"] = {
-			},
-			["borderInset"] = 1,
-			["groupIcon"] = "1357795",
 		},
 		["Automatic Chest/Crystal Counter - Horrific Visions"] = {
 			["controlledChildren"] = {
@@ -10996,9 +10996,9 @@ WeakAurasSaved = {
 			["fontSize"] = 20,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["preferToUpdate"] = false,
 			["parent"] = "8.3 大幻象监控 布局美化",
 			["icon"] = true,
-			["url"] = "https://wago.io/JxMRlFNNX/8",
 			["conditions"] = {
 			},
 			["regionType"] = "icon",
@@ -11027,7 +11027,6 @@ WeakAurasSaved = {
 			["authorOptions"] = {
 			},
 			["fixedWidth"] = 268,
-			["preferToUpdate"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -11048,6 +11047,7 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["url"] = "https://wago.io/JxMRlFNNX/8",
 		},
 		["药水提示 红 opt"] = {
 			["authorOptions"] = {
@@ -11229,22 +11229,17 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 		},
 		["New 27"] = {
-			["xOffset"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
 			["cooldownSwipe"] = true,
 			["cooldownEdge"] = false,
-			["actions"] = {
-				["start"] = {
-					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\aggro.ogg",
-					["do_sound"] = false,
-				},
-				["init"] = {
-					["do_custom"] = false,
-				},
-				["finish"] = {
-				},
-			},
+			["icon"] = true,
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -11429,26 +11424,21 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["config"] = {
-			},
+			["uid"] = "72(8CT67PKS",
 			["alpha"] = 1,
-			["width"] = 50,
+			["xOffset"] = 0,
 			["zoom"] = 0,
 			["auto"] = true,
-			["authorOptions"] = {
-			},
+			["width"] = 50,
 			["id"] = "New 27",
 			["selfPoint"] = "CENTER",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["parent"] = "New 21",
-			["uid"] = "72(8CT67PKS",
+			["config"] = {
+			},
 			["inverse"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["authorOptions"] = {
 			},
 			["conditions"] = {
 				{
@@ -11499,7 +11489,17 @@ WeakAurasSaved = {
 					},
 				}, -- [2]
 			},
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\aggro.ogg",
+					["do_sound"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
 			["cooldownTextDisabled"] = false,
 		},
 		["Horrific Visions - Chest Zone 4"] = {
@@ -12596,6 +12596,9 @@ WeakAurasSaved = {
 				},
 			},
 			["uid"] = "VWxFVjyeG9p",
+			["parent"] = "8.3 大幻象监控 布局美化",
+			["xOffset"] = -94.025733947754,
+			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -12606,9 +12609,6 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 			},
-			["xOffset"] = -94.025733947754,
-			["regionType"] = "icon",
-			["cooldownEdge"] = false,
 			["desaturate"] = false,
 			["conditions"] = {
 				{
@@ -12638,6 +12638,24 @@ WeakAurasSaved = {
 					},
 				}, -- [2]
 			},
+			["cooldownEdge"] = false,
+			["auto"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0,
+			["semver"] = "1.0.7",
+			["tocversion"] = 80300,
+			["id"] = "泰坦之赐 opt",
+			["frameStrata"] = 4,
+			["alpha"] = 1,
+			["width"] = 91,
+			["cooldownTextDisabled"] = false,
+			["config"] = {
+			},
+			["inverse"] = false,
+			["authorOptions"] = {
+			},
+			["displayIcon"] = "2000853",
+			["cooldown"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -12657,24 +12675,6 @@ WeakAurasSaved = {
 					["easeStrength"] = 3,
 					["easeType"] = "none",
 				},
-			},
-			["auto"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
-			["semver"] = "1.0.7",
-			["tocversion"] = 80300,
-			["id"] = "泰坦之赐 opt",
-			["frameStrata"] = 4,
-			["alpha"] = 1,
-			["width"] = 91,
-			["cooldownTextDisabled"] = false,
-			["config"] = {
-			},
-			["inverse"] = false,
-			["parent"] = "8.3 大幻象监控 布局美化",
-			["displayIcon"] = "2000853",
-			["cooldown"] = false,
-			["authorOptions"] = {
 			},
 		},
 		["New 32"] = {
@@ -14036,6 +14036,7 @@ WeakAurasSaved = {
 			["fontSize"] = 20,
 			["alpha"] = 1,
 			["width"] = 64,
+			["preferToUpdate"] = false,
 			["parent"] = "8.3 大幻象监控 布局美化",
 			["actions"] = {
 				["start"] = {
@@ -14051,7 +14052,6 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 			},
-			["selfPoint"] = "CENTER",
 			["conditions"] = {
 			},
 			["regionType"] = "icon",
@@ -14075,8 +14075,8 @@ WeakAurasSaved = {
 			["inverse"] = false,
 			["wordWrap"] = "WordWrap",
 			["fixedWidth"] = 268,
-			["preferToUpdate"] = false,
 			["xOffset"] = 17,
+			["selfPoint"] = "CENTER",
 		},
 		["背景 减伤药水"] = {
 			["sparkWidth"] = 10,
@@ -15844,12 +15844,24 @@ WeakAurasSaved = {
 			["parent"] = "8.3 大幻象监控 布局美化",
 		},
 		["New 23"] = {
-			["xOffset"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
 			["cooldownSwipe"] = true,
 			["cooldownEdge"] = false,
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["triggers"] = {
 				{
 					["trigger"] = {
@@ -15938,14 +15950,7 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["icon"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -15969,26 +15974,21 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["zoom"] = 0,
 			["auto"] = true,
-			["parent"] = "New 21",
+			["width"] = 50,
 			["id"] = "New 23",
-			["uid"] = "JpXUbM70rBR",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
 			["config"] = {
 			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["parent"] = "New 21",
+			["uid"] = "JpXUbM70rBR",
 			["inverse"] = false,
 			["cooldownTextDisabled"] = false,
 			["conditions"] = {
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["xOffset"] = 0,
+			["authorOptions"] = {
 			},
-			["width"] = 50,
 		},
 		["药水计时 龙息 opt"] = {
 			["sparkWidth"] = 10,
