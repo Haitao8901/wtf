@@ -10,11 +10,6 @@ VER 3 010000000000000B "  " "132127"
 /use 食火者的瓶子
 /use 辉煌蓝宝石
 END
-VER 3 010000000000000E "1" "132208"
-/施放 急速射击
-/施放 夺命黑鸦
-/施放 群兽奔腾
-END
 VER 3 010000000000000C "1" "INV_Misc_QuestionMark"
 #showtooltip 误导
 /cast [target=focus, help]误导
@@ -22,6 +17,11 @@ END
 VER 3 010000000000000D "1" "132089"
 /目标 古德利亚
 /cast 驯服野兽
+END
+VER 3 010000000000000E "1" "132208"
+/施放 急速射击
+/施放 夺命黑鸦
+/施放 群兽奔腾
 END
 VER 3 0100000000000010 "反制射击" "249170"
 /施放 反制射击
@@ -67,5 +67,6 @@ VER 3 0100000000000001 "误宠" "132180"
 /cast [target=focus,exists,noharm,nodead] 误导;[target=pet,exists,nodead]误导
 END
 VER 3 0100000000000007 "误断" "249170"
+#showtooltip 误导
 /click [modifier:shift][modifier:ctrl]BigFootBarFrame2ActionButton2;BigFootBarFrame2ActionButton3;
 END

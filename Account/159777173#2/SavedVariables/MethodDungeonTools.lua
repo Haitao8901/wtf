@@ -450,7 +450,7 @@ MethodDungeonToolsDB = {
 				{
 					["mdiEnabled"] = false,
 					["difficulty"] = 17,
-					["week"] = 8,
+					["week"] = 1,
 					["faction"] = 1,
 					["value"] = {
 						["currentPull"] = 1,
@@ -472,10 +472,13 @@ MethodDungeonToolsDB = {
 						},
 						["pulls"] = {
 							{
-								nil, -- [1]
-								nil, -- [2]
+								{
+								}, -- [1]
+								{
+								}, -- [2]
 								nil, -- [3]
-								nil, -- [4]
+								{
+								}, -- [4]
 								nil, -- [5]
 								{
 									1, -- [1]
@@ -489,9 +492,21 @@ MethodDungeonToolsDB = {
 								[52] = {
 								},
 								["color"] = "ff3eff",
-								[53] = {
+								[41] = {
+								},
+								[45] = {
 								},
 								[32] = {
+								},
+								[34] = {
+								},
+								[53] = {
+								},
+								[40] = {
+								},
+								[47] = {
+								},
+								[17] = {
 								},
 							}, -- [1]
 						},

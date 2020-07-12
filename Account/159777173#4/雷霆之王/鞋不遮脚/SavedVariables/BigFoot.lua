@@ -13,6 +13,6 @@ BigFoot_Character = {
 	["Realm"] = "雷霆之王",
 }
 BigFoot_SysTemSetTab = {
-	["UtilsPatchVersion"] = "2020-03-26",
 	["BigFoot_LoadBefore"] = 1,
+	["UtilsPatchVersion"] = "2020-03-26",
 }

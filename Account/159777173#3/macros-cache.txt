@@ -98,14 +98,14 @@ VER 3 0000000000000014 "猎豹守护" "132242"
 /cast 猎豹守护
 /cast 泡泡棒
 END
-VER 3 0000000000000015 "目标" "463286"
-/目标 维克提斯
-END
 VER 3 0000000000000016 "目标" "INV_Misc_QuestionMark"
 #showtooltip
 /cleartarget
 /targetenemy
 /targetenemyplayer
+END
+VER 3 0000000000000015 "目标" "463286"
+/目标 维克提斯
 END
 VER 3 0000000000000022 "眼镜蛇射击" "461114"
 /cast 眼镜蛇射击
