@@ -2,7 +2,7 @@
 TI_status = {
 	["state"] = false,
 	["debugstate"] = false,
-	["version"] = "2.1",
+	["version"] = "2.0",
 	["usedefault"] = false,
 	["autoadd"] = false,
 	["options"] = {

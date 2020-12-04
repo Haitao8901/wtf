@@ -16,12 +16,7 @@ DBM_SpellTimers_Settings = {
 			["cooldown"] = 180,
 			["bartext"] = "光环掌握: %player",
 		}, -- [2]
-		{
-			["enabled"] = false,
-			["spell"] = 6346,
-			["cooldown"] = 180,
-			["bartext"] = "",
-		}, -- [3]
+		nil, -- [3]
 		{
 			["enabled"] = false,
 			["spell"] = 73325,
@@ -88,12 +83,6 @@ DBM_SpellTimers_Settings = {
 			["cooldown"] = 600,
 			["bartext"] = "基维斯: %player",
 		}, -- [14]
-		{
-			["enabled"] = true,
-			["spell"] = 0,
-			["cooldown"] = 0,
-			["bartext"] = "",
-		}, -- [15]
 	},
 	["only_from_raid"] = false,
 	["own_bargroup"] = false,
@@ -153,7 +142,18 @@ DBM_SpellTimers_Settings = {
 			["cooldown"] = 60,
 			["bartext"] = "%spell: %player",
 		}, -- [11]
+		{
+			["spell"] = 224873,
+			["cooldown"] = 60,
+			["bartext"] = "%spell: %player",
+		}, -- [12]
+		{
+			["spell"] = 281400,
+			["cooldown"] = 60,
+			["bartext"] = "%spell: %player",
+		}, -- [13]
 	},
+	["disable_encounter"] = true,
 	["show_portal"] = true,
 	["portal_horde"] = {
 		{
@@ -211,5 +211,15 @@ DBM_SpellTimers_Settings = {
 			["cooldown"] = 60,
 			["bartext"] = "%spell: %player",
 		}, -- [11]
+		{
+			["spell"] = 224873,
+			["cooldown"] = 60,
+			["bartext"] = "%spell: %player",
+		}, -- [12]
+		{
+			["spell"] = 281402,
+			["cooldown"] = 60,
+			["bartext"] = "%spell: %player",
+		}, -- [13]
 	},
 }

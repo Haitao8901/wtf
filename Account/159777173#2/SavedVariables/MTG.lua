@@ -5,13 +5,6 @@ MTGDB = {
 	},
 	["buyList"] = {
 	},
-	["NPCNameList"] = {
-		[152084] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_2:26|t 穆勒尔",
-		[151952] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_1:26|t 弗勒格勒",
-		[151953] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_3:26|t 胡勒格勒",
-		[151950] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_6:26|t 穆勒格勒勒",
-		[151951] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_5:26|t 格姆勒格",
-	},
 	["buyLists"] = {
 	},
 	["merchantItemList"] = {
@@ -236,8 +229,34 @@ MTGDB = {
 			},
 		},
 	},
+	["NPCNameList"] = {
+		[152084] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_2:26|t 穆勒尔",
+		[151952] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_1:26|t 弗勒格勒",
+		[151953] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_3:26|t 胡勒格勒",
+		[151950] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_6:26|t 穆勒格勒勒",
+		[151951] = "|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_5:26|t 格姆勒格",
+	},
 }
 j_BuyRareItemOption = 2
 j_BuyItemOption = 1
 j_Markersize = "26"
 j_CheckTacoFirst = true
+MTGsettingDB = {
+	[170157] = true,
+	[168053] = true,
+	[168092] = true,
+	[168096] = true,
+	[170158] = true,
+	[170162] = true,
+	[168093] = true,
+	[168097] = true,
+	[170159] = true,
+	[170101] = true,
+	[168094] = true,
+	[170152] = true,
+	[168091] = true,
+	[168095] = true,
+	[169202] = true,
+	[170153] = true,
+	[170161] = true,
+}

@@ -30,8 +30,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "LEFT",
 		["yOfs"] = 156.9673461914063,
 		["xOfs"] = 285.281005859375,
-		["point"] = "LEFT",
 		["scale"] = 0.9999999761581421,
+		["point"] = "LEFT",
 	},
 	["MailFrame"] = {
 	},
@@ -63,8 +63,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "TOPLEFT",
 		["yOfs"] = -133.1874084472656,
 		["xOfs"] = 211.2287445068359,
-		["save"] = true,
 		["point"] = "TOPLEFT",
+		["save"] = true,
 	},
 	["ArchaeologyFrame"] = {
 	},
@@ -105,10 +105,10 @@ BlizzMoveDB = {
 			["yOfs"] = 0,
 			["xOfs"] = 0,
 		},
-		["relativePoint"] = "BOTTOMLEFT",
-		["yOfs"] = 94.11775207519531,
-		["xOfs"] = 50.54467391967773,
-		["point"] = "BOTTOMLEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = -32.48913192749023,
+		["xOfs"] = 89.76033020019531,
+		["point"] = "LEFT",
 	},
 	["version"] = "201109013",
 	["QuestFrame"] = {
@@ -212,9 +212,10 @@ BlizzMoveDB = {
 		["xOfs"] = -245.5010375976563,
 		["point"] = "TOP",
 	},
-	["AzeriteEmpoweredItemUI"] = {
+	["KeyBindingFrame"] = {
+		["scale"] = 1.000000023841858,
 	},
-	["LFDParentFrame"] = {
+	["AzeriteEmpoweredItemUI"] = {
 	},
 	["ScrappingMachineFrame"] = {
 		["default"] = {
@@ -224,10 +225,10 @@ BlizzMoveDB = {
 			["yOfs"] = -116.0000076293945,
 			["xOfs"] = 16,
 		},
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 42.49988174438477,
-		["xOfs"] = 339.0000305175781,
-		["point"] = "LEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -126.4574737548828,
+		["xOfs"] = 52.60131072998047,
+		["point"] = "TOPLEFT",
 	},
 	["DressUpFrame"] = {
 		["default"] = {
@@ -255,9 +256,32 @@ BlizzMoveDB = {
 		["xOfs"] = 25.15354156494141,
 		["point"] = "CENTER",
 	},
-	["ItemSocketingFrame"] = {
+	["AuctionHouseFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 36,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -109.1307525634766,
+		["xOfs"] = 191.0194549560547,
+		["save"] = true,
+		["point"] = "TOPLEFT",
 	},
-	["LFRParentFrame"] = {
+	["MerchantFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.0000076293945,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -106.9999923706055,
+		["xOfs"] = 0,
+		["point"] = "TOPLEFT",
 	},
 	["LootFrame"] = {
 		["default"] = {
@@ -269,8 +293,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "CENTER",
 		["yOfs"] = 179.2763824462891,
 		["xOfs"] = -18.47395515441895,
-		["point"] = "CENTER",
 		["scale"] = 0.9,
+		["point"] = "CENTER",
 	},
 	["GameMenuFrame"] = {
 		["default"] = {
@@ -283,8 +307,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "CENTER",
 		["yOfs"] = 83.66001892089844,
 		["xOfs"] = 2.614244699478149,
-		["point"] = "CENTER",
 		["scale"] = 1.10000011920929,
+		["point"] = "CENTER",
 	},
 	["AzeriteEssenceUI"] = {
 	},
@@ -301,32 +325,9 @@ BlizzMoveDB = {
 		["xOfs"] = -226.2473602294922,
 		["point"] = "TOP",
 	},
-	["MerchantFrame"] = {
-		["default"] = {
-			["relativeTo"] = "UIParent",
-			["point"] = "TOPLEFT",
-			["relativePoint"] = "TOPLEFT",
-			["yOfs"] = -116.0000076293945,
-			["xOfs"] = 16,
-		},
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -106.9999923706055,
-		["xOfs"] = 0,
-		["point"] = "TOPLEFT",
+	["LFRParentFrame"] = {
 	},
-	["AuctionHouseFrame"] = {
-		["default"] = {
-			["relativeTo"] = "UIParent",
-			["point"] = "TOPLEFT",
-			["relativePoint"] = "TOPLEFT",
-			["yOfs"] = -116.0000076293945,
-			["xOfs"] = 36,
-		},
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -109.1307525634766,
-		["xOfs"] = 191.0194549560547,
-		["point"] = "TOPLEFT",
-		["save"] = true,
+	["ItemSocketingFrame"] = {
 	},
 	["EncounterJournal"] = {
 		["default"] = {
@@ -337,13 +338,12 @@ BlizzMoveDB = {
 			["xOfs"] = 16,
 		},
 		["relativePoint"] = "LEFT",
-		["yOfs"] = 171.5119476318359,
-		["xOfs"] = 302.7103271484375,
-		["save"] = true,
+		["yOfs"] = 143.7983856201172,
+		["xOfs"] = 313.7957458496094,
 		["point"] = "LEFT",
+		["save"] = true,
 	},
-	["KeyBindingFrame"] = {
-		["scale"] = 1.000000023841858,
+	["LFDParentFrame"] = {
 	},
 	["HelpFrame"] = {
 	},

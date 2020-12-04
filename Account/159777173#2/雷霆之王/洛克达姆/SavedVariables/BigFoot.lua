@@ -16,12 +16,12 @@ BF_Frames_Config = {
 			39.6954460144043, -- [5]
 		},
 	},
-	["SpellTimerFrameBFCD"] = {
-		["offX"] = 445.2499694824219,
-		["point"] = "BOTTOMLEFT",
-		["region"] = "UIParent",
-		["offY"] = 267.9998779296875,
-		["refPoint"] = "BOTTOMLEFT",
+	["BFocusTargetFrame"] = {
+		["offX"] = 0,
+		["point"] = "BOTTOMRIGHT",
+		["region"] = "FocusFrame",
+		["offY"] = -17.99999809265137,
+		["refPoint"] = "BOTTOMRIGHT",
 	},
 	["TrinketMenu_MainFrame"] = {
 		["offX"] = -72.37904357910156,
@@ -30,12 +30,12 @@ BF_Frames_Config = {
 		["offY"] = 102.2853698730469,
 		["refPoint"] = "BOTTOM",
 	},
-	["BFocusTargetFrame"] = {
-		["offX"] = 0,
-		["point"] = "BOTTOMRIGHT",
-		["region"] = "FocusFrame",
-		["offY"] = -17.99999809265137,
-		["refPoint"] = "BOTTOMRIGHT",
+	["SpellTimerFrameBFCD"] = {
+		["offX"] = 445.2499694824219,
+		["point"] = "BOTTOMLEFT",
+		["region"] = "UIParent",
+		["offY"] = 267.9998779296875,
+		["refPoint"] = "BOTTOMLEFT",
 	},
 }
 BigFoot_Character = {
@@ -45,11 +45,11 @@ BigFoot_Character = {
 	["Name"] = "洛克达姆",
 	["Faction"] = 1,
 	["Class"] = "潜行者",
-	["Level"] = 120,
+	["Level"] = 51,
 	["VCode"] = "3238810800317017147816834967211001842870",
 	["Realm"] = "雷霆之王",
 }
 BigFoot_SysTemSetTab = {
-	["UtilsPatchVersion"] = "2020-03-26",
 	["BigFoot_LoadBefore"] = 1,
+	["UtilsPatchVersion"] = "2020-03-26",
 }
